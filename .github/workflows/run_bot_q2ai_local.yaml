@@ -1,24 +1,27 @@
-name: Forecast on Quarterly Cup LOCAL RUN
+name: Forecast Q2AI Local Run
+
+name: Forecast on new AI tournament questions
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 */2 * *" # runs at midnight every 2 days
+    - cron: "*/30 * * * *" # runs every 30 minutes. Make sure to skip already forecasted questions!
 
+# Add concurrency group to prevent parallel runs
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
 
+# Daily job to run the simple forecast bot
 jobs:
   daily_build:
-    # Use the runner's name for precise targeting
-    runs-on: [self-hosted, linux, x64, catskills-Z390-AORUS-MASTER]
+    runs-on: [self-hosted, linux, x64] # Use self-hosted runner labels
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
-          python-version: "3.12.3"
+          python-version: "3.12.3" # Updated to match your local Python version
       - name: Install poetry
         uses: snok/install-poetry@v1
         with:
@@ -35,7 +38,7 @@ jobs:
         run: poetry install --no-interaction --no-root
       - name: Run bot
         run: |
-          poetry run python main.py --mode quarterly_cup
+          poetry run python main.py
         env:
           METACULUS_TOKEN: ${{ secrets.METACULUS_TOKEN }}
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
