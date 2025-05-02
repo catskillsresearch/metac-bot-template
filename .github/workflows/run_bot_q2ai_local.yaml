@@ -1,7 +1,5 @@
 name: Forecast Q2AI Local Run
 
-name: Forecast on new AI tournament questions
-
 on:
   workflow_dispatch:
   schedule:
