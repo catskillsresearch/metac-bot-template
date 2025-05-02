@@ -1,4 +1,4 @@
-name: Forecast on Quarterly Cup
+name: Forecast on Quarterly Cup LOCAL RUN
 
 on:
   workflow_dispatch:
