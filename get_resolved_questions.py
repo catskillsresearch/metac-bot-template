@@ -27,13 +27,8 @@ def get_resolved_questions(tournament_id):
 
 if __name__=="__main__":
 
-    ## Secrets
-    from omegaconf import OmegaConf
-    config = OmegaConf.load("../tokens.yaml")
-    
-    import os
-    for key in config:
-        os.environ[key] = config[key]
+    from load_secrets import load_secrets
+    load_secrets()
     
     ## Retrieve all old resolved questions
     tourneys=[MetaculusApi.AI_COMPETITION_ID_Q3, 
