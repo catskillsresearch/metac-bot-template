@@ -1,26 +1,49 @@
 [tool.poetry]
 name = "metac-bot-template"
-version = "0.1.0"
+version = "0.1.0+catskills"
 description = ""
-authors = ["Vasile Popescu <elisescu@elisescu.com>"]
+authors = ["Vasile Popescu", "Lars Ericson"]
 readme = "README.md"
 package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
 python-decouple = "^3.8"
 requests = "^2.32.3"
 asknews = "^0.9.1"
 numpy = "^1.26.0"
 openai = "^1.57.4"
 python-dotenv = "^1.0.1"
-forecasting-tools = "^0.2.23"
-
+forecasting-tools = "^0.2.36"
+dspy = "^2.6.22"    
+streamlit = "^1.45.0"
+fastapi = "^0.115.12"
+joblib = "^1.4.2"
 
 [tool.poetry.group.dev.dependencies]
+# Jupyter and notebook tools
+jupyterlab = "^4.1.8"
 ipykernel = "^6.29.5"
+ipywidgets = "^8.1.2"
+jupyter_nbextensions_configurator = "^0.6.3"
+# Data science & visualization
+pandas = "^2.2.2"
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+scikit-learn = "^1.5.0"
+scipy = "^1.13.0"
+# Graphs and visualization
+graphviz = "^0.20.3"
+pygraphviz = "^1.12"
+# Documentation
+sphinx = "^7.3.7"
+sphinxcontrib-bibtex = "^2.6.2"
+sphinxcontrib-fulltoc = "^1.2.0"
+pybtex-apa-style = "^1.2.0"
+# Miscellaneous
+omegaconf = "^2.3.0"
+pickleshare = "^0.7.5"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
