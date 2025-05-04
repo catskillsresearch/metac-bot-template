@@ -17,7 +17,7 @@ class ResearchProModule(dspy.Module):
         
         for idx, row in df.iterrows():
             if idx == 0:
-                continnue
+                continue
             print("processing", row['id'], row['title'])
             try:
                 # Generate question and cutoff date from row

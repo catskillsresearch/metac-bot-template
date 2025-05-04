@@ -19,6 +19,7 @@ dspy = "^2.6.22"
 streamlit = "^1.45.0"
 fastapi = "^0.115.12"
 joblib = "^1.4.2"
+vulture = "^2.14"
 
 [tool.poetry.group.dev.dependencies]
 # Jupyter and notebook tools
