@@ -51,6 +51,7 @@ def generate_prompt_and_date(row):
         "2. Recent announcements/policies affecting the metric",
         "3. Authoritative sources for verification",
         "4. Any limitations or uncertainties in measurement"
+        "\n**Format your response in markdown, using in-text citations like [1], [2], etc. At the end of your answer, include a section titled 'References' listing each source cited, in markdown list format, matching the in-text citation numbers.**\n"
     ])
     
     return "\n".join(prompt_parts), search_before_date
