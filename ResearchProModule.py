@@ -16,7 +16,9 @@ class ResearchProModule(dspy.Module):
         Path(output_dir).mkdir(exist_ok=True)
         
         for idx, row in df.iterrows():
-            if idx == 0:
+            path = Path(output_dir) / f"{row['id']}.md"
+            if path.exists():
+                print("skipping", row['id'])
                 continue
             print("processing", row['id'], row['title'])
             try:
