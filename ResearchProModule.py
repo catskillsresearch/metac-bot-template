@@ -33,8 +33,7 @@ class ResearchProModule(dspy.Module):
                 
             except Exception as e:
                 print(f"Error processing row {idx}: {str(e)}")
-            return
-    
+      
     def get_answer(self, question, cutoff_date=None):
         """Get answer for a single question"""
         api_config = {
@@ -59,7 +58,7 @@ class ResearchProModule(dspy.Module):
             "You are a research assistant with knowledge up to {cutoff}. "
             "Answer using ONLY information available before {cutoff}. "
             "Format your response in markdown, using in-text citations like [1], [2], etc. "
-            "At the end of your answer, include a section titled 'References' listing each source cited, in markdown list format, matching the in-text citation numbers. "
+            "At the end of your answer, include a section titled 'References' listing each source cited, in markdown list format, matching the in-text citation numbers, with each entry as: [number]. [Title] ([URL]). If a URL is not available, just include the title."            
             "NEVER mention post-cutoff dates."
         ).format(cutoff=pplx_date if cutoff_date else "the current date")
 
