@@ -1,4 +1,7 @@
-import requests
+import requests, os
+from load_secrets import load_secrets
+
+
 
 url = 'https://www.metaculus.com/api/posts/'
 
@@ -15,7 +18,7 @@ params = {
 
 headers = {
     'accept': 'application/json',
-    'Authorization': '53fa494e32f946af249a72b918c5c8c62410fd9d'
+    'Authorization': os.getenv('METACULUS_TOKEN')
 }
 
 all_results = []
