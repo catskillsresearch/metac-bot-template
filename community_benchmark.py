@@ -16,6 +16,7 @@ from ResearchProModule import ResearchProModule
 from load_research import load_research
 from extract_forecast import extract_forecast
 from error import error
+from sentence_transformers import SentenceTransformer
 
 def community_benchmark():
     load_secrets()
