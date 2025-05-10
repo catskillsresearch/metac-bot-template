@@ -1,6 +1,6 @@
 import pandas as pd
 
-def generate_prompt_and_date(row):
+def generate_prompt_and_date(row, ignore_cutoff = False):
     """
     Generates a Perplexity search prompt and date filter from a question row.
     
@@ -14,10 +14,12 @@ def generate_prompt_and_date(row):
     # Extract and format dates
     open_time = pd.to_datetime(row['open_time'])
     search_before_date = open_time.strftime('%Y-%m-%d')
+
+    asof_prompt = "" if ignore_cutoff else f"as of {open_time.date()} "
     
     # Base prompt structure
     prompt_parts = [
-        f"Identify all factual information available as of {open_time.date()} that would help forecast:",
+        f"Identify all factual information available {asof_prompt}that would help forecast:",
         f"**Question**: {row['title']}",
         f"**Description**: {row['question_description']}",
         f"**Resolution Criteria**: {row['question_resolution_criteria']}"

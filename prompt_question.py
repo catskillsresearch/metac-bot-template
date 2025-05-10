@@ -1,4 +1,5 @@
 from forecasting_tools.ai_models.ai_utils.ai_misc import clean_indents
+import numpy as np
 
 def prompt_all (question):
     return clean_indents(f"""
@@ -47,7 +48,10 @@ The last thing you write is your final probabilities for the N options in this o
 Option_A: Probability_A
 Option_B: Probability_B
 ...
-Option_N: Probability_N""")
+Option_N: Probability_N
+
+where you must assign your probabilities so that Probability_A + Probability_B + ... + Probability_N = 100.
+""")
 
 def _create_upper_and_lower_bound_messages(question):
     if np.isnan(question.question_open_upper_bound):
@@ -88,7 +92,7 @@ Before answering you write:
 
 You remind yourself that good forecasters are humble and set wide 90/10 confidence intervals to account for unknown unknowns.
 
-The last thing you write is your final answer as:
+The last thing you write is your final answer as this sequence of percentile levels in percent and values as floating point numbers without currency symbols, commas or spelled out numbers like "trillion", just the raw complete number:
 "
 Percentile 10: XX
 Percentile 20: XX
@@ -96,7 +100,9 @@ Percentile 40: XX
 Percentile 60: XX
 Percentile 80: XX
 Percentile 90: XX
-" """)
+"
+""")
 
 def prompt_question(question):
-   return (prompt_funs[question.question_type](question)).strip()
+    prompt_funs = {x: eval(f'prompt_{x}') for x in ['binary', 'numeric', 'multiple_choice']}
+    return (prompt_funs[question.question_type](question)).strip()

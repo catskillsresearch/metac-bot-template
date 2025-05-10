@@ -7,8 +7,8 @@ def extract_probability(question):
     pattern = r"Probability: (\d+)%?"
     match = re.search(pattern, text)
     if match:
-        return int(match.group(1))
-    return 50
+        return int(match.group(1))/100.0
+    return 0.5
 
 def extract_percentiles0(question):
     text = question.forecast
@@ -18,6 +18,12 @@ def extract_percentiles0(question):
     # Convert to dict with integer keys and values (remove commas)
     percentiles = {int(p): int(v.replace(',', '')) for p, v in matches}
     return percentiles
+
+def linear_sample_percentiles(range_min, range_max):
+    percentiles = [10, 20, 40, 60, 80, 90]
+    fractions = [p / 100 for p in percentiles]
+    samples = {int(f*100): range_min + f * (range_max - range_min) for f in fractions}
+    return samples
 
 def extract_percentiles1(question):
     text = question.forecast
@@ -62,12 +68,6 @@ def extract_percentiles4(question):
                 percentiles[p] = int(num_match.group(0).replace(',', ''))
 
     return percentiles
-
-def linear_sample_percentiles(range_min, range_max):
-    percentiles = [10, 20, 40, 80, 90]
-    fractions = [p / 100 for p in percentiles]
-    samples = {int(f*100): range_min + f * (range_max - range_min) for f in fractions}
-    return samples
 
 def extract_percentiles(question):
     tries = [f(question) for f in [extract_percentiles0, extract_percentiles3]]

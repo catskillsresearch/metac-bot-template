@@ -11,7 +11,7 @@ class ResearchProModule(dspy.Module):
         super().__init__()
         self.generate = dspy.ChainOfThought(ProSearchSignature)
     
-    def process_dataframe(self, df, output_dir="research"):
+    def process_dataframe(self, df, use_cutoff = True, output_dir="research"):
         """Process all rows in dataframe and save results"""
         Path(output_dir).mkdir(exist_ok=True)
         
@@ -24,6 +24,7 @@ class ResearchProModule(dspy.Module):
             try:
                 # Generate question and cutoff date from row
                 question, cutoff_date = generate_prompt_and_date(row)
+                cutoff_date = cutoff_date if use_cutoff else None
                 
                 # Get answer from Perplexity
                 answer = self.get_answer(question, cutoff_date)
@@ -56,7 +57,7 @@ class ResearchProModule(dspy.Module):
 
         system_prompt = (
             "You are a research assistant with knowledge up to {cutoff}. "
-            "Answer using ONLY information available before {cutoff}. "
+            "Answer using ONLY information available before {cutoff}. " if cutoff_date else ''
             "Format your response in markdown, using in-text citations like [1], [2], etc. "
             "At the end of your answer, include a section titled 'References' listing each source cited, in markdown list format, matching the in-text citation numbers, with each entry as: [number]. [Title] ([URL]). If a URL is not available, just include the title."            
             "NEVER mention post-cutoff dates."
