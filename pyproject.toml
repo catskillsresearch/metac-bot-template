@@ -44,6 +44,7 @@ pybtex-apa-style = "^1.2.0"
 # Miscellaneous
 omegaconf = "^2.3.0"
 pickleshare = "^0.7.5"
+faiss-cpu = "^1.11.0"
 
 [build-system]
 requires = ["poetry-core"]
