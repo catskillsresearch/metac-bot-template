@@ -15,5 +15,7 @@ def error_multiple_choice(row):
     return error
 
 def error(row):
-    method = eval(f'error_{row.question_type}')
-    return method(row)
+    method = {'binary': error_binary,
+              'numeric': error_numeric,
+              'multiple_choice': error_multiple_choice}
+    return method[row.question_type](row)

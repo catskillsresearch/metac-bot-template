@@ -29,45 +29,12 @@ def extract_percentiles1(question):
     text = question.forecast
     return linear_sample_percentiles(question.question_scaling_range_max, question.question_scaling_range_min)
 
-def extract_percentiles2(question):
-    text = question.forecast
-    # Regex to capture percentage AFTER '+' and before '%', ignoring other numbers
-    pattern = r"Percentile\s*(\d+):\s*.*?([+-]\s*)?(\d*\.?\d+)%"
-    matches = re.findall(pattern, text)
-    # Extract percentile and percentage value (ignore operator like '+')
-    percentiles = {int(p): float(percent) for p, _, percent in matches}
-    return percentiles
-
 def extract_percentiles3(question):
     text = question.forecast
     # Regex handles commas and variable whitespace
     pattern = r"Percentile\s*(\d+):\s*([\d,]+)"
     matches = re.findall(pattern, text)
     return {int(p): int(v.replace(',', '')) for p, v in matches}
-
-def extract_percentiles4(question):
-    text = question.forecast
-    # Regex to capture percentile lines with flexible formatting
-    pattern = r"Percentile\s*(\d+):\s*([^\n]+)"
-    matches = re.findall(pattern, text)
-
-    percentiles = {}
-    for p, val_str in matches:
-        p = int(p)
-        val_str = val_str.strip()
-
-        # Check for percentage format (e.g., "S₀ + 0.5%")
-        if '%' in val_str:
-            pct_match = re.search(r"(\d+\.?\d+)%", val_str.replace(',', ''))
-            if pct_match:
-                percentiles[p] = float(pct_match.group(1))
-        # Check for absolute numeric format (e.g., "1,600,000")
-        else:
-            num_match = re.search(r"[\d,]+", val_str)
-            if num_match:
-                percentiles[p] = int(num_match.group(0).replace(',', ''))
-
-    return percentiles
 
 def extract_percentiles(question):
     tries = [f(question) for f in [extract_percentiles0, extract_percentiles3]]
