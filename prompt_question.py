@@ -104,5 +104,7 @@ Percentile 90: XX
 """)
 
 def prompt_question(question):
-    prompt_funs = {x: eval(f'prompt_{x}') for x in ['binary', 'numeric', 'multiple_choice']}
-    return (prompt_funs[question.question_type](question)).strip()
+    methods = {'binary': prompt_binary, 
+               'numeric': prompt_numeric, 
+               'multiple_choice': prompt_multiple_choice}
+    return (methods[question.question_type](question)).strip()

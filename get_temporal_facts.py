@@ -1,5 +1,4 @@
-import requests
-import json
+import requests, json, os
 from datetime import datetime
 
 def get_temporal_facts(question: str, cutoff_date: str, api_key: str):
