@@ -3,11 +3,12 @@ from datetime import datetime, timedelta
 from RAGForecaster import RAGForecaster
 import pandas as pd
 
-def community_benchmark():
+def community_benchmark(perennial = False):
     try:
         print("=== Starting Forecast Benchmark ===")
-        results = forecast_for_learning_away_from_ai_benchmark()
-        pd.set_option('display.max_colwidth', None)
+        results = forecast_for_learning_away_from_ai_benchmark(perennial = perennial)
+        pd.set_option('display.max_colwidth', 1000)
+        pd.set_option('display.max_columns', 500)
         print(results)
         # Daily maintenance
         if datetime.now().hour == 0:
@@ -23,4 +24,4 @@ def community_benchmark():
         print("\n=== Benchmark Completed ===")
 
 if __name__ == "__main__":
-    community_benchmark()
+    community_benchmark(True)

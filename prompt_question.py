@@ -2,7 +2,7 @@ from forecasting_tools.ai_models.ai_utils.ai_misc import clean_indents
 import numpy as np
 
 def prompt_all (question):
-    return clean_indents(f"""
+    A = f"""
 You are a professional forecaster interviewing for a job.
 
 Your interview question is:
@@ -19,6 +19,19 @@ This question's outcome will be determined by the specific criteria below. These
 
 Your research assistant reports:
 {question.research}
+
+{question.asknews}
+"""
+    if len(question.learning):
+        B = f"""
+Prior learning and context:
+{question.learning}
+"""
+    else:
+        B = ""
+
+    return clean_indents(f"""{A}
+{B}
 
 Today is {question.today}
 
