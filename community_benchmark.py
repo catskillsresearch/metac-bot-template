@@ -1,12 +1,13 @@
-
 from forecast_for_learning_away_from_ai_benchmark import forecast_for_learning_away_from_ai_benchmark
 from datetime import datetime, timedelta
 from RAGForecaster import RAGForecaster
+import pandas as pd
 
 def community_benchmark():
     try:
         print("=== Starting Forecast Benchmark ===")
-        results = forecast_for_learning_away_from_ai_benchmark(1)
+        results = forecast_for_learning_away_from_ai_benchmark()
+        pd.set_option('display.max_colwidth', None)
         print(results)
         # Daily maintenance
         if datetime.now().hour == 0:
