@@ -21,19 +21,16 @@ class ResearchProModule(dspy.Module):
                 print("skipping", row['id'])
                 continue
             print("processing", row['id'], row['title'])
-            try:
-                # Generate question and cutoff date from row
-                question, cutoff_date = generate_prompt_and_date(row)
-                cutoff_date = cutoff_date if use_cutoff else None
-                
-                # Get answer from Perplexity
-                answer = self.get_answer(question, cutoff_date)
-                
-                # Save to file
-                self.save_answer(row['id'], answer, output_dir)
-                
-            except Exception as e:
-                print(f"Error processing row {idx}: {str(e)}")
+
+            # Generate question and cutoff date from row
+            question, cutoff_date = generate_prompt_and_date(row)
+            cutoff_date = cutoff_date if use_cutoff else None
+            
+            # Get answer from Perplexity
+            answer = self.get_answer(question, cutoff_date)
+            
+            # Save to file
+            self.save_answer(row['id'], answer, output_dir)
       
     def get_answer(self, question, cutoff_date=None):
         """Get answer for a single question"""

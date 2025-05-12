@@ -49,11 +49,15 @@ class RAGForecaster:
     def retrieve_context(self, query, k=3):
         query_embed = self.encoder.encode(query)
         D, I = self.index.search(np.array([query_embed]), k)
-        return [
-            (self.metadata[i], D[0][i]) 
-            for i in I[0] 
-            if D[0][i] > 0.4 and i < len(self.metadata)
-        ]
+        results = []
+        for i in I[0]:
+            try:
+                if D[0][i] > 0.4 and i < len(self.metadata):
+                    results.append(self.metadata[i], D[0][i])
+            except:
+                break
+        print("Context:", results)
+        return results
         
     def prune_old_entries(self, max_age_days=30):
         cutoff = datetime.now() - timedelta(days=max_age_days)
