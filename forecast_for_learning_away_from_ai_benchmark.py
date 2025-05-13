@@ -13,11 +13,11 @@ from error import error
 from pull_asknews import pull_asknews
 from post_forecast import post_forecast
 
-def forecast_for_learning_away_from_ai_benchmark(num_questions = 4, perennial = False):
+def forecast_for_learning_away_from_ai_benchmark(num_questions = 4, perennial = False, live = False):
     load_secrets()
     rag = RAGForecaster()
     enhanced_bot = EnhancedResearchPro(rag)
-    questions, df = load_questions(num_questions, perennial = perennial)
+    questions, df = load_questions(num_questions, perennial = perennial, live = live)
     # Multi-pass forecasting
     for attempt in range(3):
         print(f"\n=== Forecast Iteration {attempt+1} ===")
@@ -30,22 +30,26 @@ def forecast_for_learning_away_from_ai_benchmark(num_questions = 4, perennial = 
         tqdm.pandas(desc="Forecasting...")
         df['forecast'] = df.progress_apply(lambda q: predict('forecast_community', q), axis=1)
         df['prediction'] = df.apply(extract_forecast, axis=1)
-        df = df[~df.crowd.apply(lambda x: x is None)].copy()
-        df['error'] = df.apply(error, axis=1)
+        if not live:
+            df = df[~df.crowd.apply(lambda x: x is None)].copy()
+            df['error'] = df.apply(error, axis=1)
         # Update RAG with successful forecasts
-        success_mask = df.error < df.error.quantile(0.25)
-        for _, row in df[success_mask].iterrows():
-            rag.add_to_index(row['research'], row['id_of_question'])
-        print('Prediction', df['prediction'])
-        print('Crowd', df['crowd'])
-            
-    plot_community_errors(df)
-    
-    # Save results and RAG state
+        if not live:
+            success_mask = df.error < df.error.quantile(0.25)
+            for _, row in df[success_mask].iterrows():
+                rag.add_to_index(row['research'], row['id_of_question'])
+            print('Prediction', df['prediction'])
+            print('Crowd', df['crowd'])
+
+    if not live:
+        plot_community_errors(df)
+
     df.to_json('community_results.json', indent=4)
     rag.save_state()
 
-    if perennial:
+    if perennial or live:
         df.apply(post_forecast, axis=1)
-    
-    return df[['title', 'question_type', 'prediction', 'crowd', 'error']]
+    if live:
+        return df[['title', 'question_type', 'prediction']]
+    else:
+        return df[['title', 'question_type', 'prediction', 'crowd', 'error']]

@@ -3,9 +3,9 @@ from datetime import datetime, timedelta
 from RAGForecaster import RAGForecaster
 import pandas as pd
 
-def community_benchmark(num_questions, perennial):
+def community_benchmark(num_questions, perennial, live):
     print("=== Starting Forecast Benchmark ===")
-    results = forecast_for_learning_away_from_ai_benchmark(perennial = perennial)
+    results = forecast_for_learning_away_from_ai_benchmark(perennial = perennial, live=live)
     pd.set_option('display.max_colwidth', 1000)
     pd.set_option('display.max_columns', 500)
     print(results)
@@ -19,5 +19,6 @@ def community_benchmark(num_questions, perennial):
 
 if __name__ == "__main__":
     num_questions = 40
-    perennial = True
-    community_benchmark(num_questions, perennial)
+    perennial = False
+    live = True
+    community_benchmark(num_questions, perennial, live)
