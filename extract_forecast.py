@@ -91,6 +91,45 @@ def extract_option_probabilities_from_response(forecast_text: str, options) -> f
     else:
         raise ValueError(f"Could not extract prediction from response: {forecast_text}")
 
+def generate_multiple_choice_forecast(options, option_probabilities) -> dict:
+    """
+    Returns: dict corresponding to the probabilities of each option.
+    """
+
+    # confirm that there is a probability for each option
+    if len(options) != len(option_probabilities):
+        raise ValueError(
+            f"Number of options ({len(options)}) does not match number of probabilities ({len(option_probabilities)})"
+        )
+
+    # Ensure we are using decimals
+    total_sum = sum(option_probabilities)
+    decimal_list = [x / total_sum for x in option_probabilities]
+
+    def normalize_list(float_list):
+        # Step 1: Clamp values
+        clamped_list = [max(min(x, 0.99), 0.01) for x in float_list]
+
+        # Step 2: Calculate the sum of all elements
+        total_sum = sum(clamped_list)
+
+        # Step 3: Normalize the list so that all elements add up to 1
+        normalized_list = [x / total_sum for x in clamped_list]
+
+        # Step 4: Adjust for any small floating-point errors
+        adjustment = 1.0 - sum(normalized_list)
+        normalized_list[-1] += adjustment
+
+        return normalized_list
+
+    normalized_option_probabilities = normalize_list(decimal_list)
+
+    probability_yes_per_category = {}
+    for i in range(len(options)):
+        probability_yes_per_category[options[i]] = normalized_option_probabilities[i]
+
+    return probability_yes_per_category
+
 def generate_continuous_cdf(
     percentile_values: dict,
     open_upper_bound: bool,
@@ -203,7 +242,9 @@ def extract_forecast(row):
     if row.question_type == 'binary':
         prediction = extract_probability_from_response_as_percentage_not_decimal(row.forecast)/100.0
     elif row.question_type == 'multiple_choice':
-        prediction = extract_option_probabilities_from_response(row.forecast, eval(row.question_options))
+        options = eval(row.question_options)
+        option_probabilities = extract_option_probabilities_from_response(row.forecast, options)
+        prediction = generate_multiple_choice_forecast(options, option_probabilities)
     elif row.question_type == 'numeric':
         percentile_values = extract_percentiles_from_response(row.forecast)
         open_upper_bound = row.question_open_upper_bound > 0
