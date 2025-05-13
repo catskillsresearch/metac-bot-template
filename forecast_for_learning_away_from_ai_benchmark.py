@@ -11,7 +11,7 @@ from extract_forecast import extract_forecast
 from plot_community_errors import plot_community_errors
 from error import error
 from pull_asknews import pull_asknews
-from upload_forecast import upload_forecast
+from post_forecast import post_forecast
 
 def forecast_for_learning_away_from_ai_benchmark(num_questions = 4, perennial = False):
     load_secrets()
@@ -46,6 +46,6 @@ def forecast_for_learning_away_from_ai_benchmark(num_questions = 4, perennial = 
     rag.save_state()
 
     if perennial:
-        df.apply(upload_forecast, axis=1)
+        df.apply(post_forecast, axis=1)
     
     return df[['title', 'question_type', 'prediction', 'crowd', 'error']]
