@@ -91,9 +91,6 @@ if __name__=="__main__":
     import pandas as pd
     df = pd.read_json('community_results.json')
     df['prediction'] = df.apply(extract_forecast, axis=1)
-    #print(df[['id_of_question', 'title']])
-    row = df.iloc[2]
-    print(row.title)
-    post_forecast(row)
-    #df.apply(post_question, axis=1)
+    df.apply(post_forecast, axis=1)
+
 
