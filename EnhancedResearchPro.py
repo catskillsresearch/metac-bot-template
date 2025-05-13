@@ -63,6 +63,6 @@ class EnhancedResearchPro(ResearchProModule):
             return "No relevant historical context found"
             
         return "\n".join([
-            f"• Reference {i+1} (similarity: {sim:.2f}): {m['id']}"
+            f"• Reference {i+1} (similarity: {sim:.2f}): {m['id_of_question']}"
             for i, (m, sim) in enumerate(context)
         ])

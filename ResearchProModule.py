@@ -16,10 +16,10 @@ class ResearchProModule(dspy.Module):
         Path(output_dir).mkdir(exist_ok=True)
         
         for idx, row in df.iterrows():
-            path = Path(output_dir) / f"{row['id']}.md"
+            path = Path(output_dir) / f"{row['id_of_question']}.md"
             if path.exists():
                 continue
-            print("processing", row['id'], row['title'])
+            print("processing", row['id_of_question'], row['title'])
 
             # Generate question and cutoff date from row
             question, cutoff_date = generate_prompt_and_date(row)
@@ -29,7 +29,7 @@ class ResearchProModule(dspy.Module):
             answer = self.get_answer(question, cutoff_date)
             
             # Save to file
-            self.save_answer(row['id'], answer, output_dir)
+            self.save_answer(row['id_of_question'], answer, output_dir)
       
     def get_answer(self, question, cutoff_date=None):
         """Get answer for a single question"""

@@ -36,7 +36,7 @@ def forecast_for_learning_away_from_ai_benchmark(num_questions = 4, perennial = 
         # Update RAG with successful forecasts
         success_mask = df.error < df.error.quantile(0.25)
         for _, row in df[success_mask].iterrows():
-            rag.add_to_index(row['research'], row['id'])
+            rag.add_to_index(row['research'], row['id_of_question'])
         print('Prediction', df['prediction'])
         print('Crowd', df['crowd'])
             

@@ -9,7 +9,7 @@ def load_questions(num_questions = 4, perennial = False):
         questions = load_open_forecasted_questions(num_questions)
 
     from community_forecast import community_forecast
-    id_to_forecast = {question.api_json['id']: community_forecast(question) for question in questions}
+    id_to_forecast = {question.id_of_question: community_forecast(question) for question in questions}
 
     from flatten_dict import flatten_dict
     from datetime import datetime, timedelta
@@ -18,7 +18,7 @@ def load_questions(num_questions = 4, perennial = False):
     df['id_of_question'] = [q.id_of_question for q in questions]
     df['question_options'] = df['question_options'].apply(repr)
     df['today'] = datetime.now().strftime("%Y-%m-%d")
-    df['crowd'] = df.apply(lambda row: id_to_forecast[row.id], axis=1)
+    df['crowd'] = df.apply(lambda row: id_to_forecast[row.id_of_question], axis=1)
     df = df[['id_of_question', 'id_of_post', 'today', 'open_time', 'scheduled_resolve_time', 'title', 'question_description',
             'question_resolution_criteria', 'question_fine_print', 'question_type',
             'question_options', 'question_group_variable', 'question_question_weight',

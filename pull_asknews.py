@@ -3,7 +3,7 @@ import os
 
 def pull_asknews(row):
     os.makedirs('asknews', exist_ok=True)
-    fn = f'asknews/{row.id}.md'
+    fn = f'asknews/{row.id_of_question}.md'
     if os.path.exists(fn):
         with open(fn, 'r') as f:
             return f.read()
@@ -18,7 +18,7 @@ if __name__=="__main__":
     load_secrets()
     class foo:
         def __init__(self, id, title):
-            self.id = id
+            self.id_of_question = id
             self.title = title
             
     question = foo(999, "Will Elon Musk be the world's richest person on December 31, 2025?")

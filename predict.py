@@ -2,7 +2,7 @@ import os
 from query_perplexity_with_date_filter import query_perplexity_with_date_filter
 
 def predict(dfn, question):
-    ffn =  f'{dfn}/{question.id}.md'
+    ffn =  f'{dfn}/{question.id_of_question}.md'
     if os.path.exists(ffn):
         with open(ffn, 'r') as f:
             forecast = f.read()

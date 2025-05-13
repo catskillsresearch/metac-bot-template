@@ -39,7 +39,7 @@ class RAGForecaster:
         embedding = self.encoder.encode(text)
         self.index.add(np.array([embedding]))
         self.metadata.append({
-            'id': question_id,
+            'id_of_question': question_id,
             'timestamp': datetime.now(),
             'usage_count': 0,
             'success_score': 1.0,
