@@ -19,5 +19,5 @@ def community_benchmark(num_questions, perennial):
 
 if __name__ == "__main__":
     num_questions = 40
-    perennial = False
+    perennial = True
     community_benchmark(num_questions, perennial)

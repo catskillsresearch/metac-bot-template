@@ -1,4 +1,6 @@
 import os, requests
+from load_secrets import load_secrets
+load_secrets()
 
 # @title Helper functions
 METACULUS_TOKEN = os.getenv('METACULUS_TOKEN')
@@ -60,22 +62,40 @@ def post_question_comment(post_id: int, comment_text: str) -> None:
     """
     Post a comment on the question page as the bot user.
     """
-
-    response = requests.post(
-        f"{API_BASE_URL}/comments/create/",
-        json={
+    J = {
             "text": comment_text,
             "parent": None,
             "included_forecast": True,
             "is_private": True,
             "on_post": post_id,
-        },
+        }
+    print("J")
+    print(J)
+    response = requests.post(
+        f"{API_BASE_URL}/comments/create/",
+        json=J,
         **AUTH_HEADERS,  # type: ignore
     )
     if not response.ok:
         raise RuntimeError(response.text)
 
-def post_forecast(post_id, question_type, forecast, comment):
+def post_forecast(row):
+    question_id = int(row.id_of_question)
+    post_id = int(row.id_of_post)
+    question_type = row.question_type
+    forecast = row.prediction
+    comment = row.forecast
     forecast_payload = create_forecast_payload(forecast, question_type)
     post_question_prediction(question_id, forecast_payload)
     post_question_comment(post_id, comment)
+
+if __name__=="__main__":
+    from extract_forecast import extract_forecast
+    import pandas as pd
+    df = pd.read_json('community_results.json')
+    df['prediction'] = df.apply(extract_forecast, axis=1)
+    #print(df[['id_of_question', 'title']])
+    row = df.iloc[0]
+    post_forecast(row)
+    #df.apply(post_question, axis=1)
+

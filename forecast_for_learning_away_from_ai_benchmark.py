@@ -18,7 +18,6 @@ def forecast_for_learning_away_from_ai_benchmark(num_questions = 4, perennial = 
     rag = RAGForecaster()
     enhanced_bot = EnhancedResearchPro(rag)
     questions, df = load_questions(num_questions, perennial = perennial)
-
     # Multi-pass forecasting
     for attempt in range(3):
         print(f"\n=== Forecast Iteration {attempt+1} ===")

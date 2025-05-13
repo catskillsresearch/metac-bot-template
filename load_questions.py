@@ -23,7 +23,7 @@ def load_questions(num_questions = 4, perennial = False):
             'question_resolution_criteria', 'question_fine_print', 'question_type',
             'question_options', 'question_group_variable', 'question_question_weight',
             'question_unit', 'question_open_upper_bound', 'question_open_lower_bound',
-            'question_scaling_range_max', 'question_scaling_range_min', 'crowd']]
+            'question_scaling_range_max', 'question_scaling_range_min', 'question_scaling_zero_point', 'crowd']]
     
     return questions, df
 
