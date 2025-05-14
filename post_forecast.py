@@ -85,6 +85,7 @@ def post_forecast(row):
     forecast_payload = create_forecast_payload(forecast, question_type)
     post_question_prediction(question_id, forecast_payload)
     post_question_comment(post_id, comment)
+    print("Posted forecast for", question_id)
 
 if __name__=="__main__":
     from extract_forecast import extract_forecast
