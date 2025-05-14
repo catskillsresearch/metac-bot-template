@@ -1,4 +1,4 @@
-import requests
+import requests, re
 from datetime import datetime
 
 def query_perplexity_with_date_filter(api_key: str, prompt: str, search_before_date: str) -> str:
@@ -34,5 +34,5 @@ def query_perplexity_with_date_filter(api_key: str, prompt: str, search_before_d
     response = requests.post(url, headers=headers, json=payload)
     response.raise_for_status()
     data = response.json()
-
-    return data["choices"][0]["message"]["content"]
+    s = data["choices"][0]["message"]["content"]
+    return re.sub(r'\[\d+\]', '', s)  # Remove citation marks

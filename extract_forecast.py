@@ -13,40 +13,40 @@ def extract_probability_from_response_as_percentage_not_decimal(
     else:
         raise ValueError(f"Could not extract prediction from response: {forecast_text}")
 
+# Helper function that returns a list of tuples with numbers for all lines with Percentile
+def extract_percentile_numbers(text) -> dict:
+    pattern = r"^.*(?:P|p)ercentile.*$"
+    number_pattern = r"-\s*(?:[^\d\-]*\s*)?(\d+(?:,\d{3})*(?:\.\d+)?)|(\d+(?:,\d{3})*(?:\.\d+)?)"
+    results = []
+
+    for line in text.split("\n"):
+        if re.match(pattern, line):
+            numbers = re.findall(number_pattern, line)
+            numbers_no_commas = [
+                next(num for num in match if num).replace(",", "")
+                for match in numbers
+            ]
+            numbers = [
+                float(num) if "." in num else int(num)
+                for num in numbers_no_commas
+            ]
+            if len(numbers) > 1:
+                first_number = numbers[0]
+                last_number = numbers[-1]
+                # Check if the original line had a negative sign before the last number
+                if "-" in line.split(":")[-1]:
+                    last_number = -abs(last_number)
+                results.append((first_number, last_number))
+
+    # Convert results to dictionary
+    percentile_values = {}
+    for first_num, second_num in results:
+        key = first_num
+        percentile_values[key] = second_num
+
+    return percentile_values
+
 def extract_percentiles_from_response(forecast_text: str) -> dict:
-
-    # Helper function that returns a list of tuples with numbers for all lines with Percentile
-    def extract_percentile_numbers(text) -> dict:
-        pattern = r"^.*(?:P|p)ercentile.*$"
-        number_pattern = r"-\s*(?:[^\d\-]*\s*)?(\d+(?:,\d{3})*(?:\.\d+)?)|(\d+(?:,\d{3})*(?:\.\d+)?)"
-        results = []
-
-        for line in text.split("\n"):
-            if re.match(pattern, line):
-                numbers = re.findall(number_pattern, line)
-                numbers_no_commas = [
-                    next(num for num in match if num).replace(",", "")
-                    for match in numbers
-                ]
-                numbers = [
-                    float(num) if "." in num else int(num)
-                    for num in numbers_no_commas
-                ]
-                if len(numbers) > 1:
-                    first_number = numbers[0]
-                    last_number = numbers[-1]
-                    # Check if the original line had a negative sign before the last number
-                    if "-" in line.split(":")[-1]:
-                        last_number = -abs(last_number)
-                    results.append((first_number, last_number))
-
-        # Convert results to dictionary
-        percentile_values = {}
-        for first_num, second_num in results:
-            key = first_num
-            percentile_values[key] = second_num
-
-        return percentile_values
 
     percentile_values = extract_percentile_numbers(forecast_text)
 
