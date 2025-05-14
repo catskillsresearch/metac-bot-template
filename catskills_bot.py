@@ -22,7 +22,7 @@ def catskills_bot(num_questions, perennial, live):
 
 if __name__ == "__main__":
     num_questions = 40
-    if 10
+    if 0:
         perennial = True
         live = False
     else:
