@@ -18,4 +18,7 @@ def error(row):
     method = {'binary': error_binary,
               'numeric': error_numeric,
               'multiple_choice': error_multiple_choice}
-    return method[row.question_type](row)
+    try:
+        return method[row.question_type](row)
+    except:
+        return 9999999999.99
