@@ -8,7 +8,7 @@ from median_dictionaries import median_dictionaries
 def combined_forecast(question, iterations):
     # Not exactly median like Metaculus, I'm winging it here
     api_key = os.getenv('PERPLEXITY_API_KEY')
-    iterations = 2
+    iterations = 5
     forecasts = [query_perplexity_with_date_filter(api_key, question.prompt, question.today) for _ in range(iterations)]
     predictions = []
     for forecast in forecasts:
