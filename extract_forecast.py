@@ -13,36 +13,43 @@ def extract_probability_from_response_as_percentage_not_decimal(
     else:
         raise ValueError(f"Could not extract prediction from response: {forecast_text}")
 
-# Helper function that returns a list of tuples with numbers for all lines with Percentile
 def extract_percentile_numbers(text) -> dict:
-    pattern = r"^.*(?:P|p)ercentile.*$"
-    number_pattern = r"-\s*(?:[^\d\-]*\s*)?(\d+(?:,\d{3})*(?:\.\d+)?)|(\d+(?:,\d{3})*(?:\.\d+)?)"
-    results = []
+    """Extracts percentile values from text with flexible formatting"""
+    pattern = r"(?i)^\s*(?:percentile\s+)?(\d+)\s*:\s*(-?\s*\d[\d,.]*)\s*$"
+    percentile_values = {}
 
     for line in text.split("\n"):
-        if re.match(pattern, line):
-            numbers = re.findall(number_pattern, line)
-            numbers_no_commas = [
-                next(num for num in match if num).replace(",", "")
-                for match in numbers
-            ]
-            numbers = [
-                float(num) if "." in num else int(num)
-                for num in numbers_no_commas
-            ]
-            if len(numbers) > 1:
-                first_number = numbers[0]
-                last_number = numbers[-1]
-                # Check if the original line had a negative sign before the last number
-                if "-" in line.split(":")[-1]:
-                    last_number = -abs(last_number)
-                results.append((first_number, last_number))
+        match = re.match(pattern, line)
+        if match:
+            percentile_str, value_str = match.groups()
+            
+            try:
+                # Parse percentile (integer)
+                percentile = int(percentile_str.replace(",", "").strip())
+                
+                # Parse value (float/int)
+                clean_value = value_str.replace(",", "").replace(" ", "")
+                if clean_value.count('.') > 1:  # Invalid number format
+                    continue
+                    
+                value = float(clean_value) if '.' in clean_value else int(clean_value)
+                
+                percentile_values[percentile] = value
+                
+            except (ValueError, TypeError):
+                continue  # Skip invalid lines
 
-    # Convert results to dictionary
-    percentile_values = {}
-    for first_num, second_num in results:
-        key = first_num
-        percentile_values[key] = second_num
+    # Fill missing percentiles linearly if needed
+    if percentile_values:
+        sorted_keys = sorted(percentile_values.keys())
+        for i in range(1, len(sorted_keys)):
+            prev_key = sorted_keys[i-1]
+            curr_key = sorted_keys[i]
+            for k in range(prev_key + 1, curr_key):
+                percentile_values[k] = percentile_values[prev_key] + (
+                    (k - prev_key) * (percentile_values[curr_key] - percentile_values[prev_key]) 
+                    / (curr_key - prev_key)
+                )
 
     return percentile_values
 

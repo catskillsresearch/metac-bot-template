@@ -114,6 +114,7 @@ Percentile 60: XX
 Percentile 80: XX
 Percentile 90: XX
 "
+Each line of the final answer MUST START with the word "Percentile".  For example if you have "10: 201" instead of "Percentile 10: 201", that is wrong.  
 """)
 
 def prompt_question(question):
