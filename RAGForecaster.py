@@ -216,7 +216,10 @@ class RAGForecaster:
         
         print(f"\n{' RAG System Report ':=^60}")
         print(f"Index contains {report['index']['total_vectors']} vectors ({report['index']['dimensions']}D)")
-        n_active = len(report["knowledge_base"]["unique_question_ids"])
+        try:
+            n_active = len(report["knowledge_base"]["unique_question_ids"])
+        except:
+            n_active = 0
         print(f"Metadata has {len(self.metadata)} entries across {n_active} questions\n")
         
         print("Top Performing Contexts:")
