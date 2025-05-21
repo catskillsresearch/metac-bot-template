@@ -1,6 +1,5 @@
 from forecast import forecast
 from datetime import datetime, timedelta
-from RAGForecaster import RAGForecaster
 import pandas as pd
 
 def catskills_bot(num_questions, perennial, live):

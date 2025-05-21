@@ -2,21 +2,39 @@ from tqdm import tqdm
 from datetime import datetime
 from predict import predict
 from extract_forecast import extract_forecast
-from update_rag_with_successful_forecasts import update_rag_with_successful_forecasts
+from error import error
 
 def generate_forecasts_and_update_rag(df, rag, live):
     print("=== Starting Forecast ===")
-    tqdm.pandas(desc="Forecasting...")
-    df['forecast'] = df.progress_apply(lambda q: predict('forecast_community', q), axis=1)
-    df['prediction'] = df.apply(extract_forecast, axis=1)
-    update_rag_with_successful_forecasts(df, rag, live)
-    df.to_json('community_results.json', indent=4)
-    rag.save_state()
+    # Pre-initialize columns (avoids repeated .at calls)
+    df["used_indices"] = None
+    df["forecast"] = None
+    df["prediction"] = None
+    
+    for idx in df.index:
+        row = df.loc[idx]  # Get current state
+        context, indices = rag.retrieve_context(row['title'])
+        
+        # Batch updates
+        updates = {
+            'used_indices': indices,
+            'forecast': predict('forecast_community', row),
+        }
+        row['forecast'] = updates['forecast']
+        #row['used_indices'] = indices
+        updates['prediction'] = extract_forecast(row)
+        
+        # Single .loc update
+        df.loc[idx, ['used_indices', 'forecast', 'prediction']] = updates
+        
+        # RAG update
+        error_val = error(df.loc[idx])
+        rag._update_success_scores(indices, 1 - error_val)
+
     # Daily maintenance
     if datetime.now().hour == 0:
-        print("\nRunning daily maintenance...")
+        rag.decay_scores()
         rag.prune_old_entries()
-        rag.save_state()
-    print("\n=== Forecast Completed ===")
-    return df
     
+    rag.save_state()
+    return df

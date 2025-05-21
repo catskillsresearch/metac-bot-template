@@ -1,0 +1,41 @@
+{
+    "system_health": {
+        "vectors_metadata_alignment": true,
+        "last_updated": "2025-05-14 11:42:04.721120"
+    },
+    "index": {
+        "index_type": "<faiss.swigfaiss_avx2.IndexFlatIP; proxy of <Swig Object of type 'faiss::IndexFlatIP *' at 0x7d1ac3f855c0> >",
+        "total_vectors": 89,
+        "dimensions": 768,
+        "metadata_alignment": "89/89",
+        "needs_reindexing": false
+    },
+    "knowledge_base": {
+        "total_entries": 89,
+        "unique_question_ids": 22,
+        "entry_age_stats": {
+            "oldest_days": 7,
+            "newest_days": 6,
+            "average_days": 6.910112359550562
+        },
+        "success_score_distribution": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0,
+            "quartiles": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "usage_analysis": {
+            "total_uses": 0,
+            "most_used_entry": 0,
+            "unused_entries": 89
+        }
+    },
+    "performance_metrics": {
+        "high_value_entries": 0,
+        "stale_entries": 0
+    }
+}

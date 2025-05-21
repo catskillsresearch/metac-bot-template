@@ -59,8 +59,8 @@ class EnhancedResearchPro(ResearchProModule):
         return response.answer
         
     def _format_context(self, context):
-        if not context:
-            return "No relevant historical context found"
+        if not context or len(context[0]) == 0:
+            return "No historical context available"
             
         return "\n".join([
             f"• Reference {i+1} (similarity: {sim:.2f}): {m['id_of_question']}"

@@ -217,8 +217,6 @@ def generate_continuous_cdf(
                 while i < len(known_x) and known_x[i] < x:
                     i += 1
 
-                list_index_2 = i
-
                 # If x is outside the range of known x-values, use the nearest endpoint
                 if i == 0:
                     y_values.append(known_y[0])
