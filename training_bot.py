@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 
 def training_bot(num_questions, perennial):
-    results = forecast(perennial = perennial, live=False)
+    results = forecast(num_questions = num_questions, perennial = perennial, live=False)
     pd.set_option('display.max_colwidth', 1000)
     pd.set_option('display.max_columns', 500)
     print(results)
