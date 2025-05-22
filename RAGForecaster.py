@@ -1,19 +1,21 @@
-import faiss, pickle
+import faiss, pickle, os, fcntl
 import numpy as np
 from datetime import datetime, timedelta
 from pprint import pprint
+from sentence_transformers import SentenceTransformer
 
-class RAGForecaster:
-    def __init__(self, index_path="forecast_index.faiss", metadata_path="rag_metadata.pkl"):
-        self.index_path = index_path
-        self.metadata_path = metadata_path
+class LockedSaveMixin:
+    def _atomic_save(self, path, data, mode='wb'):
+        """Atomic save with file locking"""
+        tmp_path = f"{path}.tmp"
+        with open(tmp_path, mode) as f:
+            if hasattr(f, 'fileno'):  # Unix file locking
+                fcntl.flock(f, fcntl.LOCK_EX)
+            pickle.dump(data, f)
+        os.replace(tmp_path, path)
 
-        from sentence_transformers import SentenceTransformer
-        self.encoder = SentenceTransformer('all-mpnet-base-v2')
-        self.index = self._initialize_index()
-        self.metadata = self._load_metadata()
-        print(f"Index contains {self.index.ntotal} vectors at initialization")
-        
+class RAGForecaster(LockedSaveMixin):
+
     def _initialize_index(self):
         try:
             index = faiss.read_index(self.index_path)
@@ -23,19 +25,52 @@ class RAGForecaster:
             print("Creating new FAISS index")
             return faiss.IndexFlatIP(768)
             
+    def __init__(self, index_path="forecast_index.faiss", metadata_path="rag_metadata.pkl"):
+        self.index_path = index_path
+        self.metadata_path = metadata_path
+        self.index = self._initialize_index()
+        self.encoder = SentenceTransformer('all-mpnet-base-v2')
+        self.metadata = self._load_metadata()
+        self._load_with_lock()
+        self._last_refresh = datetime.now()
+        print(f"Index contains {self.index.ntotal} vectors at initialization")
+
+    def _load_with_lock(self):
+        """Load index with shared lock for concurrent readers"""
+        # FAISS loading
+        if os.path.exists(self.index_path):
+            try:
+                with open(self.index_path, 'rb') as f:
+                    if hasattr(f, 'fileno'):
+                        fcntl.flock(f, fcntl.LOCK_SH)
+                    self.index = faiss.read_index(self.index_path)
+            except (RuntimeError, FileNotFoundError):
+                pass
+                
+        # Metadata loading
+        self.metadata = self._load_metadata()
+
+    def save_state(self):
+        # Atomic FAISS write
+        tmp_index_path = f"{self.index_path}.tmp"
+        faiss.write_index(self.index, tmp_index_path)
+        os.replace(tmp_index_path, self.index_path)
+        
+        # Atomic metadata write with locking
+        self._atomic_save(self.metadata_path, self.metadata)
+        print(f"Atomically saved RAG state")
+
     def _load_metadata(self):
         try:
             with open(self.metadata_path, 'rb') as f:
+                if hasattr(f, 'fileno'):  # Shared lock for readers
+                    fcntl.flock(f, fcntl.LOCK_SH)
                 return pickle.load(f)
         except FileNotFoundError:
             return []
-            
-    def save_state(self):
-        faiss.write_index(self.index, self.index_path)
-        with open(self.metadata_path, 'wb') as f:
-            pickle.dump(self.metadata, f)
-        print(f"Saved RAG state to {self.index_path} and {self.metadata_path}")
-        
+
+
+
     def add_to_index(self, text, question_id):
         embedding = self.encoder.encode(text)
         self.index.add(np.array([embedding]))
@@ -60,9 +95,12 @@ class RAGForecaster:
         valid_indices = []
         
         for i in I[0]:
-            if D[0][i] > 0.4 and i < len(self.metadata):
-                results.append((self.metadata[i], D[0][i]))
-                valid_indices.append(i)
+            try:
+                if D[0][i] > 0.4 and i < len(self.metadata):
+                    results.append((self.metadata[i], D[0][i]))
+                    valid_indices.append(i)
+            except:
+                pass
         
         return results, valid_indices
    
@@ -241,15 +279,30 @@ class RAGForecaster:
         pprint(self.generate_index_report())
         print("\nKnowledge Stats:")
         pprint(self.generate_metadata_report())
-        print("\nRecent learning texts:", self.dump_learning_texts(max_age_days=7))
+        print("\nRecent learning texts:")
+        pprint(self.dump_learning_texts(max_age_days=7))
         
         # Save reports to file
         import json
         with open('rag_system_report.json', 'w') as f:
             json.dump(report, f, indent=4, default=str)
 
+    def check_for_updates(self):
+        """Returns True if files changed since last check"""
+        current_index_mtime = os.path.getmtime(self.index_path) 
+        current_metadata_mtime = os.path.getmtime(self.metadata_path)
+        
+        changed = (current_index_mtime > self._last_refresh.timestamp() or
+                  current_metadata_mtime > self._last_refresh.timestamp())
+        
+        if changed:
+            self._last_refresh = datetime.now()
+            
+        return changed
+
 if __name__=="__main__":
     forecaster = RAGForecaster()
+    forecaster.save_state() 
     forecaster.print_detailed_report()
 
 

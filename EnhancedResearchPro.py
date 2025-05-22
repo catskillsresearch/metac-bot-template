@@ -7,6 +7,15 @@ class EnhancedResearchPro(ResearchProModule):
         super().__init__()
         self.rag = rag_forecaster
         self.retrieval_cache = {}
+        self._last_index_mtime = 0
+        self._last_metadata_mtime = 0
+
+    def refresh_if_needed(self):
+        """Hot-reload if files changed"""
+        if self.rag.check_for_updates():
+            print(f"Detected RAG file updates at {datetime.now()}")
+            self.rag = RAGForecaster()
+            self.retrieval_cache.clear()  # Clear stale context
         
     def get_answer(self, question, cutoff_date=None):
         # Retrieve similar historical forecasts

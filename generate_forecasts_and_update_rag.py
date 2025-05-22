@@ -1,4 +1,3 @@
-from tqdm import tqdm
 from datetime import datetime
 from predict import predict
 from extract_forecast import extract_forecast
@@ -12,28 +11,24 @@ def generate_forecasts_and_update_rag(df, rag, live):
     df["prediction"] = None
     df["error"] = None
     for idx in df.index:
-        row = df.loc[idx].copy()  # Get current state
+        row = df.loc[idx].copy()
+        rag.research_bot.refresh_if_needed()  # <-- MISSING CALL
+        rag.add_to_index(row['research'], row['id_of_question'])
         context, indices = rag.retrieve_context(row['title'])
+    
+        row['used_indices'] = indices
+        df.at[idx, 'used_indices'] = row.used_indices
 
-        print("PROMPT")
-        print(row.prompt)
-        # Batch updates
-        updates = {
-            'used_indices': indices,
-            'forecast': predict('forecast_community', row),
-        }
-        row['forecast'] = updates['forecast']
-        print("FOOO", row.forecast)
-        #row['used_indices'] = indices
-        updates['prediction'] = extract_forecast(row)
-        
-        # Single .loc update
-        df.loc[idx, ['used_indices', 'forecast', 'prediction']] = updates
+        row['forecast'] = predict('forecast_community', row)
+        df.at[idx, 'forecast'] = row.forecast
+
+        row.prediction = extract_forecast(row)
+        df.at[idx,'prediction'] = row.prediction
         
         # RAG update
         error_val = error(df.loc[idx])
         row['error'] = error_val
-        df.loc[idx, 'error'] = error_val
+        df.at[idx, 'error'] = error_val
         
         rag._update_success_scores(indices, 1 - error_val)
 

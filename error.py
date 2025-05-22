@@ -1,12 +1,6 @@
 from normalized_pdf_distance import normalized_pdf_distance
 import numpy as np
 
-def error_binary(row):
-    return abs(row.prediction-row.crowd)
-
-def error_numeric(row):
-    return normalized_pdf_distance(row.prediction, row.crowd)
-
 def error_multiple_choice(row):
     keys = row.prediction.keys()
     N = len(keys)
@@ -21,7 +15,7 @@ def error_multiple_choice(row):
 def error(row):
     method = {
         'binary': lambda r: abs(r.prediction - r.crowd),
-        'numeric': normalized_pdf_distance,
+        'numeric': lambda row: normalized_pdf_distance(row.prediction, row.crowd),
         'multiple_choice': error_multiple_choice
     }
     try:

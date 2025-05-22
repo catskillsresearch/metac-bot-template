@@ -8,6 +8,7 @@ def gather_research_and_set_prompt(df):
     rag = RAGForecaster()
     research_bot = EnhancedResearchPro(rag)
     research_bot.process_dataframe(df, use_cutoff=False)
+    rag.research_bot = research_bot
     df['research'] = df.apply(load_research, axis=1)
     df['asknews'] = df.apply(pull_asknews, axis=1)
     
