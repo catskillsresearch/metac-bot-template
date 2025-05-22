@@ -9,4 +9,4 @@ def training_bot(num_questions, perennial):
     print(results)
 
 if __name__ == "__main__":
-    training_bot(num_questions = 40, perennial=True)
+    training_bot(num_questions = 40, perennial=False)

@@ -11,6 +11,8 @@ def load_questions(num_questions = 4, perennial = False, live = False):
         from load_open_forecasted_questions import load_open_forecasted_questions
         questions = load_open_forecasted_questions(num_questions)
 
+    questions = [q for q in questions if 'Date' not in type(q).__name__]
+    
     if len(questions) == 0:
         return None, None
 
@@ -33,7 +35,7 @@ def load_questions(num_questions = 4, perennial = False, live = False):
             'question_options', 'question_group_variable', 'question_question_weight',
             'question_unit', 'question_open_upper_bound', 'question_open_lower_bound',
             'question_scaling_range_max', 'question_scaling_range_min', 'question_scaling_zero_point'] + ([] if live else ['crowd'])]
-    
+   
     return questions, df
 
 if __name__=="__main__":
@@ -44,7 +46,7 @@ if __name__=="__main__":
     pd.set_option('display.width', 1000)
     print('LIVE ANY')
     questions, df = load_questions(40)
-    print(df[['id_of_question', 'id_of_post']])
+    print(df[['id_of_question', 'id_of_post', 'question_type']])
     for question in questions:
         print(question.id_of_question, question.id_of_post)
     print('\nPERENNIAL')
