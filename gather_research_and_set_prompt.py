@@ -23,3 +23,19 @@ def gather_research_and_set_prompt(df):
     )
     df['prompt'] = df.apply(prompt_question, axis=1)
     return df, rag
+
+if __name__=="__main__":
+    import pandas as pd
+    from load_secrets import load_secrets
+    load_secrets()
+    if 0:
+        df = pd.read_json('debug.json')
+        gather_research_and_set_prompt(df)
+
+    rag = RAGForecaster()
+    research_bot = EnhancedResearchPro(rag)
+    with open('foo.pkl', 'rb') as f:
+        (question, cutoff_date) = pickle.load(f)
+    use_cutoff=False
+    answer = research_bot.get_answer(question, cutoff_date)
+    print(answer)

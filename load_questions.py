@@ -1,7 +1,10 @@
 import pandas as pd
 
-def load_questions(num_questions = 4, perennial = False, live = False):
-    if live:
+def load_questions(num_questions = 4, perennial = False, live = False, id = None):
+    if id is not None:
+        from load_id_question import load_id_question
+        questions = load_id_question(id)
+    elif live:
         from load_live_questions import load_live_questions
         questions = load_live_questions()
     elif perennial:

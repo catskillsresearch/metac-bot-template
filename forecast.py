@@ -8,6 +8,7 @@ def forecast(num_questions = 4, perennial = False, live = False):
     if questions is None:
         return
 
+    df.to_json('debug.json')
     from gather_research_and_set_prompt import gather_research_and_set_prompt
     df, rag = gather_research_and_set_prompt(df)
 

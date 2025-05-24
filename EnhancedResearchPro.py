@@ -1,6 +1,7 @@
-import dspy, os
+import dspy, os, pickle
 from datetime import datetime
 from ResearchProModule import ResearchProModule
+from RAGForecaster import RAGForecaster
 
 class EnhancedResearchPro(ResearchProModule):
     def __init__(self, rag_forecaster):
@@ -21,7 +22,9 @@ class EnhancedResearchPro(ResearchProModule):
         # Retrieve similar historical forecasts
         cached = self.retrieval_cache.get(question)
         if not cached:
-            context = self.rag.retrieve_context(question)
+            with open('question.pkl', 'wb') as f:
+                pickle.dump(question, f)
+            context, _ = self.rag.retrieve_context(question)
             cached = self._format_context(context)
             self.retrieval_cache[question] = cached
             
@@ -70,8 +73,20 @@ class EnhancedResearchPro(ResearchProModule):
     def _format_context(self, context):
         if not context or len(context[0]) == 0:
             return "No historical context available"
+
+        bits = []
+        for i, (m, sim) in enumerate(context):
+            bits.append(f"• Reference {i+1} (similarity: {sim:.2f}): {m['id_of_question']}")
             
-        return "\n".join([
-            f"• Reference {i+1} (similarity: {sim:.2f}): {m['id_of_question']}"
-            for i, (m, sim) in enumerate(context)
-        ])
+        result = "\n".join(bits)
+
+        return result 
+
+if __name__=="__main__":
+    rag = RAGForecaster()
+    research_bot = EnhancedResearchPro(rag)
+    import pandas as pd
+    df = pd.read_json('debug.json')
+    research_bot.process_dataframe(df, use_cutoff=False)
+
+    

@@ -1,5 +1,4 @@
-import dspy
-import os
+import dspy, pickle, os
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
@@ -19,15 +18,17 @@ class ResearchProModule(dspy.Module):
             path = Path(output_dir) / f"{row['id_of_question']}.md"
             if path.exists():
                 continue
-            print("processing", row['id_of_question'], row['title'])
+            print(f"processing post_id {row.id_of_post} question_id {row.id_of_question} title {row.title}")
 
             # Generate question and cutoff date from row
             question, cutoff_date = generate_prompt_and_date(row)
             cutoff_date = cutoff_date if use_cutoff else None
             
             # Get answer from Perplexity
+            with open('foo.pkl', 'wb') as f:
+                pickle.dump((question, cutoff_date), f)
             answer = self.get_answer(question, cutoff_date)
-            
+
             # Save to file
             self.save_answer(row['id_of_question'], answer, output_dir)
       
@@ -75,9 +76,9 @@ class ResearchProModule(dspy.Module):
 if __name__ == "__main__":
     from load_secrets import load_secrets
     load_secrets()
-
-    # Load your dataframe (example)
-    df = pd.read_json("resolved.json")  # Update with your actual dataframe
-    
+    with open('foo.pkl', 'rb') as f:
+        (question, cutoff_date) = pickle.load(f)
+    use_cutoff=False
     bot = ResearchProModule()
-    bot.process_dataframe(df)
+    answer = bot.get_answer(question, cutoff_date)
+    print(answer)
