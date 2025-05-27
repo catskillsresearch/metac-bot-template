@@ -13,6 +13,8 @@ def catskills_bot(num_questions, perennial, live):
     print(results)
 
 if __name__ == "__main__":
+    import load_secrets
+    load_secrets.load_secrets()
     num_questions = 40
     perennial = False
     live = True

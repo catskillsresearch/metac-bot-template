@@ -6,5 +6,5 @@ do
   python catskills_bot.py 
   echo "done"
   date
-  sleep 900              # Sleep for 1200 seconds (15 minutes)
+  sleep 1200              # Sleep for 1200 seconds (15 minutes)
 done

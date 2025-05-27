@@ -1,5 +1,6 @@
 import re
 import numpy as np
+from ensure_min_increase import ensure_min_increase
 
 def extract_probability_from_response_as_percentage_not_decimal(
     forecast_text: str,
@@ -241,6 +242,7 @@ def generate_continuous_cdf(
         return y_values
 
     continuous_cdf = linear_interpolation(cdf_xaxis, value_percentiles)
+    continuous_cdf = ensure_min_increase(continuous_cdf)
     return continuous_cdf
 
 def extract_forecast(row):

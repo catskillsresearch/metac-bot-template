@@ -83,6 +83,8 @@ class EnhancedResearchPro(ResearchProModule):
         return result 
 
 if __name__=="__main__":
+    import load_secrets
+    load_secrets.load_secrets()
     rag = RAGForecaster()
     research_bot = EnhancedResearchPro(rag)
     import pandas as pd

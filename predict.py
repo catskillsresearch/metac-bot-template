@@ -41,7 +41,7 @@ Do not tell the reader that you are summarizing or looking at the original forec
     median_forecast = f"""{rationale}\n\n{comment}"""
     return median_forecast
 
-def predict(dfn, question, iterations = 5):
+def predict(dfn, question, iterations = 3):
     ffn =  f'{dfn}/{question.id_of_question}.md'
     if os.path.exists(ffn):
         with open(ffn, 'r') as f:

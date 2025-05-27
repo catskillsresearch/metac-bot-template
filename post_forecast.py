@@ -58,6 +58,7 @@ def post_question_prediction(question_id: int, forecast_payload: dict) -> None:
     if not response.ok:
         raise RuntimeError(response.text)
 
+
 def post_question_comment(post_id: int, comment_text: str) -> None:
     """
     Post a comment on the question page as the bot user.
