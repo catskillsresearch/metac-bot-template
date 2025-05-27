@@ -1,20 +1,41 @@
 {
     "system_health": {
         "vectors_metadata_alignment": true,
-        "last_updated": null
+        "last_updated": "2025-05-24 20:00:43.890561"
     },
     "index": {
-        "index_type": "<faiss.swigfaiss_avx2.IndexFlatIP; proxy of <Swig Object of type 'faiss::IndexFlatIP *' at 0x75e60e168300> >",
-        "total_vectors": 0,
+        "index_type": "<faiss.swigfaiss_avx2.IndexFlatIP; proxy of <Swig Object of type 'faiss::IndexFlatIP *' at 0x7827f5f8dd40> >",
+        "total_vectors": 61,
         "dimensions": 768,
-        "metadata_alignment": "0/0",
+        "metadata_alignment": "61/61",
         "needs_reindexing": false
     },
     "knowledge_base": {
-        "status": "No metadata available"
+        "total_entries": 61,
+        "unique_question_ids": "{30848, 26114, 34948, 30856, 30858, 30732, 27148, 21270, 28570, 22427, 22559, 37154, 37155, 37156, 37157, 37158, 37159, 37160, 37161, 37162, 37163, 37164, 37165, 19878, 21167, 29363, 34745, 34746, 30906, 34747, 30909, 30655, 578, 34756, 30917, 35014, 35015, 28746, 17443, 30802, 35028, 26327, 20953, 31196, 30815, 30952, 19949, 34029, 30830, 30831, 30628, 34034, 34036, 30837, 30966, 14333}",
+        "entry_age_stats": {
+            "oldest_days": 2,
+            "newest_days": 0,
+            "average_days": 0.4426229508196721
+        },
+        "success_score_distribution": {
+            "min": 0.7431185959238124,
+            "max": 1.0,
+            "mean": 0.990674195596357,
+            "quartiles": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "usage_analysis": {
+            "total_uses": 12,
+            "most_used_entry": 9,
+            "unused_entries": 58
+        }
     },
     "performance_metrics": {
-        "high_value_entries": 0,
+        "high_value_entries": 60,
         "stale_entries": 0
     }
 }

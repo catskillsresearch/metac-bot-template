@@ -11,6 +11,4 @@ def training_bot(num_questions, perennial):
 if __name__ == "__main__":
     import load_secrets
     load_secrets.load_secrets()
-    while True:
-        print("Looping")
-        training_bot(num_questions = 1, perennial=False)
+    training_bot(num_questions = 40, perennial=False)
