@@ -22,6 +22,7 @@ def gather_research_and_set_prompt(df):
         axis=1
     )
     df['prompt'] = df.apply(prompt_question, axis=1)
+    df['context_fresh'] = df['learning'].apply(lambda x: len(x) > 0)
     return df, rag
 
 if __name__=="__main__":

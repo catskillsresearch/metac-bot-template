@@ -33,8 +33,7 @@ class EnhancedResearchPro(ResearchProModule):
         temp = min(0.7, max(0.1, temp))
         
         # Enhanced system prompt
-        system_prompt = f"""You are a forecasting analyst. Use this historical context:
-{cached}
+        system_prompt = f"""You are a forecasting analyst. {cached}
 
 1. Compare current situation to reference cases
 2. Note key differences affecting the forecast
@@ -72,14 +71,28 @@ class EnhancedResearchPro(ResearchProModule):
         
     def _format_context(self, context):
         if not context or len(context[0]) == 0:
-            return "No historical context available"
+            return ""
 
-        bits = []
+        bits = ["Use this historical context:"]
         for i, (m, sim) in enumerate(context):
-            bits.append(f"• Reference {i+1} (similarity: {sim:.2f}): {m['id_of_question']}")
-            
+            # Add XML-style tags with metadata
+            bits.append(
+                f"<rag_context id='{m['id_of_question']}' "
+                f"score='{m['success_score']:.2f}' "
+                f"similarity='{sim:.2f}'>\n"
+                f"{m['raw_text']}\n"
+                f"</rag_context>"
+            )
+  
         result = "\n".join(bits)
+        result += """
+                
+**RAG Context Rules:**
+1. Treat <rag_context> blocks as verified historical patterns
+2. Compare current situation to reference cases using IDs: {[m['id_of_question'] for m,_ in context]}
+3. Generate adjusted probabilistic assessment
 
+"""
         return result 
 
 if __name__=="__main__":
