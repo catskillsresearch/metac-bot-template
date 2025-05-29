@@ -71,10 +71,12 @@ class EnhancedResearchPro(ResearchProModule):
         
     def _format_context(self, context):
         if not context or len(context[0]) == 0:
+            print("no context")
             return ""
 
         bits = ["Use this historical context:"]
         for i, (m, sim) in enumerate(context):
+            print("got context", m['id_of_question'], m['success_score'])
             # Add XML-style tags with metadata
             bits.append(
                 f"<rag_context id='{m['id_of_question']}' "
