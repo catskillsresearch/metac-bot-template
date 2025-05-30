@@ -1,7 +1,7 @@
-import os
+import os, time
 from asknews_sdk import AskNewsSDK
 
-def call_asknews(question: str) -> str:
+def call_asknews(question: str, live: bool) -> str:
     """
     Use the AskNews `news` endpoint to get news context for your query.
     The full API reference can be found here: https://docs.asknews.app/en/reference#get-/v1/news/search
@@ -12,14 +12,15 @@ def call_asknews(question: str) -> str:
     ask = AskNewsSDK(
         client_id=ASKNEWS_CLIENT_ID, client_secret=ASKNEWS_SECRET, scopes=set(["news"])
     )
-
-    # get the latest news related to the query (within the past 48 hours)
-    hot_response = ask.news.search_news(
-        query=question,  # your natural language query
-        n_articles=6,  # control the number of articles to include in the context, originally 5
-        return_type="both",
-        strategy="latest news",  # enforces looking at the latest news only
-    )
+    if live:
+        # get the latest news related to the query (within the past 48 hours)
+        hot_response = ask.news.search_news(
+            query=question,  # your natural language query
+            n_articles=6,  # control the number of articles to include in the context, originally 5
+            return_type="both",
+            strategy="latest news",  # enforces looking at the latest news only
+        )
+        time.sleep(1.1) # rate limited
 
     # get context from the "historical" database that contains a news archive going back to 2023
     historical_response = ask.news.search_news(
@@ -28,8 +29,9 @@ def call_asknews(question: str) -> str:
         return_type="both",
         strategy="news knowledge",  # looks for relevant news within the past 60 days
     )
+    time.sleep(1.1)  # rate limited
 
-    hot_articles = hot_response.as_dicts
+    hot_articles = hot_response.as_dicts if live else None
     historical_articles = historical_response.as_dicts
     formatted_articles = "Here are the relevant news articles:\n\n"
 
@@ -61,5 +63,5 @@ if __name__=="__main__":
     from load_secrets import load_secrets
     load_secrets()
     question = "Will Elon Musk be the world's richest person on December 31, 2025?"
-    news = call_asknews(question)
+    news = call_asknews(question, True)
     print(news)

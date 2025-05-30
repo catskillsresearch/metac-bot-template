@@ -4,13 +4,13 @@ from load_research import load_research
 from pull_asknews import pull_asknews
 from prompt_question import prompt_question
 
-def gather_research_and_set_prompt(df):
+def gather_research_and_set_prompt(df, live):
     rag = RAGForecaster()
     research_bot = EnhancedResearchPro(rag)
     research_bot.process_dataframe(df, use_cutoff=False)
     rag.research_bot = research_bot
     df['research'] = df.apply(load_research, axis=1)
-    df['asknews'] = df.apply(pull_asknews, axis=1)
+    df['asknews'] = df.apply(lambda x: pull_asknews(x, live), axis=1)
     
     # Updated learning field with raw text extraction
     df['learning'] = df.apply(

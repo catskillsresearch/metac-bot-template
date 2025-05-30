@@ -10,7 +10,7 @@ def forecast(num_questions = 4, perennial = False, live = False):
 
     df.to_json('debug.json')
     from gather_research_and_set_prompt import gather_research_and_set_prompt
-    df, rag = gather_research_and_set_prompt(df)
+    df, rag = gather_research_and_set_prompt(df, live)
 
     from generate_forecasts_and_update_rag import generate_forecasts_and_update_rag
     df = generate_forecasts_and_update_rag(df, rag, live)
