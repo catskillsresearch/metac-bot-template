@@ -37,23 +37,22 @@ def generate_forecasts_and_update_rag(df, rag, live):
         else:
             rag.add_to_index(row['research'], row['id_of_question'])
             context, indices = rag.retrieve_context(row['title'])
-            # Only proceed if new context found
-            if row['context_fresh'] or live:
-                row['forecast'] = predict('forecast_community', row)
-                df.at[idx, 'forecast'] = row.forecast
-        
-                row['used_indices'] = indices
-                df.at[idx, 'used_indices'] = row.used_indices
 
-                row.prediction = extract_forecast(row)
-                df.at[idx,'prediction'] = row.prediction
-                
-                # RAG update
-                error_val = error(df.loc[idx])
-                row['error'] = error_val
-                df.at[idx, 'error'] = error_val
-                
-                rag._update_success_scores(indices, 1 - error_val)
+            row['forecast'] = predict('forecast_community', row)
+            df.at[idx, 'forecast'] = row.forecast
+    
+            row['used_indices'] = indices
+            df.at[idx, 'used_indices'] = row.used_indices
+
+            row.prediction = extract_forecast(row)
+            df.at[idx,'prediction'] = row.prediction
+            
+            # RAG update
+            error_val = error(df.loc[idx])
+            row['error'] = error_val
+            df.at[idx, 'error'] = error_val
+            
+            rag._update_success_scores(indices, 1 - error_val)
 
     # Daily maintenance
     if datetime.now().hour == 0:
