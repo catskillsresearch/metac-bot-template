@@ -22,6 +22,6 @@ if __name__=="__main__":
             self.title = title
             
     question = foo(999, "Will Elon Musk be the world's richest person on December 31, 2025?")
-    news = pull_asknews(question. True)
+    news = pull_asknews(question, True)
     print(news)
     
