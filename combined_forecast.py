@@ -7,7 +7,9 @@ from median_dictionaries import median_dictionaries
 from tqdm import tqdm
 
 def combined_forecast(question, iterations):
-    # Not exactly median like Metaculus, I'm winging it here
+    print("###################################################################")
+    print("Combined forecast for", question.id_of_question)
+
     api_key = os.getenv('PERPLEXITY_API_KEY')
     iterations = 5
     forecasts = [query_perplexity_with_date_filter(api_key, question.prompt, question.today) for _ in tqdm(range(iterations))]

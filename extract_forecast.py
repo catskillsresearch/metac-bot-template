@@ -23,22 +23,19 @@ def extract_percentile_numbers(text) -> dict:
         match = re.match(pattern, line)
         if match:
             percentile_str, value_str = match.groups()
+            print('extracting percentile', percentile_str, 'value', value_str)
+
+            # Parse percentile (integer)
+            percentile = int(percentile_str.replace(",", "").strip())
             
-            try:
-                # Parse percentile (integer)
-                percentile = int(percentile_str.replace(",", "").strip())
+            # Parse value (float/int)
+            clean_value = value_str.replace(",", "").replace(" ", "")
+            if clean_value.count('.') > 1:  # Invalid number format
+                continue
                 
-                # Parse value (float/int)
-                clean_value = value_str.replace(",", "").replace(" ", "")
-                if clean_value.count('.') > 1:  # Invalid number format
-                    continue
-                    
-                value = float(clean_value) if '.' in clean_value else int(clean_value)
-                
-                percentile_values[percentile] = value
-                
-            except (ValueError, TypeError):
-                continue  # Skip invalid lines
+            value = float(clean_value) if '.' in clean_value else int(clean_value)
+            
+            percentile_values[percentile] = value
 
     # Fill missing percentiles linearly if needed
     if percentile_values:
@@ -246,6 +243,7 @@ def generate_continuous_cdf(
     return continuous_cdf
 
 def extract_forecast(row):
+    print("EXTRACT_FORECAST", row.id_of_question)
     if row.question_type == 'binary':
         prediction = extract_probability_from_response_as_percentage_not_decimal(row.forecast)/100.0
     elif row.question_type == 'multiple_choice':
