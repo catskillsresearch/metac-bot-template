@@ -47,13 +47,21 @@ if __name__=="__main__":
     pd.set_option('display.max_colwidth', 1000)
     pd.set_option('display.max_columns', 500)
     pd.set_option('display.width', 1000)
-    print('LIVE ANY')
-    questions, df = load_questions(40)
-    print(df[['id_of_question', 'id_of_post', 'question_type']])
+
+    questions = load_questions((30000, 40000))
     for question in questions:
-        print(question.id_of_question, question.id_of_post)
-    print('\nPERENNIAL')
-    questions, df = load_questions(perennial=True)
-    print(df[['id_of_question', 'id_of_post']])
-    for question in questions:
-        print(question.id_of_question, question.id_of_post)
+        print(type(question))
+
+
+
+    if 0:
+        print('LIVE ANY')
+        questions, df = load_questions(40)
+        print(df[['id_of_question', 'id_of_post', 'question_type']])
+        for question in questions:
+            print(question.id_of_question, question.id_of_post)
+        print('\nPERENNIAL')
+        questions, df = load_questions(perennial=True)
+        print(df[['id_of_question', 'id_of_post']])
+        for question in questions:
+            print(question.id_of_question, question.id_of_post)

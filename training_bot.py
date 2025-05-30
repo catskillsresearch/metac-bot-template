@@ -11,4 +11,4 @@ def training_bot(num_questions, perennial):
 if __name__ == "__main__":
     import load_secrets
     load_secrets.load_secrets()
-    training_bot(num_questions = (30000, 40000), perennial=False)
+    training_bot(num_questions = (37229, 40000), perennial=False)
