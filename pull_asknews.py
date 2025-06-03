@@ -7,10 +7,12 @@ def pull_asknews(row, live):
     if os.path.exists(fn):
         with open(fn, 'r') as f:
             return f.read()
+
     question = row.title
     news = call_asknews(question, live)
     with open(fn, 'w') as f:
         f.write(news)
+    print('saved', fn)
     return news
 
 if __name__=="__main__":

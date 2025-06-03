@@ -6,6 +6,7 @@ def call_asknews(question: str, live: bool) -> str:
     Use the AskNews `news` endpoint to get news context for your query.
     The full API reference can be found here: https://docs.asknews.app/en/reference#get-/v1/news/search
     """
+    print("calling AskNews for", question)
     ASKNEWS_CLIENT_ID = os.getenv("ASKNEWS_CLIENT_ID")
     ASKNEWS_SECRET = os.getenv("ASKNEWS_SECRET")
 
@@ -56,6 +57,8 @@ def call_asknews(question: str, live: bool) -> str:
     if not hot_articles and not historical_articles:
         formatted_articles += "No articles were found.\n\n"
         return formatted_articles
+
+    print("finished AskNews for", question)
 
     return formatted_articles
 

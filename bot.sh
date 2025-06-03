@@ -1,5 +1,4 @@
 #!/bin/bash
-sleep 2400
 while true
 do
   echo "start"
