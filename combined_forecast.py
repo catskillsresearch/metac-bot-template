@@ -1,5 +1,5 @@
 import os
-from query_perplexity_with_date_filter import query_perplexity_with_date_filter
+from call_metaculus_claude import call_metaculus_claude
 from extract_forecast import extract_forecast, extract_percentile_numbers
 from format_multiple_choices import format_multiple_choices
 import numpy as np
@@ -9,10 +9,8 @@ from tqdm import tqdm
 def combined_forecast(question, iterations):
     print("###################################################################")
     print("Combined forecast for", question.id_of_question)
-
-    api_key = os.getenv('PERPLEXITY_API_KEY')
     iterations = 5
-    forecasts = [query_perplexity_with_date_filter(api_key, question.prompt, question.today) for _ in tqdm(range(iterations))]
+    forecasts = [call_metaculus_claude(question.prompt) for _ in tqdm(range(iterations))]
     predictions = []
     for forecast in forecasts:
         question.forecast = forecast
@@ -38,7 +36,7 @@ Do not tell the reader that you are summarizing or looking at the original forec
 
 {combined}
 """
-    rationale = query_perplexity_with_date_filter(api_key, prompt, question.today)
+    rationale = call_metaculus_claude(prompt)
     print("RATIONALE\n", rationale)
 
     median_forecast = f"""{rationale}\n\n{comment}"""
