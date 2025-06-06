@@ -16,7 +16,6 @@ def query_perplexity_with_date_filter(api_key: str, prompt: str, search_before_d
     # Convert YYYY-MM-DD to MM/DD/YYYY
     date_obj = datetime.strptime(search_before_date, "%Y-%m-%d")
     formatted_date = date_obj.strftime("%m/%d/%Y")
-
     url = "https://api.perplexity.ai/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -36,3 +35,11 @@ def query_perplexity_with_date_filter(api_key: str, prompt: str, search_before_d
     data = response.json()
     s = data["choices"][0]["message"]["content"]
     return re.sub(r'\[\d+\]', '', s)  # Remove citation marks
+
+if __name__=="__main__":
+    import load_secrets
+    load_secrets.load_secrets()
+    (prompt, search_before_date) = ['What day is it?', '2025-06-04']
+    import os
+    api_key = os.getenv('PERPLEXITY_API_KEY')
+    query_perplexity_with_date_filter(api_key, prompt, search_before_date)
