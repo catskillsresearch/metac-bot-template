@@ -6,5 +6,4 @@ do
   python training_bot.py 
   echo "done"
   date
-  sleep 120
 done

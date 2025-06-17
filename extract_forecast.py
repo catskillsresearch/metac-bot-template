@@ -23,7 +23,7 @@ def extract_percentile_numbers(text) -> dict:
         match = re.match(pattern, line)
         if match:
             percentile_str, value_str = match.groups()
-            print('extracting percentile', percentile_str, 'value', value_str)
+            # print('extracting percentile', percentile_str, 'value', value_str)
 
             # Parse percentile (integer)
             percentile = int(percentile_str.replace(",", "").strip())

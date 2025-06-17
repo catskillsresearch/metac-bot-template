@@ -1,5 +1,3 @@
-from forecasting_tools import MetaculusApi, ApiFilter
-from datetime import datetime, timedelta
 import glob, joblib, os
 
 def load_open_forecasted_questions(num_questions):
@@ -9,7 +7,6 @@ def load_open_forecasted_questions(num_questions):
     fns = [fn for id,fn in fns if start <= id <= end and 
            not os.path.exists(fn.replace('open', 'forecast_community').replace('joblib', 'md'))]
     ids = sorted([int(fn.split('/')[1].split('.')[0]) for fn in fns])
-    print(ids)
     questions = [joblib.load(fn) for fn in fns]
     return questions
 
