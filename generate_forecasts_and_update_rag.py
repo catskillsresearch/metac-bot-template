@@ -15,8 +15,12 @@ def generate_forecasts_and_update_rag(df, rag, live, model):
         row = df.loc[idx].copy()
         rag.research_bot.refresh_if_needed() 
 
-        # Check for existing forecast AND presence of new context
-        forecast_path = f"forecast_community/{row['id_of_question']}.md"
+        # Check for existing forecast
+        forecast_path = f"forecast_{model}/{row['id_of_question']}.md"
+        if os.path.exists(forecast_path):
+            print('already done', forecast_path)
+            continue
+            
         if not live and os.path.exists(forecast_path) and len(row['learning']) == 0:
             with open(forecast_path, 'r') as f:
                 row['forecast'] = f.read()
