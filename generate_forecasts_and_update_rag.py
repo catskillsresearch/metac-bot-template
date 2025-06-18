@@ -4,7 +4,7 @@ from predict import predict
 from extract_forecast import extract_forecast
 from error import error
 
-def generate_forecasts_and_update_rag(df, rag, live):
+def generate_forecasts_and_update_rag(df, rag, live, model):
     print("=== Starting Forecast ===")
     # Pre-initialize columns (avoids repeated .at calls)
     df["used_indices"] = None
@@ -37,8 +37,8 @@ def generate_forecasts_and_update_rag(df, rag, live):
         else:
             rag.add_to_index(row['research'], row['id_of_question'])
             context, indices = rag.retrieve_context(row['title'])
-
-            row['forecast'] = predict('forecast_community', row)
+            iterations = 5
+            row['forecast'] = predict(f'forecast_{model}', row, iterations, model)
             df.at[idx, 'forecast'] = row.forecast
     
             row['used_indices'] = indices

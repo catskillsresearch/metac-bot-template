@@ -1,7 +1,7 @@
 import os
 from combined_forecast import combined_forecast
 
-def predict(dfn, question, iterations = 3):
+def predict(dfn, question, iterations, model):
     ffn = f'{dfn}/{question.id_of_question}.md'
     
     # New: Check for existing RAG context in learning field
@@ -15,7 +15,7 @@ def predict(dfn, question, iterations = 3):
     else:
         # Generate new forecast
         api_key = os.getenv('PERPLEXITY_API_KEY')
-        forecast = combined_forecast(question, iterations)
+        forecast = combined_forecast(question, iterations, model)
         with open(ffn, 'w') as f:
             f.write(forecast)
         return forecast

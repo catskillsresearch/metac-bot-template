@@ -243,7 +243,7 @@ def generate_continuous_cdf(
     return continuous_cdf
 
 def extract_forecast(row):
-    print("EXTRACT_FORECAST", row.id_of_question)
+    #print("EXTRACT_FORECAST", row.id_of_question)
     if row.question_type == 'binary':
         prediction = extract_probability_from_response_as_percentage_not_decimal(row.forecast)/100.0
     elif row.question_type == 'multiple_choice':

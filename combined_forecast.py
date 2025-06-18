@@ -1,22 +1,22 @@
 import os
 from call_local_llm import call_local_llm
-from call_metaculus_claude import call_metaculus_claude
 from extract_forecast import extract_forecast, extract_percentile_numbers
 from format_multiple_choices import format_multiple_choices
 import numpy as np
 from median_dictionaries import median_dictionaries
 from tqdm import tqdm
 
-def combined_forecast(question, iterations, llm = call_metaculus_claude):
+def combined_forecast(question, iterations, model):
     print("###################################################################")
     print("Combined forecast for", question.id_of_question)
     iterations = 5
-    forecasts = [llm(question.prompt) for _ in tqdm(range(iterations))]
+    forecasts = [call_local_llm(question.prompt, model) for _ in tqdm(range(iterations))]
     predictions = []
     for forecast in forecasts:
         question.forecast = forecast
         prediction = extract_percentile_numbers(forecast) if question.question_type == 'numeric' else extract_forecast(question)
-        predictions.append(prediction)
+        if prediction != {}:
+           predictions.append(prediction)
     print("*** Got predictions", predictions)
     if question.question_type == 'binary':
         prediction = float(np.median(predictions))
