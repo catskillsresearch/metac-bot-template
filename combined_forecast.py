@@ -34,11 +34,12 @@ def combined_forecast(question, iterations, model):
     prompt = f"""The following are {iterations} forecasts on the question "{question.title}".
 Each forecast has a rationale and a final prediction section named something like "Final Probability" or "Probabilistic Assessment" or similar.
 Considering only the rationale part for each forecast and ignoring the final prediction, combine the rationales into a final consistent rationale that incorporates the best of each individual rationale.
-Do not tell the reader that you are summarizing or looking at the original forecasts when making this rationale.  Present it as an entirely new rationale.  Do not start with any phrase similar to "Here is a combined rationale that incorporates the best of each individual rationale" or "Here is a rationale that combines the best of each individual forecast."  You MUST have a forecast of some sort.  NEVER produce a forecas without some final prediction in the correct format, even if you have to make one up.
+DO present this as a new original rationale and DO NOT say that you are summarizing or looking at the original forecasts when making this rationale.  
+You MUST have a forecast of some sort.  NEVER produce a forecas without some final prediction in the correct format, even if you have to make one up.
 
 {combined}
 """
-    rationale = llm(prompt)
+    rationale = call_local_llm(prompt, model)
     print("RATIONALE\n", rationale)
 
     median_forecast = f"""{rationale}\n\n{comment}"""
