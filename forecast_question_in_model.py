@@ -13,6 +13,7 @@ def forecast_question_in_model(id, model):
     if os.path.exists(fn):
         print('model', model, 'id', id, 'seconds', 0)
         return
+    print('START model', model, 'id', id)
     start_time = time.time()
     hard_ids = [id]
     questions = load_saved_questions(hard_ids)

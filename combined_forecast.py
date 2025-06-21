@@ -12,8 +12,11 @@ def combined_forecast(question, iterations, model):
     iterations = 5
     forecasts = [call_local_llm(question.prompt, model) for _ in tqdm(range(iterations))]
     predictions = []
-    for forecast in forecasts:
+    for i, forecast in enumerate(forecasts):
         question.forecast = forecast
+        print("FORECAST", i)
+        print(forecast)
+        print()
         prediction = extract_percentile_numbers(forecast) if question.question_type == 'numeric' else extract_forecast(question)
         if prediction != {}:
            predictions.append(prediction)
