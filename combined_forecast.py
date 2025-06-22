@@ -26,7 +26,7 @@ def combined_forecast(question, iterations, model):
         comment = f"### Probability: {int(prediction*100)}%"
     elif question.question_type == 'numeric':
         prediction = median_dictionaries(predictions)
-        comment = format_multiple_choices(prediction)
+        comment = format_multiple_choices(prediction, prefix = 'Percentile ')
     else:
         prediction = median_dictionaries(predictions)
         comment = format_multiple_choices(prediction, 100, '%')
@@ -34,11 +34,12 @@ def combined_forecast(question, iterations, model):
     combined = ''
     for i, forecast in enumerate(forecasts):
         combined += f"\nFORECAST {i+1}\n{forecast}\n"
-    prompt = f"""The following are {iterations} forecasts on the question "{question.title}".
+        prompt = f"""The following are {iterations} forecasts on the question "{question.title}".
 Each forecast has a rationale and a final prediction section named something like "Final Probability" or "Probabilistic Assessment" or similar.
 Considering only the rationale part for each forecast and ignoring the final prediction, combine the rationales into a final consistent rationale that incorporates the best of each individual rationale.
-DO present this as a new original rationale and DO NOT say that you are summarizing or looking at the original forecasts when making this rationale.  
-You MUST have a forecast of some sort.  NEVER produce a forecas without some final prediction in the correct format, even if you have to make one up.
+DO present this as a new original rationale.
+DO NOT refer to the underlying 5 rationales that you are summarizing
+DO NOT include the forecast at the end of the rationale, suppress it.  We are only summarizing the rationale, not the forecast.
 
 {combined}
 """

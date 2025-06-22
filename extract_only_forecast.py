@@ -12,5 +12,5 @@ def extract_only_forecast(id_to_question, forecasts, id):
         option_probabilities = extract_option_probabilities_from_response(forecast, options)
         prediction = generate_multiple_choice_forecast(options, option_probabilities)
     elif question_type == forecasting_tools.data_models.questions.NumericQuestion:
-        prediction = extract_percentiles_from_response(forecast)
+        prediction = extract_percentile_numbers(forecast)
     return prediction
