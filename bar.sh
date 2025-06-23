@@ -1,1 +1,0 @@
-python forecast_question_in_model.py 7811 cogito:latest
