@@ -4,9 +4,9 @@ from load_research import load_research
 from pull_asknews import pull_asknews
 from prompt_question import prompt_question
 
-def gather_research_and_set_prompt(df, live):
+def gather_research_and_set_prompt(df, live, model):
     rag = RAGForecaster()
-    research_bot = EnhancedResearchPro(rag)
+    research_bot = EnhancedResearchPro(rag, model)
     research_bot.process_dataframe(df, use_cutoff=False)
     rag.research_bot = research_bot
     df['research'] = df.apply(load_research, axis=1)
@@ -29,14 +29,6 @@ if __name__=="__main__":
     import pandas as pd
     from load_secrets import load_secrets
     load_secrets()
-    if 0:
-        df = pd.read_json('debug.json')
-        gather_research_and_set_prompt(df)
-
-    rag = RAGForecaster()
-    research_bot = EnhancedResearchPro(rag)
-    with open('foo.pkl', 'rb') as f:
-        (question, cutoff_date) = pickle.load(f)
-    use_cutoff=False
-    answer = research_bot.get_answer(question, cutoff_date)
-    print(answer)
+    df = pd.read_json('debug.json')
+    df1, rag = gather_research_and_set_prompt(df, True, 'gemma3:latest')
+    print(df1)

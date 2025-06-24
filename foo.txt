@@ -1,0 +1,29 @@
+Identify all factual information available as of 2025-06-14 that would help forecast:
+**Question**: Will Iran's supreme leader, Ali Khamenei, make a public appearance in Iran before July 14, 2025?
+**Description**: On June 13, 2025, the Israeli Defense Forces (IDF) [struck](https://en.wikipedia.org/wiki/June_2025_Israeli_strikes_on_Iran) several targets in Iran, including the private residences of several of Iran's top leaders. In the wake of the strikes, rumors arose that Iran's supreme leader, Ayatollah Ali Khamenei, had [been killed](https://www.reuters.com/world/middle-east/irans-supreme-leader-khamenei-is-alive-security-source-tells-reuters-2025-06-13/) or had [fled the country](https://x.com/The_Real_ITDUDE/status/1933923628904853857?t=zLFB8cSLHXaZRi_SmcuzyA\&s=19).
+
+Some recent public appearances of Khamenei are:
+
+* June 4, 2025 delivering live televised remarks from the mausoleum of Ruhollah Khomeini, the former supreme leader of Iran. ([Tasnim News Agency](https://www.eurasiareview.com/05062025-in-fiery-televised-speach-ayatollah-khamenei-dismisses-us-plan-reasserts-irans-right-to-enrichment/))
+* May 20, 2025 speaking at the one-year anniversary of former President Ebrahim Raisi's death. ([National Council of Resistance of Iran](https://www.ncr-iran.org/en/news/khameneis-hardline-stance-on-nuclear-program-exposes-deepening-instability-in-irans-regime/))
+* May 12, 2025 meeting in Tehran with members of the National Conference in Commemoration of Martyred Aid Workers ([Iran Daily](https://newspaper.irandaily.ir/7832/8/15390))
+* May 10, 2025 meeting with a group of labor leaders ([Tehran Times](https://www.tehrantimes.com/news/512880/Minds-must-not-be-diverted-from-Palestine-Leader))
+* May 4, 2025 meeting with Iranian officials overseeing Hajj pilgrimage ([Tehran Times](https://www.tehrantimes.com/news/512618/Leader-Nothing-more-beneficial-for-Islamic-world-than-unity))
+**Resolution Criteria**: This question will resolve as **Yes** if, after June 14, 2025 and before July 14, 2025, Iran's supreme leader Ali Khamenei makes a public appearance within the geographic territory of Iran, according to <u>c</u>[<u>redible source</u>](https://www.metaculus.com/faq/#definitions) reporting.
+
+If this has not occurred during the period in question, then this question will resolve as **No**. It will additionally resolve as **No** if Khamenei dies or permanently resigns from the position of Supreme Leader before July 14, 2025.
+**Fine Print**: A public appearance is defined as Khamenei presenting himself in front of an audience.
+
+A television address would count, as long as it is credibly reported that Khamenei has made the address from within Iran. It would count even if it was pre-recorded, as long as there is credible evidence that it was recorded from within Iran in the relevant time period.
+**Technical Specifications**:
+- Question type: binary
+- Measurement unit: 
+- Open bounds: [None, None]
+- Options: None
+
+Provide:
+1. Key historical trends and current status relevant to the metric
+2. Recent announcements/policies affecting the metric
+3. Authoritative sources for verification
+4. Any limitations or uncertainties in measurement
+**Format your response in markdown, using in-text citations like [1], [2], etc. At the end of your answer, include a section titled 'References' listing each source cited, in markdown list format, matching the in-text citation numbers, with each entry as: [number]. [Title] ([URL]). If a URL is not available, just include the title.**

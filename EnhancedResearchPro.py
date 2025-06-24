@@ -4,8 +4,8 @@ from ResearchProModule import ResearchProModule
 from RAGForecaster import RAGForecaster
 
 class EnhancedResearchPro(ResearchProModule):
-    def __init__(self, rag_forecaster):
-        super().__init__()
+    def __init__(self, rag_forecaster, model):
+        super().__init__(model)
         self.rag = rag_forecaster
         self.retrieval_cache = {}
         self._last_index_mtime = 0
@@ -18,7 +18,7 @@ class EnhancedResearchPro(ResearchProModule):
             self.rag = RAGForecaster()
             self.retrieval_cache.clear()  # Clear stale context
         
-    def get_answer(self, question, cutoff_date=None):
+    def get_answer(self, question):
         # Retrieve similar historical forecasts
         cached = self.retrieval_cache.get(question)
         if not cached:
@@ -47,11 +47,6 @@ class EnhancedResearchPro(ResearchProModule):
             "max_tokens": 2000
         }
         
-        if cutoff_date:
-            pplx_date = datetime.strptime(cutoff_date, "%Y-%m-%d").strftime("%m/%d/%Y")
-            api_config["search_before_date_filter"] = pplx_date
-            question += f" [Knowledge cutoff: {pplx_date}]"
-
         lm = dspy.LM(
             base_url="https://api.perplexity.ai",
             api_key=os.getenv("PERPLEXITY_API_KEY"),
@@ -101,7 +96,7 @@ if __name__=="__main__":
     import load_secrets
     load_secrets.load_secrets()
     rag = RAGForecaster()
-    research_bot = EnhancedResearchPro(rag)
+    research_bot = EnhancedResearchPro(rag, 'gemma3:latest')
     import pandas as pd
     df = pd.read_json('debug.json')
     research_bot.process_dataframe(df, use_cutoff=False)
