@@ -3,11 +3,10 @@ import requests
 def call_local_llm(prompt, model = "llama3:8b"):
     """Sends a prompt to locally hosted LLM and return response."""
     api_url = "http://localhost:11434/api/generate"
-    if 'qwen' in model:
-        prompt = '/think ' + prompt
     payload = {
         "model": model,
         "prompt": prompt,
+        "temperature": 0.2, # Cut the chatter
         "stream": False  # Get complete response at once
     }
     try:
