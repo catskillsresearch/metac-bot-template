@@ -4,7 +4,7 @@ from predict import predict
 from extract_forecast import extract_forecast
 from error import error
 
-def generate_forecasts_and_update_rag(df, rag, live, model):
+def generate_forecasts_and_update_rag(df, rag, live, model, redo = False):
     print("=== Starting Forecast ===")
     # Pre-initialize columns (avoids repeated .at calls)
     df["used_indices"] = None
@@ -17,11 +17,13 @@ def generate_forecasts_and_update_rag(df, rag, live, model):
 
         # Check for existing forecast
         forecast_path = f"forecast_{model}/{row['id_of_question']}.md"
-        if os.path.exists(forecast_path):
+        if os.path.exists(forecast_path) and not redo:
+            print("A")
             print('already done', forecast_path)
             continue
             
-        if not live and os.path.exists(forecast_path) and len(row['learning']) == 0:
+        if not live and os.path.exists(forecast_path) and len(row['learning']) == 0 and not redo:
+            print("B")
             with open(forecast_path, 'r') as f:
                 row['forecast'] = f.read()
 
@@ -39,10 +41,11 @@ def generate_forecasts_and_update_rag(df, rag, live, model):
             df.at[idx, 'error'] = error_val
         
         else:
+            print("C")
             rag.add_to_index(row['research'], row['id_of_question'])
             context, indices = rag.retrieve_context(row['title'])
             iterations = 5
-            row['forecast'] = predict(f'forecast_{model}', row, iterations, model)
+            row['forecast'] = predict(f'forecast_{model}', row, iterations, model, redo)
             df.at[idx, 'forecast'] = row.forecast
     
             row['used_indices'] = indices

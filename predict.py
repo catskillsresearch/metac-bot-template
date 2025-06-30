@@ -1,7 +1,7 @@
 import os
 from combined_forecast import combined_forecast
 
-def predict(dfn, question, iterations, model):
+def predict(dfn, question, iterations, model, redo = False):
     ffn = f'{dfn}/{question.id_of_question}.md'
     
     # New: Check for existing RAG context in learning field
@@ -9,7 +9,7 @@ def predict(dfn, question, iterations, model):
         if os.path.exists(ffn):
             os.remove(ffn)  # Force regeneration
     
-    if os.path.exists(ffn):
+    if os.path.exists(ffn) and not redo:
         with open(ffn, 'r') as f:
             return f.read()
     else:

@@ -1,29 +1,231 @@
-Identify all factual information available as of 2025-06-14 that would help forecast:
-**Question**: Will Iran's supreme leader, Ali Khamenei, make a public appearance in Iran before July 14, 2025?
-**Description**: On June 13, 2025, the Israeli Defense Forces (IDF) [struck](https://en.wikipedia.org/wiki/June_2025_Israeli_strikes_on_Iran) several targets in Iran, including the private residences of several of Iran's top leaders. In the wake of the strikes, rumors arose that Iran's supreme leader, Ayatollah Ali Khamenei, had [been killed](https://www.reuters.com/world/middle-east/irans-supreme-leader-khamenei-is-alive-security-source-tells-reuters-2025-06-13/) or had [fled the country](https://x.com/The_Real_ITDUDE/status/1933923628904853857?t=zLFB8cSLHXaZRi_SmcuzyA\&s=19).
+You are a professional forecaster interviewing for a job.
 
-Some recent public appearances of Khamenei are:
+Your interview question is:
+What will be the relative severity of the next US depression, compared to the Great Depression?
 
-* June 4, 2025 delivering live televised remarks from the mausoleum of Ruhollah Khomeini, the former supreme leader of Iran. ([Tasnim News Agency](https://www.eurasiareview.com/05062025-in-fiery-televised-speach-ayatollah-khamenei-dismisses-us-plan-reasserts-irans-right-to-enrichment/))
-* May 20, 2025 speaking at the one-year anniversary of former President Ebrahim Raisi's death. ([National Council of Resistance of Iran](https://www.ncr-iran.org/en/news/khameneis-hardline-stance-on-nuclear-program-exposes-deepening-instability-in-irans-regime/))
-* May 12, 2025 meeting in Tehran with members of the National Conference in Commemoration of Martyred Aid Workers ([Iran Daily](https://newspaper.irandaily.ir/7832/8/15390))
-* May 10, 2025 meeting with a group of labor leaders ([Tehran Times](https://www.tehrantimes.com/news/512880/Minds-must-not-be-diverted-from-Palestine-Leader))
-* May 4, 2025 meeting with Iranian officials overseeing Hajj pilgrimage ([Tehran Times](https://www.tehrantimes.com/news/512618/Leader-Nothing-more-beneficial-for-Islamic-world-than-unity))
-**Resolution Criteria**: This question will resolve as **Yes** if, after June 14, 2025 and before July 14, 2025, Iran's supreme leader Ali Khamenei makes a public appearance within the geographic territory of Iran, according to <u>c</u>[<u>redible source</u>](https://www.metaculus.com/faq/#definitions) reporting.
+Question background:
 
-If this has not occurred during the period in question, then this question will resolve as **No**. It will additionally resolve as **No** if Khamenei dies or permanently resigns from the position of Supreme Leader before July 14, 2025.
-**Fine Print**: A public appearance is defined as Khamenei presenting himself in front of an audience.
 
-A television address would count, as long as it is credibly reported that Khamenei has made the address from within Iran. It would count even if it was pre-recorded, as long as there is credible evidence that it was recorded from within Iran in the relevant time period.
-**Technical Specifications**:
-- Question type: binary
-- Measurement unit: 
-- Open bounds: [None, None]
-- Options: None
 
-Provide:
-1. Key historical trends and current status relevant to the metric
-2. Recent announcements/policies affecting the metric
-3. Authoritative sources for verification
-4. Any limitations or uncertainties in measurement
-**Format your response in markdown, using in-text citations like [1], [2], etc. At the end of your answer, include a section titled 'References' listing each source cited, in markdown list format, matching the in-text citation numbers, with each entry as: [number]. [Title] ([URL]). If a URL is not available, just include the title.**
+This question's outcome will be determined by the specific criteria below. These criteria have not yet been satisfied:
+This question will resolve as **Ambiguous** if there is no economic depression in the US between January 1, 2022 to January 1, 2032.  For this question, an "Economic Depression" is defined as meeting either of these criteria:
+
+* A recession lasting for 36 months or longer (as adjudicated by [this Metaculus Question's resolution](https://www.metaculus.com/questions/2623/if-the-us-enters-a-recession-how-many-months-will-the-economic-contraction-last/)--i.e., if that one resolves ≥36, this criterion has been met).
+
+* Any year's Annual Real GDP growth (as [reported by the US Bureau of Economic Analysis](https://www.bea.gov/news/current-releases)) is estimated to be -10% or less.
+
+If such a depression occurs, the relative severity will be defined as the number of months the depression lasts times the real GDP decline in percentage points (peak to trough, on an annual basis), divided by 1131.
+
+We divide by 1131 because the Great Depression lasted 43 months, and the real GDP decline [was](https://www.thebalance.com/us-gdp-by-year-3305543) 26.3%, and \(43 \times 26.3 \simeq 1131\)
+
+
+
+Your research assistant reports:
+# Forecasting Analysis: Potential US Depression (2022-2032)
+
+Based on information available as of April 13, 2020, I'll analyze the potential for and severity of a US depression in the 2022-2032 timeframe compared to the Great Depression.
+
+## Historical Context and Current Status
+
+The Great Depression (1929-1933) remains the benchmark for economic catastrophes in the US, with:
+- Duration: 43 months
+- Real GDP decline: 26.3% (peak to trough)
+- Severity score: 1131 (43 × 26.3)
+
+Economic conditions as of early 2020 showed several concerning patterns that could potentially contribute to economic instability:
+
+- Extended bull market and economic expansion following the 2008-2009 financial crisis
+- High corporate debt levels and potential asset bubbles
+- Growing federal budget deficits even during economic expansion
+- Global trade tensions affecting supply chains
+
+## Key Factors Affecting Depression Probability
+
+### Economic Growth Projections
+
+Economic forecasts available in early 2020 generally projected moderate but slowing growth for the coming decade. While some economists had raised concerns about a potential recession in the near term, few were projecting a depression-level event within the 2022-2032 timeframe.
+
+Some economic research firms have been forecasting a potential "Great Depression" scenario for the 2030s, which falls partially within our resolution timeframe[2]. However, these forecasts typically point to the latter part of the 2030s, mostly outside our resolution window.
+
+### Federal Fiscal Position
+
+The US federal deficit and debt positions were already concerning before 2020:
+- Growing deficits despite economic expansion
+- Federal debt approaching 100% of GDP
+- Increasing entitlement spending pressures
+
+These factors reduce the government's fiscal flexibility to respond to severe economic downturns.
+
+### Monetary Policy Environment
+
+As of early 2020, key monetary policy considerations included:
+- Interest rates already at historically low levels
+- Federal Reserve balance sheet still expanded from previous interventions
+- Limited room for conventional monetary policy responses to a severe downturn
+
+## Probabilistic Assessment
+
+Based on pre-April 2020 information, I assess the following:
+
+1. **Probability of a depression meeting the specified criteria (2022-2032)**: Approximately 15-20%
+   - Most likely scenario remains continued economic cycles without depression-level severity
+   - The probability is elevated compared to historical baselines due to systemic vulnerabilities
+
+2. **Conditional severity assessment** (if a depression occurs):
+   - Expected relative severity: 0.3-0.7 times the Great Depression
+   - This translates to approximately 340-790 on the severity scale (where Great Depression = 1131)
+   - Key factors: stronger institutional safeguards and policy tools compared to 1929, but potentially less fiscal/monetary flexibility
+
+3. **Most likely scenario**:
+   - If a depression occurs, it would likely feature:
+   - Duration: 24-36 months (shorter than Great Depression)
+   - GDP decline: 12-18% (less severe than Great Depression's 26.3%)
+   - Resulting in a severity score of approximately 290-650 (0.25-0.58× Great Depression)
+
+## Limitations and Uncertainties
+
+Several important limitations affect this forecast:
+
+1. Economic forecasting becomes increasingly uncertain beyond 2-3 year horizons
+2. The resolution criteria's specific thresholds (36+ months or -10% annual GDP) create discontinuities in assessment
+3. Historical sample size of depression-level events is extremely small, limiting statistical inference
+4. Structural changes in the economy make direct historical comparisons challenging
+5. The definition of "depression" itself lacks universal consensus among economists
+
+Here are the relevant news articles:
+
+**The Worsening Pandemic of Gambling Highlighted in the Journal of American Physicians and Surgeons**
+Gambling addiction is worse than substance abuse in many ways, including higher suicide rates, according to Andrew Schlafly, Esq. in the Journal of American Physicians and Surgeons. A Swedish study found that the rate of suicide is 15 times higher among gamblers than in the general population. Physical health problems and psychiatric harm are also common among gamblers, including hypertension, cardiovascular disease, and major depressive episodes. Roughly half of Americans are engaged in gambling, and extreme addiction afflicts about 5% of the population. Schlafly warns that the rise of AI-powered gambling on cell phones, particularly among teenagers, is a growing concern. He also notes that the 2018 Supreme Court decision in Murphy v. NCAA has led to the legalization of sports gambling in 39 states, resulting in $57.2 billion in annual wagers. Schlafly suggests that the Major Questions Doctrine could help limit the spread of this madness, but warns that a new way to bet on event contracts, which is federally regulated, could make corruption inevitable.
+Original language: en
+Publish date: June 02, 2025 05:45 PM
+Source:[GlobeNewswire Press Releases](https://www.globenewswire.com/news-release/2025/06/02/3092249/22503/en/The-Worsening-Pandemic-of-Gambling-Highlighted-in-the-Journal-of-American-Physicians-and-Surgeons.html)
+
+**Research Highlights Worsening Mental Health of US Mothers - Internewscast Journal**
+A recent study published in JAMA Internal Medicine found a significant decline in the mental health of mothers in the United States from 2016 to 2023. The study, conducted by researchers from Columbia University and the University of Michigan, analyzed data from nearly 200,000 mothers participating in the National Survey of Children's Health. The results showed a decrease in the percentage of mothers reporting 'excellent' mental health, from 38% in 2016 to 26% in 2023, and an increase in the number of mothers rating their mental health as 'fair/poor', from 5.5% to 9%. According to Jamie Daw, an assistant professor of health policy and management at Columbia's Mailman School of Public Health, 'Although high rates of maternal morbidity and mortality have been well documented, national data on the health status of mothers beyond pregnancy and the first year postpartum is lacking.' The decline in mental health was observed across nearly every socioeconomic subgroup examined and is expected to have a negative impact on children's development. 
+Original language: en
+Publish date: June 01, 2025 02:29 PM
+Source:[internewscast.com](https://internewscast.com/news/us/research-highlights-worsening-mental-health-of-us-mothers/)
+
+**Robert Kiyosaki Says a 'Greater Depression' Is Coming  --  Do Other Experts Agree?**
+Robert Kiyosaki has predicted a 'Greater Depression' in 2025, citing high credit card debt, rising unemployment, and declining 401k values. He urges investors to buy gold, silver, and Bitcoin. Other financial experts agree that rising debt and deficit spending are concerns, but disagree on the severity of the situation. Rod Skyles notes that consumer, corporate, and government debt is 'out of control' and interest rates are building at a rapid rate. Economists surveyed in the Wolters Kluwer Blue Chip Economic Indicator survey forecast a 72% probability of U.S. inflation increasing and a 47% probability of a U.S. recession over the next 12 months. They also see a risk of stagflation, with the 'misery index' climbing to 8.1% in the third quarter of 2025.
+Original language: en
+Publish date: June 01, 2025 12:32 PM
+Source:[Yahoo! Finance](https://finance.yahoo.com/news/robert-kiyosaki-says-greater-depression-120050147.html)
+
+**U.S. Money Supply Is Making History on Both Ends -- Including a First Since the Great Depression -- and It Portends a Wild Ride for Stocks | The Motley Fool**
+The U.S. money supply, specifically M2, has been making history on both ends of the spectrum. It declined by more than $1 trillion between April 2022 and October 2023, marking the first time since the Great Depression that M2 has declined by at least 2% on a year-over-year basis. This decline has been followed by a record high for M2, reaching $21.863 trillion in April 2025. The correlation between declines in M2 money supply and trouble for the U.S. economy and Wall Street is strong, but the likelihood of a depression taking shape in modern times is extremely low. Nevertheless, a first-in-90-years decline in M2 money supply heightened the possibility of a near-term U.S. recession. However, patience has an immaculate track record of forecasting the future, with every rolling 20-year period of total return data from 1900 to 2024 producing a positive annualized rate of return. This suggests that stocks may be extra volatile in the quarters and years to come, but patient investors should not be alarmed.
+Original language: en
+Publish date: June 01, 2025 07:23 AM
+Source:[The Motley Fool](https://www.fool.com/investing/2025/06/01/us-money-supply-great-depression-big-move-stocks/)
+
+**U.S. Money Supply Is Making History on Both Ends -- Including a First Since the Great Depression -- and It Portends a Wild Ride for Stocks**
+The U.S. money supply has made history by experiencing a decline of 4.76% between April 2022 and October 2023, the first time since the Great Depression that M2 has declined by at least 2% on a year-over-year basis. However, the M2 money supply has since rebounded to an all-time record high of $21.863 trillion in April 2025. This whipsaw effect in M2 over the last three years suggests that stocks may be extra volatile in the quarters and years to come. Despite this, patient investors should not be alarmed, as the U.S. economy has a strong track record of recovering from downturns. According to Crestmont Research, every rolling 20-year period of total return data from the S&P 500 has produced a positive annualized rate of return since 1900. This suggests that holding a long-term perspective and maintaining patience can lead to wealth growth, regardless of market conditions.
+Original language: en
+Publish date: June 01, 2025 07:06 AM
+Source:[Yahoo! Finance](https://finance.yahoo.com/news/u-money-supply-making-history-070600129.html?guccounter=1&guce_referrer=aHR0cHM6Ly9zcG9ydHMueWFob28uY29tL2ZlZWQvcnNzLw&guce_referrer_sig=AQAAAKjsWa46oIkVRfmDxzZ2zbgb33dQA5AGaYPaj84N4UuY-2YaE4qtmiTQnQkPipc0-WEw1M2MfNockq7YK6ikAqiCcFEnLF2qABJ5A1ju0G0EtoCqTBEJ2Kd1luP199838SPUqc1_dPankaedppkWUNEBGtgvKi_F4EQnt0XjLINc)
+
+**Vagus Nerve Stimulation Shows Promise in Treating Severe Depression**
+A recent study has shown that vagus nerve stimulation (VNS) can have long-term effects on patients with severe depression. The study, conducted by an international team of researchers, involved 493 patients who had not responded to previous treatments. The participants were fitted with a device that stimulated the vagus nerve, which is responsible for transmitting signals from the brain to various vital organs. The results showed that patients who received the treatment experienced improvements in their depression symptoms, quality of life, and ability to perform daily tasks. According to Dr. Charles Conway, a professor of psychiatry at Washington University in St. Louis, 'Before joining this study, patients had tried an average of 13 treatments, all of which failed to help them, and they spent more than half of their lives suffering from depression.' He added, 'Despite this high level of chronic illness, we still observe significant and meaningful improvements in depression symptoms, quality of life, and functional outcomes.' While VNS has shown promise in treating depression, the evidence for its success has not always been clear-cut, making the treatment expensive for many patients in the US, especially those relying on insurance. However, the study's results are promising, particularly in helping patients overcome the psychological paralysis that often accompanies severe depression. Conway said, 'What matters here is that patients themselves reported improvements in their lives,' and added, 'They express meaningful improvements in their ability to function and live normally.' Up to 30% of patients with severe depression do not respond to traditional antidepressants, leading to a deterioration of their mental health and increased risk of suicide, hospitalization, and disability. This model of clinical trials is currently being used to determine whether VNS can also make a difference for patients with bipolar disorder. The researchers aim to continue the study for an additional four years to assess whether the benefits are more pronounced in certain groups of patients. Conway said, 'The unique thing about vagus nerve stimulation is that we know from previous studies that when the patient responds to the treatment, the effects often remain stable.'
+Original language: ar
+Publish date: May 30, 2025 08:11 PM
+Source:[ibelieveinsci.com](https://www.ibelieveinsci.com/%d8%aa%d8%ad%d9%81%d9%8a%d8%b2-%d8%a7%d9%84%d8%b9%d8%b5%d8%a8-%d8%a7%d9%84%d9%85%d8%a8%d9%87%d9%85-%d9%84%d9%87-%d8%aa%d8%a3%d8%ab%d9%8a%d8%b1%d8%a7%d8%aa-%d8%b7%d9%88%d9%8a%d9%84%d8%a9-%d8%a7%d9%84/)
+
+**Finance guru issues stark warning for the US economy**
+Robert Kiyosaki, a renowned financial expert and author of 'Rich Dad Poor Dad', has issued a stark warning about the US economy, claiming it is heading for an unprecedented economic catastrophe, worse than the Great Depression. Kiyosaki cites record-high credit card debt, ballooning national liabilities, rising unemployment, and shrinking retirement savings as signs of an impending economic unraveling. He predicts that the next downturn will eclipse the 2008 crash and make the 1930s look minor by comparison. Kiyosaki advises people to pivot into what he considers the only real shelters left: Bitcoin, gold, and silver, saying, 'For those who take action today, when the crash crashes, those who invest in just one Bitcoin, or some gold, or silver... You may come through this crisis a very rich person.' He also predicts that one Bitcoin will be over $1 million by 2035, gold will be $30K, and silver will be $3,000 a coin.
+Original language: en
+Publish date: May 27, 2025 10:30 AM
+Source:[Daily Mail Online](https://www.dailymail.co.uk/galleries/article-14752753/Finance-guru-issues-stark-warning-US-economy.html)
+
+**Finance guru who predicted crash of 2008 issues devastating take on US economy | Daily Mail Online**
+Bestselling financial author Robert Kiyosaki has issued a stark warning that the US is heading for an unprecedented economic catastrophe, which he claims will be worse than the Great Depression. Kiyosaki cites record-high credit card debt, ballooning national liabilities, rising unemployment, and shrinking retirement savings as signs the economy is about to unravel. He predicts that the next downturn will make the 2008 crash look minor by comparison and that people should pivot into what he considers the only real shelters left: Bitcoin, gold, and silver. 'This coming Great Depression will cause millions to be poor … and a few who take action may enjoy great wealth and freedom,' Kiyosaki declared. He also predicts that Bitcoin will reach $1 million by 2035, gold will be $30K, and silver will be $3,000 a coin. Kiyosaki has been advising Americans to stock up for years and has challenged conventional wisdom on home ownership, advocating for rental properties and investments in Bitcoin, gold, and silver.
+Original language: en
+Publish date: May 27, 2025 01:27 AM
+Source:[dailymail.co.uk](https://www.dailymail.co.uk/yourmoney/article-14751721/Finance-guru-Robert-Kiyosaki-warns-US-heading-greater-depression.html)
+
+**Trump's massive import taxes haven't done much economic damage -- yet | Business | postregister.com**
+Despite predictions of economic damage, President Trump's massive import taxes, or tariffs, have not yet had a significant impact on the US economy. However, economists warn that the tariffs are still a concern, as they are unpredictable and have only just begun to take effect. The tariffs, which are the highest since the Great Depression, have been imposed on almost every country on earth, with an average tariff rate of 17.8%, the highest since 1934. While some companies, such as Walmart, have warned of price increases, consumers are less willing to accept higher prices, and many companies are absorbing some of the tariff costs. The economic damage doesn't just come from the cost of tariffs, but also from the erratic way the president imposes them. As one economist noted, 'We had a good jobs report. We had a cool inflation report, and that’s great. But that should not give us comfort about what next month will be, particularly on inflation.' 
+Original language: en
+Publish date: May 19, 2025 09:30 PM
+Source:[postregister.com](https://www.postregister.com/business/trumps-massive-import-taxes-havent-done-much-economic-damage----yet/article_71471019-d40d-442f-b341-384027132326.html)
+
+**'Depression Cycle Is Here' Charles Nenner Warns "It Will Be Much Worse In 2026"**
+Renowned geopolitical and financial cycle expert Charles Nenner is predicting a depression by the end of 2025 and into 2026. He warns that the next few months will be a down year, with the S&P expected to drop to 4,000, resulting in a 50% loss of money for those in bad stocks. Nenner believes that 2026 will be 'much worse' due to the cycles in 1928 and 1929 being in the same position as 2025 and 2026. He also predicts a DOW at 5,000, which is significantly lower than its current value of nearly 39,000. Nenner attributes his bearish outlook to the potential for a big war between China and Taiwan, which he believes has a 50/50 chance of occurring. He still likes gold for the long term and expects silver to start catching up in May. Nenner also thinks interest rates are still in a long-term trend up, but there can be pullbacks, and the US dollar will not fall much more for now.
+Original language: en
+Publish date: April 23, 2025 01:20 PM
+Source:[Zero Hedge](https://www.zerohedge.com/geopolitical/depression-cycle-here-charles-nenner-warns-it-will-be-much-worse-2026)
+
+**Economist Warns of Global Collapse: 'No One Will Be Spared'**
+Economist Saeil Al-Draji has warned of a major economic and financial collapse that he predicts will occur within the next 12 months. According to Al-Draji, no economy will be spared from this collapse, which could be even more devastating than the Great Depression that hit the world over 100 years ago. Al-Draji believes that the American real estate sector, as well as banks, will be severely affected, potentially leading to the bankruptcy of major companies and a sharp decline in stock markets in the US, Europe, and Asia, as he said. 'This collapse will not leave anyone unscathed,' Al-Draji warned.
+Original language: ar
+Publish date: April 17, 2025 10:51 PM
+Source:[صحيفة سبق الالكترونية](https://sabq.org/business/m79idqqtxr)
+
+**The Great Depression: A Look Back at the Worst Single-Day Losses in Stock Market History**
+The Dow Jones plummeted over 22% on Thursday, October 24, 1929, also known as Black Thursday, but managed to limit the loss to 2% by the end of the day. The next day, October 28, saw a 13% drop, followed by a 12% decline on October 29. This marked the beginning of the Great Depression in the United States and a global economic crisis. The article highlights the worst single-day losses in the history of the Swiss stock market, including a 10.54% drop on October 16, 1989, in response to a sharp decline on Wall Street, and a 9.64% loss on March 12, 2020, due to the COVID-19 pandemic. The current market is experiencing a 5.85% loss as of 14:15, which would be the largest single-day decline since the pandemic if it holds until the end of the day.
+Original language: it
+Publish date: April 07, 2025 07:22 AM
+Source:[Corriere del Ticino](https://www.cdt.ch/news/economia/trump-sta-valutando-una-pausa-di-90-giorni-sui-dazi-ma-la-casa-bianca-smentisce-390345)
+
+**The World on the Brink of a New Great Depression?**
+The world is facing a complex situation, with a low unemployment rate of 5% globally, but also 187 million unemployed people and over 240 million suffering from labor poverty. The youth unemployment rate is 12.6% worldwide, and 259 million people are considered 'ninis' globally. The rapid development of digital technologies, especially artificial intelligence, is creating and destroying jobs at an alarming rate. The article suggests that the current situation is similar to the lead-up to the Great Depression, and that a global economic collapse or war could be imminent. The author blames the US president for the potential crisis, and questions whether any nation will be able to escape the consequences. The article also mentions the ongoing conflicts in Gaza, Ukraine, and Yemen, and the potential for a global war. The author concludes that the situation is dire and that people should be prepared for the worst.
+Original language: es
+Publish date: March 29, 2025 03:58 AM
+Source:[El Heraldo de M�xico](https://heraldodemexico.com.mx/opinion/2025/3/29/hacia-otra-gran-depresion-687161.html)
+
+**THE GREAT DEPRESSION.**
+The Great Depression, which lasted from 1929 to the early 1940s, was the most severe economic depression of the 20th century. It began in the U.S.A. and spread globally, causing widespread suffering due to mass unemployment, poverty, and economic hardship. The stock market crash of October 1929 was a major cause, but other factors included bank failures, overproduction, and rampant speculation. According to History seeker, 'The crash, however, was just one reason among a great many others.' The collapse of thousands of banks and resulting loss of savings, as well as the production of more goods than the market could consume, further exacerbated the crisis.
+Original language: en
+Publish date: March 08, 2025 05:43 PM
+Source:[Medium.com](https://medium.com/@muhammadwaqar_74629/the-great-depression-50a7cf4b2692)
+
+**Experts: In 10 Years' Time, Things on Earth Will Be Worse**
+According to the Atlantic Council's Global Foresight report, hundreds of experts surveyed believe that the world will be in a worse state in 2035. The report cites concerns over an increasing number of nuclear weapons, ongoing world conflicts, and the 'chances of democratic depression' worldwide. As Axios reports, only a small minority of the over 350 international experts surveyed think that democracy will improve in the next decade. The experts' outlook is bleak, with many anticipating a decline in global stability and security.
+Original language: en
+Publish date: February 13, 2025 08:40 PM
+Source:[Newser](https://www.newser.com/story/364235/experts-predictions-for-earth-in-2035-arent-great.html)
+
+**Why Jay Bhattacharya, Next Director of National Institutes Of Health, Opposed Covid Lockdowns**
+Jay Bhattacharya, a professor at Stanford University School of Medicine and a senior fellow at the Stanford Institute for Economic Policy Research, has been nominated to serve as the director of the National Institutes of Health. Bhattacharya argues that the global economic depression caused by continued lockdowns will kill large numbers of people and calls for widespread seroprevalence tests to understand the severity of the disease. He believes that the epidemic is more widespread than believed, with many people having been infected with the virus and cleared it without being tested. Bhattacharya estimates that the actual number of people infected could be 50-85 times the number of confirmed cases, citing a study in Santa Clara that found a prevalence of 2-4% among 2 million people. He advocates for population-level seroprevalence testing to determine the true extent of the epidemic and to inform policy decisions. Bhattacharya also emphasizes the need to consider the economic costs of lockdowns, including the lives lost due to the global economic depression. He believes that making policy decisions in the midst of fear is a bad idea and that we need to 'shine the light of science on this' to make better decisions.
+Original language: en
+Publish date: November 27, 2024 12:27 PM
+Source:[indiaspend.com](https://www.indiaspend.com/indiaspend-interviews/why-jay-bhattacharya-next-director-of-national-institutes-of-health-opposed-covid-lockdowns-932617)
+
+
+
+
+
+Today is 2025-06-30
+
+Before answering you write:
+(a) The time left until the outcome to the question is known.
+(b) The status quo outcome if nothing changed.
+Units for answer: Not stated (please infer this)
+
+The outcome can not be lower than True.
+The outcome can not be higher than True.
+
+Formatting Instructions:
+- Please notice the units requested (e.g. whether you represent a number as 1,000,000 or 1 million).
+- Never use scientific notation.
+- Always start with a smaller number (more negative if negative) and then increase from there
+
+Before answering you write:
+(a) The time left until the outcome to the question is known.
+(b) The outcome if nothing changed.
+(c) The outcome if the current trend continued.
+(d) The expectations of experts and markets.
+(e) A brief description of an unexpected scenario that results in a low outcome.
+(f) A brief description of an unexpected scenario that results in a high outcome.
+
+You remind yourself that good forecasters are humble and set wide 90/10 confidence intervals to account for unknown unknowns.
+
+The last thing you write is your final answer as this sequence of percentile levels in percent and values as floating point numbers without currency symbols, commas or spelled out numbers like "trillion", just the raw complete number:
+"
+Percentile 10: XX
+Percentile 20: XX
+Percentile 40: XX
+Percentile 60: XX
+Percentile 80: XX
+Percentile 90: XX
+"
+Each line of the final answer MUST START with the word "Percentile".  For example if you have "10: 201" instead of "Percentile 10: 201", that is wrong.

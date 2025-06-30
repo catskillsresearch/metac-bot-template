@@ -1,7 +1,7 @@
-def forecast_question_in_model(id, model):
+def forecast_question_in_model(id, model, use_saved = True):
     fn = f'forecast_{model}/{id}.md'
     import os
-    if os.path.exists(fn):
+    if os.path.exists(fn) and use_saved:
         #print('model', model, 'id', id, 'seconds', 0)
         return
     from load_saved_questions import load_saved_questions
@@ -35,6 +35,7 @@ def forecast_question_in_model(id, model):
     end_time = time.time()
     dt = end_time - start_time
     print('model', model, 'id', id, 'seconds', dt)
+    return df
 
 if __name__=="__main__":
     import sys
