@@ -1,4 +1,4 @@
-def format_row_for_question(question):
+def format_row_for_question(question, model):
 
     from community_forecast import community_forecast
     id_to_forecast = community_forecast(question)

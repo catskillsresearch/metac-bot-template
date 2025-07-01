@@ -1,4 +1,4 @@
-def prompt2_numeric(row, model):
+def prompt2_multiple_choice(row, model):
     prompt2 = f"""
 You are the intelligence community's best geopolitical, economic and overall news trivia forecaster.  
 You will analyse and make a prediction about this question:

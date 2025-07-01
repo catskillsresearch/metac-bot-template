@@ -1,3 +1,5 @@
+from extract_forecast import *
+
 def make_median_forecast(question_type, prompt2, model):
 
     from call_local_llm import call_local_llm
@@ -5,8 +7,7 @@ def make_median_forecast(question_type, prompt2, model):
     a_2 = call_local_llm(prompt2, model)
     a_3 = call_local_llm(prompt2, model)
     answers = [a_1, a_2, a_3]
-    
-    from extract_forecast import *
+ 
     if question_type == 'binary':
         forecasts = [extract_probability_from_response_as_percentage_not_decimal(x)/100.0 for x in answers]
         import numpy as np
@@ -22,7 +23,8 @@ def make_median_forecast(question_type, prompt2, model):
             raise "unknown question type"
 
         forecast = median_dictionaries(forecasts)
-        
+
+    from make_rationale import make_rationale
     rationale = make_rationale(forecast, answers, model)
     
     return forecast, rationale

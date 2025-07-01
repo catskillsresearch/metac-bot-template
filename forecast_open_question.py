@@ -1,15 +1,19 @@
-from prompt2 import prompt2
-
-def forecast_open_question(question, model, fdir)
+def forecast_open_question(question, model, fdir):
+    id = question.id_of_question
     qfn = f'{fdir}/{id}.json'
     import os
     if os.path.exists(qfn):
         return
         
-    print("forecasting", question.title, model)
-    id = question.id_of_question
-    row = format_row_for_question(question)
+    print("forecasting", question.question_text, model)
+
+    from format_row_for_question import format_row_for_question
+    row = format_row_for_question(question, model)
+    
+    from prompt2 import prompt2
     prompt2 = prompt2(row, model)
+
+    from make_median_forecast import make_median_forecast
     forecast, rationale = make_median_forecast(row.question_type, prompt2, model)
     
     row.forecast = rationale
