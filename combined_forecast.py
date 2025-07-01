@@ -9,7 +9,7 @@ from tqdm import tqdm
 def combined_forecast(question, iterations, model):
     print("###################################################################")
     print("Combined forecast for", question.id_of_question)
-    iterations = 5
+    iterations = 3
     forecasts = [call_local_llm(question.prompt, model) for _ in tqdm(range(iterations))]
     predictions = []
     for i, forecast in enumerate(forecasts):
