@@ -16,22 +16,19 @@ def forecast_open_question(question, model, fdir):
     from make_median_forecast import make_median_forecast
     forecast, rationale = make_median_forecast(row.question_type, prompt2, model)
     
-    row.forecast = rationale
-    row.prediction = forecast
+    row['forecast'] = rationale
+    row['prediction'] = forecast
 
     from error import error
-    row.error = error(row)
+    row['error'] = error(row)
 
     row.to_json(qfn, indent=4)
+    print("saved row to ", qfn)
 
-if __name__=="__main__":
-    
-    import joblib
-    qfn = 'open/3095.joblib'
-    question = joblib.load(qfn)
-
-    from ollama_models import ollama_models
-    models = ollama_models()
-    model = models[0]
-
-    forecast_open_question(question, model)
+    import json
+    with open(qfn, 'r') as f:
+        foo = json.load(f)
+    print("FORECAST = ", foo['forecast'])
+    print("PREDICTION = ", foo['prediction'])
+    print("CROWD = ", foo['crowd'])
+    print("ERROR = ", foo['crowd'])
