@@ -34,6 +34,6 @@ if __name__=="__main__":
     models = ollama_models()
     for model in models:
         print("MODEL", model)
-        result = call_local_llm("What will be the impact of BRICS expansion on USD dominance?")
+        result = call_local_llm("What will be the impact of BRICS expansion on USD dominance?", model)
         print(result)
         print("============================")

@@ -14,7 +14,8 @@ def forecast_open_question(question, model, fdir):
     prompt2 = prompt2(row, model)
 
     from make_median_forecast import make_median_forecast
-    forecast, rationale = make_median_forecast(row.question_type, prompt2, model)
+    options = eval(row.question_options) 
+    forecast, rationale = make_median_forecast(row.question_type, prompt2, model, options)
     
     row['forecast'] = rationale
     row['prediction'] = forecast
@@ -31,4 +32,4 @@ def forecast_open_question(question, model, fdir):
     print("FORECAST = ", foo['forecast'])
     print("PREDICTION = ", foo['prediction'])
     print("CROWD = ", foo['crowd'])
-    print("ERROR = ", foo['crowd'])
+    print("ERROR = ", foo['error'])

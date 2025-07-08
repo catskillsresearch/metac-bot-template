@@ -1,6 +1,6 @@
 from extract_forecast import *
 
-def make_median_forecast(question_type, prompt2, model):
+def make_median_forecast(question_type, prompt2, model, options):
 
     from call_local_llm import call_local_llm
     a_1 = call_local_llm(prompt2, model)
@@ -15,13 +15,11 @@ def make_median_forecast(question_type, prompt2, model):
     else:
         from median_dictionaries import median_dictionaries
         if question_type == 'multiple_choice':
-            forecasts = [generate_multiple_choice_forecast(options,extract_option_probabilities_from_response(x, options))
-                         for x in answers]
+            forecasts = [generate_multiple_choice_forecast(options,extract_option_probabilities_from_response(x, options)) for x in answers]
         elif question_type == 'numeric':
-            forecasts = [extract_percentile_numbers(x) for x in [answer_mistral, answer_mistral2, answer_mistral3]]
+            forecasts = [extract_percentile_numbers(x) for x in answers]
         else:
             raise "unknown question type"
-
         forecast = median_dictionaries(forecasts)
 
     from make_rationale import make_rationale
