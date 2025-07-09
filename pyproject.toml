@@ -21,6 +21,7 @@ fastapi = "^0.115.12"
 joblib = "^1.4.2"
 vulture = "^2.14"
 pytest = "^8.4.1"
+yfinance = "^0.2.65"
 
 [tool.poetry.group.dev.dependencies]
 # Jupyter and notebook tools
