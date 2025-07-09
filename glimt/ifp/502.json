@@ -1,0 +1,56 @@
+{
+    "id": 502,
+    "type": "bins",
+    "symbol": "Light_BelarusProtest",
+    "state": "active",
+    "dates": {
+        "startDay": 20250515,
+        "endDay": 20251230
+    },
+    "props": {
+        "title": "Will there be protests of political nature in Belarus during 2025, according to Carnegie Endowments Global Protest Tracker?",
+        "ai_title": "",
+        "shortTitle": "Protests in Belarus?",
+        "details": "<b>Background:</b> The ties between Russia and Belarus are strong and Belarus is an important partner for Russia. At the 2020 presidential election in Belarus, massive protests rocked the country. In 2022, a smaller number of individuals protested against the Russian war against Ukraine. Since then, there appears not to have been any protests in the country, not even in connection with the country\u2019s presidential election earlier this year. \n\n<p><b>Resolution:</b> The question will be settled based on the report in the <a href =\"https://carnegieendowment.org/features/global-protest-tracker?lang=en\">Carnegie Endowments Global Protest Tracker</a> the 31st of December 2025 at the latest. For the question to resolve as \u201dyes\u201d there has to be at least one report of a protest in Belarus where the motivation of the protest is stated as \u201dPolitical\u201d.",
+        "ai_details": "",
+        "shortDetails": "",
+        "displayOrder": 0,
+        "showcaseOrder": 0,
+        "position": "",
+        "insight": "",
+        "forHumans": true,
+        "forAI": false,
+        "hideAggrFcst": false,
+        "noNotifications": false,
+        "keywords": "",
+        "newsLangs": "",
+        "aggregator": "",
+        "aggrViewPop": "",
+        "rollingDelay": 0
+    },
+    "pixExt": "png",
+    "hasNewPosts": false,
+    "kind": "discrete",
+    "bins": [
+        {
+            "props": {
+                "title": "Yes",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "No",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        }
+    ]
+}

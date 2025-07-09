@@ -1,0 +1,76 @@
+{
+    "id": 501,
+    "type": "bins",
+    "symbol": "Light_GDPG20Q2_May25",
+    "state": "active",
+    "dates": {
+        "startDay": 20250513,
+        "endDay": 20250913
+    },
+    "props": {
+        "title": "What will the economic growth be in the G20 countries during the second quarter (Q2) 2025, compared with the quarter before, based on real GDP?",
+        "ai_title": "",
+        "shortTitle": "Economic growth in the G20-countries during Q2?",
+        "details": "<b>Background:</b> The Gross domestic product, GDP, considered a measure of economic growth. OECD, the Organisation for Economic Co-operation and Development, is one organisation presenting GDP data, for instance changes in GDP from quarter to quarter. During 2024, real GDP increased for the G20 countries each quarter, with 0.8%, 0.7%, 0.9% and finally 0.9% (see <a href = \"https://www.oecd.org/en/data/insights/statistical-releases/2025/03/g20-gdp-growth-fourth-quarter-2024.html\">here</a> for the Q4-report). Real GDP is GDP corrected for inflation.\n<p>\nIn this question, you could follow the reports from the different countries separately, for instance through <a href = \"https://data-explorer.oecd.org/vis?pg=0&bp=true&snb=42&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_NAMAIN1%40DF_QNA_EXPENDITURE_GROWTH_G20&df[ag]=OECD.SDD.NAD&df[vs]=&dq=Q..ARG%2BAUS%2BBRA%2BCAN%2BCHN%2BFRA%2BDEU%2BIND%2BIDN%2BITA%2BJPN%2BKOR%2BMEX%2BRUS%2BSAU%2BZAF%2BTUR%2BGBR%2BUSA%2BOECD%2BG20%2BG7%2BUSMCA%2BOECDE%2BEA20%2BEU27_2020..........&lom=LASTNPERIODS&lo=5&to[TIME_PERIOD]=false&tm=quarterly%20gdp\">OECD</a>. This way you will get more and evidence over time and you can adjust your forecast accordingly.\n\n<p><b>Resolution:</b>The question will be determined based on the OECD report expected on September 15.",
+        "ai_details": "",
+        "shortDetails": "",
+        "displayOrder": 0,
+        "showcaseOrder": 0,
+        "position": "",
+        "insight": "",
+        "forHumans": true,
+        "forAI": false,
+        "hideAggrFcst": false,
+        "noNotifications": false,
+        "keywords": "",
+        "newsLangs": "",
+        "aggregator": "",
+        "aggrViewPop": "",
+        "rollingDelay": 0
+    },
+    "pixExt": "png",
+    "hasNewPosts": true,
+    "kind": "range",
+    "bins": [
+        {
+            "props": {
+                "title": "Negative, below 0%",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "0% or higher, but below 0.5%",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "0.5% or higher, but below 1%",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "1% or higher",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        }
+    ]
+}

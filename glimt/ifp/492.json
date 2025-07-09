@@ -1,0 +1,55 @@
+{
+    "id": 492,
+    "type": "bins",
+    "symbol": "Light_TrumpNobel_25",
+    "state": "active",
+    "dates": {
+        "startDay": 20250326,
+        "endDay": 20251009
+    },
+    "props": {
+        "title": "In 2025, will Donald Trump win the Nobel Peace Prize?",
+        "ai_title": "",
+        "shortTitle": "Trump to win the 2025 Nobel Peace Prize?",
+        "details": "<b>Resolution</b>: According to the award announced by the Norwegian Nobel Committee. \n<p>\n<b>Background:</b>\nThe laureate of the 2025 Nobel Peace Prize is scheduled to be announced on October 10. Learn about the <a target=_new href=\"https://www.nobelprize.org/nomination/peace/\">nomination and selection process</a> for the Nobel Peace Prize.\n<p>\nThis question was created in collaboration with Glimt and the <a target=_new href=\"http://predict.hypermind.com\">Hypermind prediction market</a>.",
+        "ai_details": "",
+        "shortDetails": "",
+        "displayOrder": 0,
+        "showcaseOrder": 0,
+        "position": "",
+        "insight": "",
+        "forHumans": true,
+        "forAI": false,
+        "hideAggrFcst": false,
+        "keywords": "",
+        "newsLangs": "",
+        "aggregator": "",
+        "aggrViewPop": "",
+        "rollingDelay": 0
+    },
+    "pixExt": "png",
+    "hasNewPosts": true,
+    "kind": "discrete",
+    "bins": [
+        {
+            "props": {
+                "title": "Yes",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "No",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        }
+    ]
+}

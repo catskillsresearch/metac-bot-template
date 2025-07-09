@@ -1,0 +1,67 @@
+{
+    "id": 476,
+    "type": "bins",
+    "symbol": "Pol_RUSSIA_BASES_Jan_25",
+    "state": "active",
+    "dates": {
+        "startDay": 20250115,
+        "endDay": 20251229,
+        "scoringStartDay": 20250116,
+        "scoringEndDay": 20251229
+    },
+    "props": {
+        "title": "When will Syria's new government terminate the agreements with Russia to use Syrian territory for military bases?",
+        "ai_title": "",
+        "shortTitle": "Will Russia withdraw from Syria?",
+        "details": "Vladimir Putin supported Bashar al-Assad during the civil war in Syria, and since the end of September 2015, there has been a large Russian military contingent in the country. At the beginning of 2024, its number, according to indirect evidence, was about 7,500 personnel. The two largest Russian military facilities in Syria are the naval base in Tartus and the Hhmeymim air force base about 20 km southeast of Latakia. The press secretary of the Russian president, Dmitry Peskov, said that Moscow will discuss their fate with the new authorities in Damascus.\n\n<p><b>Resolution</b><p> \n\nThis question will be resolved after either (i) credible news sources announce the cancellation of both the Tartus 49-year lease and the Hhmeymim 49-year lease or (ii) December 31 has passed without reports of both agreements being cancelled.\n\n<p><b>Update Jan. 27</b><p> \n\nWe have made a slight adjustment to the wording of this question to clarify that there are, in fact, two agreements that govern Russian use of bases in Syria: one for Tartus and one for Hmeymim. For this question to close before December 31, both agreements need to be terminated. Sorry for any inconvenience and please update your forecast if this affects your previous assessment!",
+        "ai_details": "",
+        "shortDetails": "",
+        "displayOrder": 0,
+        "showcaseOrder": 0,
+        "position": "",
+        "insight": "",
+        "forHumans": true,
+        "forAI": false,
+        "hideAggrFcst": false,
+        "keywords": "",
+        "newsLangs": "",
+        "aggregator": "",
+        "aggrViewPop": "",
+        "rollingDelay": 0
+    },
+    "pixExt": "png",
+    "hasNewPosts": true,
+    "kind": "range",
+    "bins": [
+        {
+            "props": {
+                "title": "In the First Half of 2025",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "In the Second Half of 2025",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "Maybe later",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        }
+    ]
+}

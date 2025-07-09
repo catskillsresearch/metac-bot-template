@@ -1,0 +1,55 @@
+{
+    "id": 498,
+    "type": "bins",
+    "symbol": "Light_US_SouthKorea_Apr_25",
+    "state": "active",
+    "dates": {
+        "startDay": 20250428,
+        "endDay": 20251230
+    },
+    "props": {
+        "title": "Will the US make a decision during 2025 to withdraw their troops from South Korea?",
+        "ai_title": "",
+        "shortTitle": "American troops out of South Korea?",
+        "details": "<b>Background:</b> The US currently has close to 30 000 military personell stationed in South Korea. These troops are a part of the US extended deterrence. It appears as if the US increasingly consider the troops as a means for negotiation in the relations with South Korea, see for example <a href = \"https://www.reuters.com/world/whats-table-us-south-korea-trade-talks-2025-04-24/\">Reuters</a>. <p><b>Resolution:</b> The question concerns a decision made at 31 December 2025 at the latest. The decision should concern all US troops in South Korea. The resolution is based on credible news sources.",
+        "ai_details": "",
+        "shortDetails": "",
+        "displayOrder": 0,
+        "showcaseOrder": 0,
+        "position": "",
+        "insight": "",
+        "forHumans": true,
+        "forAI": false,
+        "hideAggrFcst": false,
+        "keywords": "",
+        "newsLangs": "",
+        "aggregator": "",
+        "aggrViewPop": "",
+        "rollingDelay": 0
+    },
+    "pixExt": "png",
+    "hasNewPosts": true,
+    "kind": "discrete",
+    "bins": [
+        {
+            "props": {
+                "title": "Yes",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "No",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        }
+    ]
+}

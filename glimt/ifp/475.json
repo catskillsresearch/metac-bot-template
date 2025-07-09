@@ -1,0 +1,97 @@
+{
+    "id": 475,
+    "type": "bins",
+    "symbol": "Eco_RUSSIA_FUND_Jan_25",
+    "state": "active",
+    "dates": {
+        "startDay": 20250116,
+        "endDay": 20250930,
+        "scoringStartDay": 20250116,
+        "scoringEndDay": 20250930
+    },
+    "props": {
+        "title": "What will be the volume of the liquid part of the National Wealth Fund of Russia as of October 1, 2025",
+        "ai_title": "",
+        "shortTitle": "Russia to run out of cash by October?",
+        "details": "To cover military expenses related to the aggression against Ukraine, Russia is actively using its national financial reserves, in particular the National Wealth Fund. Since February 2022, Russia has used more than half of its liquid part. According to the Russian Ministry of Finance, as of October 1, 2024, the volume of the liquid part of the National Wealth Fund was about $57 billion. According to the estimates of the Central Bank of Russia, under certain conditions there is a risk of its liquid part being exhausted as early as 2025.\n\n<p><b>Resolution</b><p> \n\nThis question will be resolved after October 1 based on reports from the Russian government and credible news sources.",
+        "ai_details": "",
+        "shortDetails": "",
+        "displayOrder": 0,
+        "showcaseOrder": 0,
+        "position": "",
+        "insight": "",
+        "forHumans": true,
+        "forAI": false,
+        "hideAggrFcst": false,
+        "keywords": "",
+        "newsLangs": "",
+        "aggregator": "",
+        "aggrViewPop": "",
+        "rollingDelay": 0
+    },
+    "pixExt": "png",
+    "hasNewPosts": true,
+    "kind": "range",
+    "bins": [
+        {
+            "props": {
+                "title": "Less than $10 billion",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "$10-20 billion",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "$20-35 billion",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "$35-50 billion ",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "$50-60 billion ",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "More than $60 billion",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        }
+    ]
+}

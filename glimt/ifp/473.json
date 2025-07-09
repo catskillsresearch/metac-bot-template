@@ -1,0 +1,85 @@
+{
+    "id": 473,
+    "type": "bins",
+    "symbol": "War_DONBAS_Jan_25",
+    "state": "active",
+    "dates": {
+        "startDay": 20250114,
+        "endDay": 20250831
+    },
+    "props": {
+        "title": "What proportion of the Donetsk region will Russia control on September 1, 2025?",
+        "ai_title": "",
+        "shortTitle": "Percentage of Donbas controlled by Russia by fall?",
+        "details": "Since the start of the full-scale invasion in February 2022, Russia has declared that one of the objectives of the war against Ukraine is the complete capture of the Donetsk and Luhansk regions, most of the territory of which Russia has controlled since 2014. Russia managed to capture the Luhansk region almost completely during the first weeks of the 2022 invasion. In the Donetsk region Russia has had much less success. After almost three years of war the fighting is still taking place only tens of kilometers from the demarcation line of the 2014 Minsk agreements. As of early 2025, Russia controls about 65% of the territory of the Donetsk region, but continues to focus its main efforts there.\n\n<p><b>Resolution</b><p> \n\nThis question will be resolved after September 1 based on Ukrainian goverment estimates.",
+        "ai_details": "",
+        "shortDetails": "",
+        "displayOrder": 0,
+        "showcaseOrder": 0,
+        "position": "",
+        "insight": "",
+        "forHumans": true,
+        "forAI": false,
+        "hideAggrFcst": false,
+        "keywords": "",
+        "newsLangs": "",
+        "aggregator": "",
+        "aggrViewPop": "",
+        "rollingDelay": 0
+    },
+    "pixExt": "png",
+    "hasNewPosts": true,
+    "kind": "range",
+    "bins": [
+        {
+            "props": {
+                "title": "Less than 40%",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "40-60%",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "60-80%",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "80-90%",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "90-100%",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        }
+    ]
+}

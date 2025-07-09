@@ -1,0 +1,55 @@
+{
+    "id": 471,
+    "type": "bins",
+    "symbol": "Eco_NORDSTREAM_Jan_25",
+    "state": "active",
+    "dates": {
+        "startDay": 20250114,
+        "endDay": 20251230
+    },
+    "props": {
+        "title": "Will Russian gas supplies resume through the Nord Stream pipelines in 2025?",
+        "ai_title": "",
+        "shortTitle": "Will Nord Stream be back in 2025?",
+        "details": "On January 1, 2025, Ukraine stopped the transit of Russian natural gas to Europe through the Ukrainian gas pipeline. Despite criticism of this decision by the Prime Minister of Slovakia and the shutdown of heating and hot water in Transnistria, the European Commission and some other EU leaders generally supported the cessation of gas transit after the expiration of the five-year agreement between Ukraine and Russia. However, there has recently been speculation \u2014 by, among others, Serbian President Vu\u010di\u0107 \u2014 that by the end of 2025, Russian gas will be supplied to Europe through the Nord Stream gas pipelines.\n\n<p><b>Resolution</b><p> \n\nThis question will resolve as Yes if by any point during 2025 natural gas is delivered via any of the pipelines NS1 A, NS1 B, NS2 A or NS2 B to Lubmin, Germany, as reported by AFP, AP or Reuters.\n",
+        "ai_details": "",
+        "shortDetails": "",
+        "displayOrder": 0,
+        "showcaseOrder": 0,
+        "position": "",
+        "insight": "",
+        "forHumans": true,
+        "forAI": false,
+        "hideAggrFcst": false,
+        "keywords": "",
+        "newsLangs": "",
+        "aggregator": "",
+        "aggrViewPop": "",
+        "rollingDelay": 0
+    },
+    "pixExt": "png",
+    "hasNewPosts": true,
+    "kind": "discrete",
+    "bins": [
+        {
+            "props": {
+                "title": "Yes",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        },
+        {
+            "props": {
+                "title": "No",
+                "ai_title": "",
+                "order": 0,
+                "color": ""
+            },
+            "isActive": true,
+            "endDay": 0
+        }
+    ]
+}
