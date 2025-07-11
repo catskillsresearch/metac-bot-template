@@ -1,5 +1,7 @@
 import os, time
 from asknews_sdk import AskNewsSDK
+import load_secrets
+load_secrets.load_secrets()
 
 def call_asknews(question: str, live: bool) -> str:
     """
