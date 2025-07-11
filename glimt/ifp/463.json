@@ -28,7 +28,7 @@
         "rollingDelay": 0
     },
     "pixExt": "png",
-    "hasNewPosts": false,
+    "hasNewPosts": true,
     "kind": "range",
     "bins": [
         {
