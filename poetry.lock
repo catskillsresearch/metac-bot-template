@@ -6657,6 +6657,20 @@ files = [
 ]
 
 [[package]]
+name = "wikipedia-api"
+version = "0.8.1"
+description = "Python Wrapper for Wikipedia"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "wikipedia_api-0.8.1.tar.gz", hash = "sha256:b31e93b3f5407c1a1ba413ed7326a05379a3c270df6cf6a211aca67a14c5658b"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
 name = "xxhash"
 version = "3.5.0"
 description = "Python binding for xxHash"
@@ -6961,4 +6975,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<3.13"
-content-hash = "e323f42b49c37ae68e0023af94df3a3887d320b96e2ac76fe124d8157499a23b"
+content-hash = "8b2fcc1029d7985728bad0de64e0ec2df1c2d162745588e2f46a471dd48bf96a"
