@@ -1,0 +1,1357 @@
+
+You are a talented, experienced and confident superforecaster. You are asked a question:
+
+```question
+By what date will Russia regain control of the Kursk region?
+```
+
+You are given details on how to interpret the terms of the question:
+
+```details
+<b>Resolution:</b>
+The question will resolve in relation to the date when full Russian control is established of all parts of Kursk region, as reported by official sources and confirmed by <a target=_new href="https://liveuamap.com/">Livemap</a>.
+
+<b>Background:</b> On August 6, 2024, the Ukrainian Armed Forces crossed the Russian-Ukrainian border near the city of Sudzha. Ukrainian troops began advancing deep into Russian territory and within a few days controlled several hundred square kilometers. This is the first Ukrainian combined-arms operation inside Russian territorysince the beginning of the full-scale Russian invasion of Ukraine. Putin has repeatedly publicly claimed to have regained control, but by the end of 2024, Ukrainian troops controlled about 460 km² of territory in the Kursk region. It is important for Putin's image to regain control before the celebration of the 80th anniversary of the USSR's victory in World War II.
+
+
+```
+
+Your assistant has research related news and Wikipedia articles and prepared summaries of each one.
+Use the data in these research summaries to analyse the question:
+
+```research_summary_0
+Here is a structured summary of the relevant information from the provided content that would help in assessing the question about Russia regaining control of the Kursk region:
+
+---
+
+### Key Information for Analysis:
+1. **Date of Report**: July 9, 2025
+   - The content describes the situation as of this date, which is more than a year after the Ukrainian incursion into the Kursk region (August 2024).
+
+2. **Current Control of Kursk Region**:
+   - Ukrainian forces have successfully defended their positions and maintained control over territories in the Kursk region as of July 9, 2025.
+   - No indication of Russian regaining full control by this date.
+
+3. **Military Situation**:
+   - Russian forces launched a massive attack on Ukrainian territory on July 9, 2025, but Ukrainian forces repelled the attacks and inflicted significant losses on Russian forces.
+   - Ukrainian military success includes destroying Russian equipment (tanks, artillery, drones, etc.) and maintaining control in the Kursk region.
+
+4. **Political Context**:
+   - US President Donald Trump criticized Putin for "telling a lot of lies" about the war, suggesting ongoing tensions and potential international pressure on Russia.
+   - No mention of Russian claims of regaining control of the Kursk region by this date.
+
+5. **Relevance to the Question**:
+   - As of July 9, 2025, Ukrainian forces still control parts of the Kursk region, and there is no evidence of Russian regaining full control by this date.
+   - The content does not provide a specific timeline for when Russia might regain control, but it suggests that Ukrainian forces remain in control as of mid-2025.
+
+---
+
+### Notes for Further Analysis:
+- The content does not resolve the question of when Russia will regain control of the Kursk region, but it confirms that as of July 2025, Ukrainian forces still hold territory in the region.
+- Additional updates or reports beyond July 2025 would be needed to determine the exact date when Russia regains full control.
+- The political and military dynamics described (e.g., Ukrainian defenses, US support, Russian attacks) suggest that the situation remains fluid and uncertain.
+
+This summary can be used to track the status of the Kursk region and update the analysis as new information becomes available.
+```
+```research_summary_1
+Here is a structured summary of the key information from the provided content that is relevant to determining when Russia will regain control of the Kursk region:
+
+---
+
+### Key Points for Analysis:
+
+1. **Ukrainian Forces' Position and Strategy**:
+   - Ukrainian Armed Forces (VSU) are currently focused on restoring their positions in the Kursk and Belgorod regions.
+   - VSU Commander-in-Chief Alexander Syrskyi emphasized the need to prevent further Russian advances in the Pokrovsk and Novopavlovsk directions and to exit to the administrative borders of the Dnipropetrovsk region.
+   - No specific timeline or immediate plans for a counteroffensive in the Kursk region were mentioned.
+
+2. **Russian Military Objectives**:
+   - Russia is working on forming a security buffer zone in the Kursk, Bryansk, and Belgorod regions, as announced by President Vladimir Putin in late May 2024.
+   - The Russian army's advance in the Dnipropetrovsk region of Ukraine is part of this buffer zone strategy.
+
+3. **Current Status of the Kursk Region**:
+   - In August 2024, Ukrainian forces invaded the Kursk region with the goal of capturing the Kursk Nuclear Power Plant but failed to achieve this objective.
+   - On April 26, 2025, the Kursk region was declared fully liberated by Russian forces.
+   - The Chief of the General Staff of the Russian Armed Forces, Valery Gerasimov, reported that Ukraine had lost over 76,000 military personnel killed and wounded since the start of the invasion in the Kursk region.
+
+4. **Political and Symbolic Considerations**:
+   - The liberation of the Kursk region by April 26, 2025, aligns with the timing of the 80th anniversary of the USSR's victory in World War II, which is significant for Putin's image.
+
+---
+
+### Implications for the Resolution of the Question:
+- The Kursk region was declared fully liberated by Russian forces on April 26, 2025, according to official reports.
+- No indications of ongoing Ukrainian control or further advances into the Kursk region were mentioned in the provided content.
+- The focus of Ukrainian forces appears to be on defense and preventing further Russian advances rather than regaining control of the Kursk region.
+
+---
+
+### Conclusion:
+Based on the information provided, the Kursk region was fully liberated by Russian forces on April 26, 2025. There is no evidence to suggest that Ukraine has regained control of any part of the region after this date. Therefore, the resolution of the question would be that Russia has already regained control of the Kursk region by April 26, 2025.
+```
+```research_summary_2
+Here is a structured summary of the key information from the provided content that would be relevant to assessing when Russia might regain control of the Kursk region:
+
+---
+
+### Key Events and Claims:
+1. **Ukrainian Presence in Kursk and Belgorod Regions**:
+   - Ukrainian forces have restored and maintained their positions in the Kursk and Belgorod regions, according to the Ukrainian General Staff.
+   - The Ukrainian General Staff's head, Syrskyi, stated that Ukrainian forces will continue to pin down a significant Russian military presence at the border, implying no immediate withdrawal.
+
+2. **Russian Claims vs. Ukrainian Denials**:
+   - **Russian General Staff's Claim (April 26, 2024)**: Ukrainian forces were "liberated" from the last populated area in Kursk Oblast, Gorbal.
+   - **Ukrainian General Staff's Response**: Denied this claim, stating that the operation in Kursk Oblast is ongoing.
+
+3. **Ukrainian Advances (May 2024)**:
+   - **May 7, 2024**: Ukrainian forces crossed the Ukrainian-Russian border again and advanced into the settlement of Teytkino in Kursk Oblast (per ISW).
+   - **May 18, 2024**: Ukrainian General Staff reiterated that Ukrainian forces continue to maintain their presence in the region.
+   - **May 21, 2024**: Ukrainian General Staff stated that Russian claims of completing hostilities in Kursk Oblast do not reflect the real situation.
+
+### Implications for the Question:
+- **No Clear Timeline for Russian Regain of Control**: The Ukrainian General Staff's statements suggest that Ukrainian forces are actively holding territory and denying Russian claims of full control.
+- **Ongoing Operations**: The denial of Russian claims and the mention of ongoing operations imply that Ukrainian forces are not planning to withdraw soon.
+- **Potential for Further Advances**: The ISW report of Ukrainian forces advancing into Teytkino suggests that the situation is fluid and could shift further.
+
+### Additional Context to Consider:
+- **Political Pressure on Putin**: The importance of regaining control before the 80th anniversary of the USSR's victory in World War II (May 9, 2025) may influence Russian military strategy.
+- **Verification Sources**: The resolution of the question depends on official sources and confirmation by Livemap, which would need to be monitored for updates.
+
+---
+
+This summary provides a clear, chronological overview of the situation as of May 2024, highlighting the lack of a definitive timeline for Russian regain of control and the ongoing nature of Ukrainian operations in the region.
+```
+```research_summary_3
+To analyze the question of when Russia will regain control of the Kursk region, I would consider the following key points from the provided content:
+
+1. **Current Ukrainian Control**: The Ukrainian military has regained and is holding positions in the Kursk region, as reported by General Alexander Syrskyi, the commander-in-chief of the Ukrainian Armed Forces.
+
+2. **Recent Battles**: There were 188 battles with Russian forces in the past day, indicating ongoing conflict and resistance from Ukrainian troops.
+
+3. **Russian Losses**: Russian forces reportedly lost over 1,000 soldiers in these battles, suggesting significant challenges for Russia in regaining control.
+
+4. **Ukrainian Strategy**: The Ukrainian military is focusing on active defense, preventing Russian advances into Ukrainian territory, and restoring positions in the Kursk and Belgorod regions.
+
+5. **Drone Capabilities**: Ukraine is developing its drone capabilities, which could impact the dynamics of the conflict in the border areas.
+
+6. **Russian Preparations**: The 'Atesh' partisan movement reported that Russian forces are accumulating equipment, ammunition, and personnel in Melitopol and its surroundings, indicating potential preparations for a counteroffensive.
+
+These points highlight the current state of the conflict in the Kursk region, the challenges faced by Russian forces, and the strategies employed by Ukrainian troops. This information is crucial for assessing the timeline for Russia to regain control of the region.
+```
+```research_summary_4
+To analyze the question of when Russia will regain control of the Kursk region, I would consider the following key points extracted from the provided content:
+
+1. **Current Control**: As of the report, Ukrainian forces continue to hold territories in the Kursk and Belgorod regions of Russia. This indicates that Russia has not yet regained full control of the Kursk region.
+
+2. **Military Actions**: Ukrainian military units are actively defending and pushing back Russian forces. General Alexander Syrskyi reported that Ukrainian defenders have "neutralized" a significant number of Russian troops in the border area.
+
+3. **Strategic Directions**: The report mentions active defense and prevention of Russian advances in several directions, including Pokrovsk, Lyman, Novopavlovsk, and North Sloboda. This suggests ongoing resistance and potential for further Ukrainian gains or defense of current positions.
+
+4. **Political Statements**: President Zelensky has publicly stated that Ukraine will not allow Russia to feel at ease in the Belgorod and Kursk territories. This indicates a commitment to maintaining control over these regions.
+
+5. **Contextual Background**: The original question mentions that Putin aims to regain control before the 80th anniversary of the USSR's victory in World War II (likely referring to May 9, 2025). However, the current report does not provide a timeline for when Russia might regain control.
+
+### Summary for Analysis:
+- **Ukrainian Control**: Persistent and active.
+- **Russian Control**: Not yet re-established.
+- **Future Outlook**: No clear indication of a timeline for Russian regain of control based on this report.
+
+This information suggests that as of the report's date, Russia has not regained control of the Kursk region, and Ukrainian forces are actively maintaining their positions. Further updates or reports would be needed to assess any changes in control.
+```
+```research_summary_5
+To analyze the question of when Russia will regain control of the Kursk region, I would consider the following key points from the provided content:
+
+1. **Current Control**: As of the report, Ukrainian forces continue to maintain control over territories in the Kursk and Belgorod regions. This indicates that Russia has not yet regained full control of the Kursk region.
+
+2. **Military Actions**: General Alexander Syrskyi, the commander-in-chief of the Ukrainian Armed Forces, reports that Ukrainian forces are actively defending their positions and preventing Russian advances. This suggests ongoing resistance and the potential for prolonged control by Ukrainian forces.
+
+3. **Strategic Importance**: Syrskyi emphasizes the importance of maintaining control over these territories, indicating that Ukraine is committed to holding these areas. This could imply that regaining control by Russia may not be imminent.
+
+4. **Operational Details**: The report mentions that Ukrainian units are 'pinning down' a significant number of Russian forces in the border areas. This could slow down any potential Russian counteroffensive aimed at regaining control.
+
+5. **Geographical Focus**: The actions are specifically mentioned in the Pokrovsky and Novopavlivsky directions, which are not directly in the Kursk region but indicate broader defensive strategies that could impact the Kursk region.
+
+6. **Defensive Success**: The Ukrainian forces are reported to be exiting to the administrative borders of the Dnipropetrovsk region, which might suggest a consolidation of defensive positions rather than an immediate push to expand control further into Russian territory.
+
+Given these points, the information suggests that as of the report, Ukraine maintains control over parts of the Kursk region, and there is no immediate indication of Russia regaining full control. The situation appears fluid, with Ukrainian forces actively defending their positions. This context would be crucial in assessing the timeline for Russia regaining control of the Kursk region.
+```
+```research_summary_6
+Here is a structured summary of the relevant information from the provided content that would help in assessing the question about Russia regaining control of the Kursk region:
+
+---
+
+### Key Points for Analysis:
+
+1. **Ukrainian Control and Offensive**:
+   - Ukrainian forces conducted a surprise offensive in August 2024, capturing hundreds of square kilometers in the Kursk region.
+   - This was the first Ukrainian combined-arms operation inside Russian territory since the start of the full-scale invasion.
+
+2. **Russian Claims of Recapture**:
+   - Moscow announced the recapture of the territory in April 2025 (note: the article states "April" but the context suggests it might be a typo or error, as the offensive occurred in August 2024).
+   - The recapture claim was made after months of fighting, but the article does not specify the exact date or extent of control.
+
+3. **Ongoing Attacks and Instability**:
+   - As of the article's publication (no specific date provided, but likely after April 2025), Ukrainian drone attacks continue in the Kursk region, including in the city of Kursk and Rylsk.
+   - The attacks have caused civilian casualties and injuries, indicating that the region is still contested or vulnerable to Ukrainian incursions.
+
+4. **Political Context**:
+   - The recapture of the Kursk region is significant for Putin's image, particularly ahead of the 80th anniversary of the USSR's victory in World War II (May 9, 2025).
+   - The article mentions US President Donald Trump's announcement of sending more defensive arms to Ukraine, which could impact the balance of power in the region.
+
+5. **Unresolved Questions**:
+   - The article does not confirm whether full Russian control has been established or if Ukrainian forces still hold parts of the region.
+   - The timeline of events is unclear, particularly the exact date of the recapture claim and whether it has been verified by independent sources like Livemap.
+
+---
+
+### Summary for Decision-Making:
+- Russia claims to have recaptured the Kursk region by April 2025, but ongoing Ukrainian attacks suggest the situation may still be unstable.
+- The political significance of the recapture (e.g., ahead of the WWII anniversary) may influence the timing of official announcements.
+- Further verification from official sources and Livemap is needed to confirm the extent of Russian control.
+
+This information can be used to assess whether the recapture claim is credible and whether full control has been achieved by the specified date.
+```
+```research_summary_7
+Here is a structured summary of the information that would be relevant to assessing when Russia might regain control of the Kursk region:
+
+### Key Points from the Provided Content:
+
+1. **Ukrainian Military Objectives**:
+   - Ukrainian forces are actively working to maintain and regain positions in the Kursk and Belgorod regions of Russia.
+   - They are focusing on preventing Russian advances into their defense lines, particularly in the Pokrovsk and Novopavlivsk directions.
+
+2. **Russian Military Activity**:
+   - Russian forces have been advancing in the Donetsk region (settlements of Komar, Yablunivka, and Torets) and near Zaporizhzhia.
+   - There is a reported massive Russian attack on the Pokrovsk direction, with the enemy attempting to reach the administrative borders of the Dnipropetrovsk region.
+   - Russians are using the "gray zone" to accumulate assault groups, and there is record intensity of attacks on the Zaporizhzhia direction.
+
+3. **Ukrainian Defense and Countermeasures**:
+   - Ukrainian Ground Forces Commander-in-Chief Alexander Syrskyi emphasizes active defense and maintaining control over the captured territories.
+   - Development and improvement of Ukraine's unmanned aerial vehicle (UAV) component are ongoing, including drone interceptors and DeepStrike operations on Russian territory.
+
+4. **Strategic Context**:
+   - The Ukrainian military is committed to pinning down significant Russian forces at the border, suggesting a prolonged defensive effort.
+   - The situation in the Kursk region remains fluid, with Ukrainian forces actively resisting Russian attempts to regain control.
+
+### Relevant Considerations for the Question:
+- **Current Control**: Ukrainian forces are actively defending and regaining positions in the Kursk region, indicating that Russian control is not yet fully established.
+- **Russian Advances**: While Russia is making progress in other regions (Donetsk, Zaporizhzhia), the situation in Kursk remains contested.
+- **Ukrainian Defense Capabilities**: The development of UAVs and other defensive measures suggests Ukraine is preparing for a prolonged conflict, which could delay Russian control.
+- **Strategic Importance**: The Kursk region's significance to Putin's image and the upcoming 80th anniversary of the USSR's victory in World War II may influence the timing of any Russian efforts to regain control.
+
+This information suggests that as of the date of the report (July 7, 2024), Russia has not yet regained full control of the Kursk region, and Ukrainian forces are actively resisting. The timeline for Russian control will depend on the outcome of ongoing military operations and defensive strategies.
+```
+```research_summary_8
+To analyze the question of when Russia will regain control of the Kursk region, I would consider the following key points extracted from the provided content:
+
+1. **Ukrainian Objectives**:
+   - Ukraine aims to maintain control over territories in the Kursk and Belgorod regions of Russia.
+   - The Ukrainian military is actively working to restore and hold positions in these regions.
+
+2. **Military Strategy**:
+   - The Ukrainian Armed Forces are focusing on pinning down a significant Russian military grouping in the border area.
+   - This suggests ongoing resistance and potential for prolonged conflict in the region.
+
+3. **Russian Challenges**:
+   - The Ukrainian military is also working to prevent Russian advances into deeper Ukrainian territory, indicating a multi-front strategy.
+   - This could divert Russian resources and complicate efforts to regain control of the Kursk region.
+
+4. **Leadership Statements**:
+   - Alexander Syrskyi, Commander-in-Chief of the Armed Forces of Ukraine, has publicly stated the intention to maintain control over the occupied territories.
+   - This underscores the Ukrainian commitment to holding the region, which could delay Russian efforts to regain control.
+
+5. **Geopolitical Context**:
+   - The timing of regaining control is significant for Putin, particularly before the 80th anniversary of the USSR's victory in World War II.
+   - However, the Ukrainian military's stated objectives and strategies suggest that this goal may not be easily or quickly achieved.
+
+### Summary for Analysis:
+- **Ukrainian Control**: Ukraine is actively working to maintain control over parts of the Kursk region.
+- **Military Resistance**: Ongoing Ukrainian operations are likely to prolong the conflict in the region.
+- **Russian Priorities**: Putin's desire to regain control before key dates may influence military decisions, but Ukrainian resistance could hinder this.
+
+These points provide a framework for assessing the likelihood and timeline of Russia regaining full control of the Kursk region.
+```
+```research_summary_9
+Here’s a structured summary of the provided content, highlighting key information relevant to assessing when Russia might regain control of the Kursk region:
+
+---
+
+### **Key Points for Analysis: Russian Control of Kursk Region**
+
+1. **Ukrainian Military Operations in Kursk and Belgorod**
+   - Ukrainian forces have reinforced positions and taken control of parts of the Kursk and Belgorod regions.
+   - These regions are strategic locations north of Ukraine, with recent intense artillery exchanges.
+
+2. **Escalation and Recent Attacks**
+   - Ukrainian drones targeted the Krasnozavodsk chemical plant in Moscow (530 km from the border), a critical facility for Russia’s defense industry.
+   - The Russian Defense Ministry denied the attack, claiming 91 Ukrainian drones were intercepted or destroyed, including eight over Moscow.
+   - Ukrainian officials have not commented, and independent verification is pending.
+
+3. **Strategic Implications**
+   - The Kursk and Belgorod regions are key battlegrounds in the eastern front of the war.
+   - Control of these areas affects Russia’s ability to defend its territory and supply lines.
+
+4. **Background Context (from original question)**
+   - Since August 6, 2024, Ukrainian forces have controlled ~460 km² of the Kursk region.
+   - Putin aims to regain control before the 80th anniversary of the USSR’s WWII victory (May 9, 2025).
+
+---
+
+### **Relevance to the Question**
+- The Ukrainian military’s reinforcement of positions and control over parts of Kursk suggests ongoing resistance, delaying Russian efforts to reclaim the region.
+- The attack on the Krasnozavodsk plant indicates Ukraine’s capability to strike deep into Russian territory, potentially complicating Russia’s focus on Kursk.
+- Putin’s political motivation to regain control before May 2025 may drive accelerated military efforts, but current Ukrainian control and escalation suggest delays.
+
+This summary provides a clear, actionable overview of factors influencing the timeline for Russian control of Kursk.
+```
+```research_summary_10
+Here is a structured summary of the key information from the provided content that would be relevant to determining when Russia might regain full control of the Kursk region:
+
+---
+
+### **Key Events and Developments in the Kursk Region Conflict**
+
+1. **Initial Ukrainian Incursion (August 2024)**
+   - Ukrainian forces crossed into the Kursk region near Sudzha on August 6, 2024.
+   - They captured approximately **1,300 square kilometers** and **100 settlements**.
+   - The incursion was described as a distraction to draw Russian forces away from the eastern front.
+
+2. **Russian Response and Reinforcements**
+   - Russia initially struggled to repel the Ukrainian advance but later received reinforcements from **North Korea** (10,000–12,000 troops).
+   - North Korean soldiers reportedly participated in combat but suffered heavy casualties due to inexperience and unfamiliar terrain.
+
+3. **Territorial Control as of Late 2024**
+   - By the end of 2024, Ukraine still controlled **about 460 km²** of territory in the Kursk region.
+   - Russia reclaimed **two-thirds** of the initially captured territory, leaving Ukraine with a **pocket around Sudzha**.
+
+4. **Russian Claims vs. Ukrainian Denials**
+   - **Putin visited the region**, claiming Russian forces had driven Ukrainian troops out.
+   - **Ukraine denied this**, stating its troops were still present and operations continued.
+   - In **April 2025**, Ukraine’s military General Staff dismissed Moscow’s claim of full control, asserting that operations in the region were ongoing.
+
+5. **Strategic Pressure on Ukrainian Forces (March 2025)**
+   - Russian forces intensified efforts to **cut off the corridor** between Sudzha and Ukraine’s Sumy region.
+   - Analysts (e.g., Michael Kofman) noted that the **"Kursk pocket" became increasingly unsustainable** for Ukraine.
+
+6. **Political and Symbolic Importance**
+   - Putin has a strong incentive to regain control before the **80th anniversary of the USSR’s victory in WWII** (likely in May 2025).
+
+---
+
+### **Factors to Consider for Resolution**
+- **Current Territorial Control**: Ukraine still holds a significant area around Sudzha.
+- **Russian Military Pressure**: Russia is actively trying to encircle and eliminate the Ukrainian pocket.
+- **Ukrainian Denials**: Ukraine insists it still controls parts of the region, contradicting Russian claims.
+- **Symbolic Deadlines**: The WWII anniversary may accelerate Russian efforts to declare full control.
+
+Would you like additional details on any of these points?
+```
+```research_summary_11
+Here is a structured summary of the key information from the provided content that would be relevant to determining the resolution of the question:
+
+---
+
+### **Key Events and Developments**
+
+1. **Initial Ukrainian Incursion (August 2024)**
+   - Ukrainian forces crossed the Russian border near Sudzha and advanced deep into the Kursk region.
+   - Ukrainian troops controlled approximately 460 km² of territory in the Kursk region by the end of 2024.
+
+2. **Russian Response**
+   - Russia initially relied on air power and helicopters due to a lack of ground forces.
+   - Russia gathered reinforcements from across the country, including some without combat experience.
+   - Russian forces focused on blocking Ukrainian advances and preventing further incursions.
+
+3. **Turning Point (March 2025)**
+   - Russian forces attempted to cut off the corridor between Sudzha and the Ukrainian region of Sumy.
+   - Artillery and drones targeted supply routes, making the situation unsustainable for Ukraine.
+   - A daring Russian attack involved 600 soldiers crawling through a 15-kilometer gas pipeline to surprise Ukrainian forces near Sudzha.
+
+4. **US Involvement and Ceasefire**
+   - The US stopped supplying arms and sharing intelligence with Ukraine after a meeting between Zelenskyy and President Donald Trump on February 28, 2025.
+   - After negotiations, Ukraine accepted a 30-day ceasefire proposal on March 11, 2025, leading to the resumption of US assistance.
+
+5. **Current Claims and Disputes**
+   - Russia claims to have fully recovered the territory of Kursk.
+   - Ukraine denies this claim, stating that fighting continues.
+   - The General Staff of the Ukrainian Armed Forces dismissed the Russian claim of full control.
+
+6. **Strategic Implications**
+   - A confirmed Russian victory in Kursk would weaken Ukraine's position in peace negotiations.
+   - Russia controls approximately one-fifth of Ukraine's territory.
+   - Russia is considering the creation of a 'security zone' on the border, potentially leading to an incursion into the Sumy region.
+
+7. **Military Control and Territory**
+   - Russian armed forces claim to control more than 90 square kilometers of the Sumy border region.
+
+---
+
+### **Relevant Dates and Timeline**
+
+- **August 2024**: Ukrainian incursion into Kursk region.
+- **End of 2024**: Ukrainian control of approximately 460 km² in Kursk region.
+- **February 28, 2025**: US stops supplying arms and intelligence to Ukraine.
+- **March 2025**: Russian forces cut off supply routes and launch a surprise attack.
+- **March 11, 2025**: Ukraine accepts a 30-day ceasefire proposal.
+- **Recent**: Russia claims full control of Kursk; Ukraine disputes the claim.
+
+---
+
+### **Unresolved Questions**
+
+1. **Verification of Russian Claims**
+   - Are there independent sources or confirmations that Russia has regained full control of the Kursk region?
+   - What is the current status of the territory as reported by official sources and confirmed by Livemap?
+
+2. **Impact of Ceasefire**
+   - How has the 30-day ceasefire affected the control of the Kursk region?
+   - Are there any updates on the ceasefire's extension or violation?
+
+3. **Future Russian Advances**
+   - What are the current plans for the 'security zone' on the border with Sumy?
+   - Are there any indications of further Russian incursions into Ukrainian territory?
+
+---
+
+This structured summary provides a clear overview of the events, claims, and unresolved questions that would be crucial in determining the resolution of the question regarding the date by which Russia regains control of the Kursk region.
+```
+```research_summary_12
+Here’s a structured summary of the key information from the provided content that would be relevant to determining when Russia will regain full control of the Kursk region:
+
+---
+
+### **Key Events and Claims:**
+1. **Russian Claim of Regained Control (Date Unspecified):**
+   - Russian Defense Minister Valery Gerasimov announced that the town of Gornal, the "last town" in the Kursk region, was "liberated" from Ukrainian forces.
+   - President Vladimir Putin declared that the "Kiev regime's adventure has failed completely" and that Russia has "complete control" of the region.
+
+2. **Ukrainian Denial:**
+   - Ukrainian authorities dismissed the Russian claims as "false information" and "propaganda."
+   - The Ukrainian army stated that battles in the region "continue" and denied any encirclement threat to their forces.
+
+3. **North Korean Involvement:**
+   - Gerasimov praised North Korean soldiers for their role in retaking Kursk, citing their "professionalism" and "bravery."
+   - The cooperation is framed as part of a "Strategic Partnership Agreement" between Moscow and Pyongyang.
+
+4. **Historical Context:**
+   - In August 2024, Ukrainian forces launched a surprise attack in the Kursk region, occupying over 1,000 square kilometers.
+   - Putin had previously stated he would not negotiate an end to the conflict unless Ukrainian forces were "completely expelled" from the Kursk region.
+
+5. **Recent Developments:**
+   - In recent weeks, Ukrainian forces have reportedly been retreating from the front line in the Kursk sector.
+   - The Russian army has been regaining control of areas of land.
+
+---
+
+### **Unresolved Questions:**
+1. **Verification of Russian Claims:**
+   - Are there independent sources (e.g., Livemap) confirming the Russian claim of full control?
+   - What is the current status of the town of Gornal and other contested areas?
+
+2. **Ukrainian Retreat:**
+   - How much territory has Ukraine retreated from, and what areas remain under Ukrainian control?
+   - Are the Ukrainian denials backed by evidence of ongoing resistance or counteroffensives?
+
+3. **Timeline of Events:**
+   - When exactly did Russia claim to have regained control? (The article does not specify a date.)
+   - What is the current frontline status as of the latest reports?
+
+4. **Political and Diplomatic Context:**
+   - How does the timing of this claim relate to the 80th anniversary of the USSR's victory in World War II (May 9, 2025)?
+   - Are there ongoing diplomatic efforts that could influence the situation?
+
+---
+
+### **Next Steps for Analysis:**
+1. **Cross-Referencing with Livemap:**
+   - Check Livemap for the latest verified frontline positions in the Kursk region.
+   - Look for updates on the status of Gornal and other key locations.
+
+2. **Monitoring Ukrainian and Russian Statements:**
+   - Track official statements from both sides for any shifts in claims or battlefield developments.
+   - Assess whether Ukrainian retreats are strategic or forced.
+
+3. **Assessing North Korean Involvement:**
+   - Investigate the extent of North Korean military support and its impact on the battlefield.
+
+4. **Geopolitical Factors:**
+   - Consider how external pressures (e.g., Western aid to Ukraine, sanctions on Russia) might affect the timeline for regaining control.
+
+---
+
+This structured summary provides a clear framework for evaluating the question of when Russia will regain full control of the Kursk region. Further updates from official sources and Livemap would be necessary to confirm the current status.
+```
+```research_summary_13
+Here is a structured summary of the key information from the provided content that is relevant to determining the date by which Russia regained control of the Kursk region:
+
+---
+
+### **Key Events and Dates**
+1. **Ukrainian Incursion into Kursk Region**
+   - **Date:** August 2024
+   - **Details:** Ukrainian forces crossed the border near Sudzha and advanced deep into Russian territory, controlling several hundred square kilometers.
+
+2. **Russian Counteroffensive**
+   - **Date:** Early March 2025 (implied, as the counterattack began after the Ukrainian incursion in August 2024)
+   - **Details:** Moscow launched a large-scale counterattack, gradually recapturing areas, including the city of Sudzha.
+
+3. **Final Liberation of Kursk Region**
+   - **Date:** April 26, 2025
+   - **Details:**
+     - Russian Defense Minister Valery Gerasimov reported to President Putin that all Ukrainian-controlled settlements, including the last village of Gornal, had been liberated.
+     - Kremlin spokesperson Dmitry Peskov confirmed the recapture.
+     - North Korean troops were acknowledged as providing "considerable" support, with around 11,000 soldiers reportedly involved.
+
+4. **Ukrainian Positions Before Final Liberation**
+   - **Date:** Until April 25, 2025
+   - **Details:** Ukrainian forces still held limited positions in the villages of Oleshnya and Gomal near the border, according to the DeepState monitoring service.
+
+### **Additional Context**
+- **Putin's Motivations:** The recapture was framed as a strategic victory, aligning with Putin's goal of regaining control before significant anniversaries (e.g., the 80th anniversary of the USSR's victory in WWII).
+- **Ukrainian Response:** Ukraine has not commented on the Russian claims, and the information cannot be independently verified.
+- **Kremlin's Assessment:** The Ukrainian operation was labeled a "failed adventure," with emphasis on Kiev's losses in equipment and personnel.
+
+### **Resolution of the Question**
+- **Date of Full Russian Control:** April 26, 2025 (as reported by official Russian sources and acknowledged by the Kremlin).
+
+---
+
+This structured summary provides a clear timeline and key details to assess the resolution of the question.
+```
+```research_summary_14
+Here is a structured summary of the key information from the provided content that would be relevant for assessing the resolution of the question:
+
+---
+
+### Key Events and Claims:
+1. **Russian Claim of Regaining Control**:
+   - The Russian military claims to have regained full control of the Kursk region.
+   - Russian President Vladimir Putin stated that the "Kiev regime's adventure has completely failed."
+
+2. **Ukrainian Denial**:
+   - Ukrainian General Staff Chief Valeri Guerásimov denies Russian claims, asserting that Ukrainian forces have recaptured the region.
+   - Guerásimov specifically mentioned the liberation of the village of Gornal, described as the "last city in the Kursk region" under Ukrainian control.
+
+3. **Timeline of Events**:
+   - **August 2024**: Ukrainian forces launched an offensive into the Kursk region, capturing over 1,000 square kilometers of territory.
+   - **March 2025**: Russian forces reportedly managed to retake control of the area.
+
+4. **External Involvement**:
+   - Guerásimov praised North Korean soldiers for their role in supporting Russian troops in recapturing the Kursk region.
+
+5. **Geopolitical Context**:
+   - The claims come amid a meeting between Ukrainian President Volodymyr Zelensky and US President Donald Trump to discuss peace negotiations.
+
+---
+
+### Unresolved Questions:
+1. **Verification of Control**:
+   - The claims are conflicting, with no independent verification (e.g., from Livemap or other official sources) provided in the content.
+   - The status of Gornal (or Gornal) as the "last city" suggests potential lingering Ukrainian presence or contested areas.
+
+2. **Date of Regained Control**:
+   - The content does not specify the exact date when Russia allegedly regained control, only that it occurred by March 2025.
+
+3. **Full Control vs. Partial Control**:
+   - The term "full control" is used by Russia, but the Ukrainian denial implies that some areas may still be contested.
+
+---
+
+### Additional Context to Consider:
+- **Political Motivations**:
+  - Putin's interest in regaining control before the 80th anniversary of the USSR's victory in World War II (May 9, 2025) may influence claims.
+- **Military Dynamics**:
+  - The involvement of North Korean troops suggests a potential escalation or shift in the balance of power in the region.
+
+---
+
+This structured summary highlights the conflicting claims, timeline, and unresolved questions that would need to be addressed to determine the resolution of the original question. Independent verification from sources like Livemap would be essential to confirm the status of Russian control.
+```
+```research_summary_15
+Here’s a structured summary of the key information from the provided content that would be relevant to assessing when Russia might regain full control of the Kursk region:
+
+---
+
+### Key Points for Analysis:
+1. **Recent Russian Claim**:
+   - The Russian army claims to have retaken the city of Sudzha in the Kursk region, which was previously under Ukrainian control.
+   - This claim was made just 48 hours after a proposed ceasefire by Kiev and Washington.
+
+2. **Ukrainian Position**:
+   - Ukrainian forces appear to be in a difficult situation, having lost control of much of the 1,300 square kilometers of territory they had conquered seven months ago (since August 2024).
+   - The Ukrainian army may be facing a potential physical blockade by Russian forces.
+
+3. **Russian Threats and Proposals**:
+   - Russian President Putin has threatened Ukrainian forces in the region, stating that if a blockade occurs, Ukrainian troops will face two options: surrender or die.
+   - Putin suggested a 30-day ceasefire, implying that Russia may seek to consolidate gains before any pause in hostilities.
+
+4. **Strategic Context**:
+   - The situation on the ground is described as crucial for resolving the conflict, according to Putin.
+   - Regaining control of the Kursk region is important for Putin’s image, particularly before the 80th anniversary of the USSR’s victory in World War II (May 9, 2025).
+
+5. **Timeline of Events**:
+   - Ukrainian forces crossed into the Kursk region on August 6, 2024.
+   - By the end of 2024, Ukrainian troops controlled about 460 km² of territory in the region.
+   - The current report suggests rapid Russian advances, with Sudzha retaken and broader territorial losses for Ukraine.
+
+---
+
+### Implications for the Resolution Date:
+- The Russian claim of retaking Sudzha suggests significant progress, but the situation remains fluid.
+- If the blockade threat materializes, Ukrainian forces could be forced to withdraw or surrender, accelerating Russian control.
+- The proposed 30-day ceasefire could indicate Russia’s intent to secure further gains before any pause.
+- The timeline for full Russian control depends on whether Ukraine can hold remaining positions or if Russian advances continue unabated.
+
+This information would need to be cross-referenced with official sources and Livemap for confirmation, but it provides a snapshot of the current dynamics.
+```
+```research_summary_16
+Here is a structured summary of the key information from the provided content that would be relevant to assessing when Russia might regain control of the Kursk region:
+
+---
+
+### Key Events and Claims:
+1. **Russian Claim of Regaining Sudzha**:
+   - **Date**: Not explicitly stated, but the article refers to events following the Ukrainian incursion in August 2024.
+   - **Claim**: Russian defense ministry states that "units of the North military group liberated the settlements of Melovoy, Podol, and Sudzha."
+   - **Confirmation**: The Institute for the Study of War (ISW) confirms Russian forces have seized Sudzha and are advancing toward southern Zaoleshenka.
+
+2. **Ukrainian Control Before Russian Offensive**:
+   - Ukrainian forces controlled about 460 km² of territory in the Kursk region by the end of 2024.
+   - Sudzha is the largest town in the region, making its recapture significant.
+
+3. **Political Context**:
+   - **Putin's Stance**: President Putin has ordered troops to push out Ukrainian forces, claiming that "the Kursk region will be liberated fairly soon."
+   - **US Involvement**: A US delegation led by Steve Witkoff is in Moscow to discuss a ceasefire proposal. US President Trump has warned Putin of more sanctions if Russia does not agree to the ceasefire.
+
+### Factors to Consider:
+1. **Military Progress**:
+   - Russian forces appear to be making advances, but the timeline for full control of the Kursk region remains uncertain.
+   - The ISW's confirmation of Sudzha's recapture suggests momentum, but further verification (e.g., from Livemap) would be needed.
+
+2. **Political Pressure**:
+   - Putin's public statements and the US ceasefire proposal could influence the pace of military operations.
+   - The 80th anniversary of the USSR's victory in World War II (May 9, 2025) may be a symbolic deadline for Putin to regain control.
+
+3. **External Validation**:
+   - Official sources (e.g., Russian defense ministry) and independent confirmations (e.g., ISW) should be cross-referenced with Livemap for accuracy.
+
+### Open Questions:
+1. **Timeline for Full Control**:
+   - How soon after Sudzha's recapture will Russian forces secure the remaining 460 km²?
+   - Are there other key towns or strategic locations still under Ukrainian control?
+
+2. **Ceasefire Impact**:
+   - Will the US ceasefire proposal alter Russia's military strategy or timeline for regaining control?
+
+3. **Verification**:
+   - Are there additional sources (e.g., Livemap updates) that confirm the recapture of Sudzha and other settlements?
+
+---
+
+This structured summary provides a clear framework for evaluating the progress and potential timeline for Russia regaining full control of the Kursk region.
+```
+```research_summary_17
+Here’s a structured summary of the key information from the provided content that would be relevant to assessing when Russia will regain full control of the Kursk region:
+
+---
+
+### Key Information for Analysis:
+
+1. **Recent Military Development**:
+   - **Date of Event**: Not explicitly stated in the content, but the recapture of Sudzha is a recent development.
+   - **Location**: Sudzha, the first city in the Kursk region to fall to Ukrainian forces during their August 6, 2024, offensive.
+   - **Status**: Russian forces have "regained full control" of Sudzha, as reported by the Russian Defense Ministry.
+
+2. **Operational Context**:
+   - **Phase of Operation**: The Russian Defense Ministry states that the recapture of Sudzha marks the "final phase" of the operation to liberate the entire Kursk region from Ukrainian control.
+   - **Reporting Chain**: The update was reported to Russian President Vladimir Putin by the North Group of Troops Command, as relayed by Kremlin spokesperson Dmitry Peskov.
+
+3. **Strategic Significance**:
+   - **Symbolic Importance**: Sudzha was the first city lost to Ukrainian forces in the Kursk region, making its recapture a significant milestone.
+   - **Broader Implications**: The Kursk region is described as a "crucial area for future negotiations," suggesting its control could influence diplomatic or military outcomes.
+
+4. **Source of Information**:
+   - **Primary Source**: Russian Defense Ministry and Kremlin spokesperson Dmitry Peskov.
+   - **Reporting Outlet**: Interfax (a Russian news agency).
+
+5. **Unresolved Questions**:
+   - **Timeline for Full Control**: While Sudzha has been recaptured, the content does not specify a timeline for regaining control of the remaining Ukrainian-held territory in the Kursk region (reportedly ~460 km² as of late 2024).
+   - **Verification**: The claim of full control of Sudzha would need to be confirmed by independent sources (e.g., Livemap) to resolve the question definitively.
+
+---
+
+### Notes for Further Analysis:
+- The recapture of Sudzha is a positive development for Russia, but it does not necessarily indicate full control of the entire Kursk region.
+- The "final phase" claim by the Russian Defense Ministry should be treated with caution, as similar claims have been made in the past without immediate follow-through.
+- Monitoring subsequent reports (e.g., from Livemap or other independent sources) will be critical to verify the status of other areas in the region.
+
+This summary provides a clear, actionable basis for tracking progress toward the resolution of the question.
+```
+```research_summary_18
+Here is a structured summary of the key information from the provided content that is relevant to determining when Russia will regain full control of the Kursk region:
+
+### Key Points:
+1. **Russian Offensive and Objectives**:
+   - Russian President Vladimir Putin has ordered the "full liberation" of the Kursk region.
+   - Putin emphasized the need to "expel Ukrainian forces as soon as possible" and stated that he expects all combat tasks to be completed soon.
+
+2. **Russian Military Progress**:
+   - Russian forces have regained "over 1,100 square kilometers" of territory, equivalent to "86% of the occupied area."
+   - In the past five days alone, Russia has recaptured 24 towns and 259 square kilometers.
+   - Russian forces have "isolated" Ukrainian units in the region and captured 430 Ukrainian soldiers.
+
+3. **Ukrainian Position and Response**:
+   - Ukrainian military commander Oleksandr Syrskyi acknowledged the retreat of his forces under Russian pressure.
+   - Syrskyi stated that Ukrainian units will conduct maneuvers towards more suitable positions if necessary, indicating a strategic repositioning rather than a complete withdrawal.
+   - Battles are ongoing in the outskirts of the city of Sudzha, which Syrskyi described as "almost destroyed."
+   - Ukrainian forces plan to maintain defensive lines in the Kursk region "as long as necessary."
+
+4. **Context and Background**:
+   - The Kursk region was attacked by Ukrainian forces in August 2024, leading to Kiev's control of hundreds of square kilometers.
+   - Russia began a campaign to retake the region in recent months.
+   - The ongoing war has seen intense battlefield fluctuations, with Kiev intensifying operations within Russian territory since mid-2024.
+
+### Relevant Dates and Events:
+- **August 2024**: Ukrainian forces crossed the border and took control of parts of the Kursk region.
+- **Recent Months**: Russia began a campaign to retake the region.
+- **Past Five Days**: Significant Russian advances, including the recapture of 24 towns and 259 square kilometers.
+
+### Factors to Consider:
+- **Russian Military Momentum**: The rapid advance and recent gains suggest that Russia is making significant progress.
+- **Ukrainian Defense**: The Ukrainian military is repositioning but has not indicated a complete withdrawal, suggesting continued resistance.
+- **Strategic Importance**: The Kursk region's recapture is a priority for Putin, potentially influencing the pace of operations.
+- **External Pressures**: Western warnings of further escalation could impact the timeline of Russian operations.
+
+This structured summary provides a clear overview of the current situation, which can be used to assess the likelihood and timeline of Russia regaining full control of the Kursk region.
+```
+```research_summary_19
+### Key Considerations for Evaluating the August 2024 Kursk Oblast Incursion
+
+#### **1. Strategic Objectives and Outcomes**
+- **Ukraine's Goals**: The incursion aimed to disrupt Russian military operations, divert forces from other fronts (e.g., Donbas), and demonstrate Ukraine's ability to strike deep into Russian territory.
+- **Russian Response**: Russia mobilized significant forces, including conscripts and North Korean troops, to repel the incursion. By April 2025, Russia claimed full recapture of Kursk Oblast.
+- **Impact on Negotiations**: The incursion disrupted planned indirect talks in Qatar, halting discussions on mutual strikes on energy infrastructure.
+
+#### **2. Military Casualties and Losses**
+- **Russia**:
+  - **Civilians**: 791 harmed (288 killed) by April 2025.
+  - **Military**: Heavy losses, including:
+    - 17,819 casualties (6,662 killed, 10,446 wounded, 711 captured) by October 2024.
+    - North Korean troops suffered significant losses (e.g., 1,000 casualties in one week in December 2024).
+    - Russian 810th Marine Brigade "eliminated" in some attacks.
+- **Ukraine**:
+  - **Military**: 2,307 dead, 7,690 missing, 307 captured (as of June 2025).
+  - **Equipment**: Heavy losses in vehicles and drones.
+
+#### **3. Humanitarian and Political Consequences**
+- **Civilians**: Over 20,000 lived under Ukrainian occupation; reports of forced relocations and looting.
+- **Conscripts**: Russia deployed young conscripts, violating Putin’s promises, leading to public backlash.
+- **Elections**: Russian elections in Kursk Oblast were postponed due to the incursion.
+
+#### **4. Long-Term Implications**
+- **Ukrainian Capabilities**: Demonstrated ability to conduct deep strikes but faced challenges in sustaining gains.
+- **Russian Resilience**: Russia adapted by deploying unconventional forces (e.g., North Koreans) and conscripts.
+- **Geopolitical Effects**: Strained diplomatic efforts and escalated tensions.
+
+#### **5. Key Questions to Consider**
+- **Was the incursion militarily successful?** (Short-term gains vs. long-term sustainability)
+- **How did it affect broader war dynamics?** (Force redistribution, morale, negotiations)
+- **What were the humanitarian costs?** (Civilian casualties, forced relocations)
+- **How did Russia respond?** (Mobilization, tactics, political fallout)
+
+This summary provides a structured overview of the incursion’s strategic, military, and humanitarian dimensions to inform decision-making.
+```
+```research_summary_20
+### Key Considerations for Evaluating the August 2024 Kursk Oblast Incursion
+
+#### **1. Strategic Objectives and Outcomes**
+- **Ukrainian Goals**: The incursion aimed to disrupt Russian military operations, divert forces from other fronts (e.g., Donbas), and demonstrate Ukraine’s ability to strike deep into Russian territory.
+- **Russian Response**: Russia mobilized reinforcements, including conscripts and North Korean troops, to counter the attack. The incursion reportedly delayed or disrupted indirect peace talks in Qatar.
+
+#### **2. Military Casualties and Losses**
+- **Russian Casualties**:
+  - High losses among inexperienced conscripts and North Korean troops (e.g., 1,000 casualties in one week in December 2024).
+  - Heavy equipment losses, including helicopters and armored vehicles.
+  - Ukrainian claims of 17,819 Russian casualties (6,662 killed, 10,446 wounded, 711 captured) by October 2024.
+- **Ukrainian Casualties**:
+  - Reported losses of 2,307 dead, 7,690 missing, and 307 captured by June 2025.
+  - Heavy equipment write-offs compared to fewer Russian losses (per Forbes).
+
+#### **3. Humanitarian Impact**
+- **Civilians**:
+  - At least 288 civilians killed and 791 harmed in Kursk Oblast (per Russian governor).
+  - Reports of forced displacement and looting by Russian soldiers.
+- **Conscripts and Foreign Fighters**:
+  - Russian conscripts, North Korean troops, and Serbian volunteers suffered significant losses.
+  - Ukrainian claims of capturing North Korean soldiers and inflicting heavy casualties on Russian paratroopers.
+
+#### **4. Political and Diplomatic Consequences**
+- **Delayed Peace Talks**: The incursion disrupted indirect negotiations in Qatar, which could have addressed strikes on energy infrastructure.
+- **Russian Domestic Reactions**:
+  - Postponement of local elections in occupied areas.
+  - Public outcry over conscript deaths, leading to petitions and resignations (e.g., Kursk Oblast governor).
+
+#### **5. Long-Term Implications**
+- **Ukrainian Capabilities**: Demonstrated ability to conduct deep strikes but faced challenges in sustaining gains.
+- **Russian Adaptations**: Increased reliance on foreign fighters and conscripts, raising morale and logistical concerns.
+- **Geopolitical Shifts**: Potential impact on international support for Ukraine, especially from neutral or allied nations.
+
+### **Key Questions to Consider**
+1. **Was the incursion militarily successful?** (Short-term gains vs. long-term sustainability)
+2. **How did it affect Russian morale and political stability?** (Conscript deaths, public anger)
+3. **Did it achieve strategic objectives?** (Diverting forces, disrupting Russian operations)
+4. **What were the humanitarian costs?** (Civilian casualties, forced displacement)
+5. **How did it influence diplomatic efforts?** (Peace talks, international support)
+
+This summary provides a structured overview of the incursion’s military, political, and humanitarian dimensions to inform decision-making.
+```
+```research_summary_21
+Here’s a structured summary of key events and information from December 2024 in the Russo-Ukrainian War, organized for clarity:
+
+---
+
+### **Key Events and Developments**
+#### **Military Operations**
+1. **Russian Advances**:
+   - Russian forces claimed to capture multiple towns in Donetsk (e.g., Kurakhove, Ivanivka, Agronom) and Kursk (e.g., Lozova, Kruglenkoye, Novoivanovka).
+   - Ukrainian forces retook Kruglenkoye in Kursk Oblast.
+
+2. **Ukrainian Strikes**:
+   - Drones and missiles targeted Russian infrastructure:
+     - Oil refineries (Rostov, Oryol, Bryansk).
+     - Military facilities (command posts, drone factories, missile plants).
+   - Naval drones damaged Russian assets in Crimea (e.g., tugboat, Tor missile system).
+
+3. **Casualties**:
+   - North Korean forces reportedly suffered >3,000 casualties in Kursk.
+   - Ukrainian strikes killed Russian soldiers (e.g., 18 in Lgov, 9 in Oryol).
+
+4. **Cyberattacks**:
+   - Ukraine accused Russia of a massive cyberattack on government websites.
+
+#### **Political and Diplomatic**
+1. **Prisoner Exchange**:
+   - UAE-mediated swap: 189 Ukrainians released (per Zelenskyy); 150 exchanged for Russians (per Russia).
+
+2. **Aid Packages**:
+   - **Germany**: Leopard 1A5 tanks, Patriot systems, 155mm shells.
+   - **USA**: $2.5 billion military aid package.
+   - **Latvia**: Donated confiscated cars to Ukraine.
+
+3. **Appointments**:
+   - Zelenskyy named Olha Reshetylova as Ukraine’s first military ombudsman.
+
+#### **Humanitarian and Civilian Impact**
+1. **Casualties**:
+   - Civilian deaths in Kyiv, Kherson, Kryvyi Rih, and Oleshky (hospital strike).
+   - Drones hit residential areas in Kazan and Sochi.
+
+2. **Accidents**:
+   - Azerbaijan Airlines flight shot down in Grozny (38 dead).
+   - Drones crashed in Vladikavkaz (shopping mall fire).
+
+#### **Technological and Tactical**
+1. **Unmanned Systems**:
+   - Ukrainian 13th Khartiia Brigade used only robotic/unmanned equipment in an assault.
+   - Unmanned Systems Forces claimed to destroy a Russian Buk-M1-2.
+
+2. **Training**:
+   - Ukrainian pilots trained on French Mirage 2000-5Fs.
+
+---
+
+### **Key Questions to Consider**
+1. **Military Balance**:
+   - How do Russian territorial gains compare to Ukrainian strike capabilities?
+   - Impact of North Korean troop involvement on the frontlines.
+
+2. **International Support**:
+   - Effectiveness of Western aid packages (e.g., Germany’s Leopard tanks, USA’s $2.5B).
+   - Diplomatic efforts (e.g., UAE-mediated prisoner exchange).
+
+3. **Civilian and Humanitarian Costs**:
+   - Escalation in civilian casualties (e.g., hospital strikes, drone attacks).
+   - Accidental shoot-downs (e.g., Azerbaijan Airlines).
+
+4. **Technological Warfare**:
+   - Role of drones, cyberattacks, and unmanned systems in shaping the conflict.
+
+5. **Political Developments**:
+   - Implications of Zelenskyy’s appointments (e.g., military ombudsman).
+   - Long-term impact of prisoner exchanges on morale.
+
+---
+
+This summary highlights the multifaceted nature of the conflict, combining military, political, and humanitarian dimensions.
+```
+```research_summary_22
+Here’s a structured summary of key information from the timeline to help assess the situation in the Russian-Ukrainian war as of late August 2023:
+
+---
+
+### **Key Developments (22 August – 31 August 2023)**
+1. **Military Operations**
+   - **Ukrainian Advances**:
+     - Forces reportedly retaken Robotyne (Zaporizhzhia front) and advanced toward Novoprokopivka/Ocheretuvate.
+     - Gained 1 km in Bakhmut’s southern sector.
+   - **Russian Attacks**:
+     - Overnight strikes on Poltava (industrial facility), Kryvyi Rih, and Kyiv (debris killed 2).
+     - Claimed destruction of Ukrainian boats in Black Sea (up to 50 special forces).
+   - **Drone Warfare**:
+     - Ukraine launched large-scale drone attacks on western Russia (Pskov Airport hit, fuel depot in Kaluga, microelectronics factory in Bryansk).
+     - Russia shot down drones over Crimea, Belgorod, Bryansk, and Moscow Oblast.
+
+2. **Casualties & Losses**
+   - **Ukraine**:
+     - 3 Air Force pilots killed in mid-air collision (including Andrii Pilshchykov, F-16 advocate).
+     - 6 officers died in Mi-8 helicopter crash near Bakhmut.
+   - **Russia**:
+     - 4 Su-30s, 1 MiG-29 destroyed in Kursk airfield strike.
+     - Dozens of casualties in Crimea drone strike (126th Coastal Defence Brigade).
+
+3. **Political & Strategic Moves**
+   - **Ukraine**:
+     - Zelenskyy ordered investigation into conscription bribes; tightened medical exemption rules.
+     - Announced new weapon with 700 km range.
+     - Mandatory evacuation of children/parents from Zaporizhzhia frontline settlements.
+   - **Russia**:
+     - Putin ordered Wagner Group to swear allegiance to the state.
+     - Changed missile serial numbers to obscure stockpile counts.
+     - Early voting opened for occupied Donetsk/Zaporizhzhia elections (10 September).
+
+4. **International Reactions**
+   - **Sanctions**:
+     - U.S. sanctioned Russian-appointed officials, Artek "summer camp" in Crimea, and tobacco firms (Philip Morris, Japan Tobacco).
+   - **Diplomacy**:
+     - U.S. confirmed Russia-North Korea artillery deal.
+     - Pope Francis’ remarks on "Russian empire" sparked backlash from Ukraine/Lithuania.
+
+5. **Logistics & Aid**
+   - **Germany** delivered Leopard 1A5 tanks, radar, drones, and medical supplies.
+   - **Liberian-flagged ship** (Primus) left Odesa via Black Sea corridor.
+
+---
+
+### **Critical Factors to Consider**
+- **Ukrainian Momentum**: Advances in Zaporizhzhia/Bakhmut suggest potential for further gains, but Russian strikes on infrastructure (e.g., Poltava) may disrupt supply lines.
+- **Drone Warfare**: Ukraine’s deep strikes into Russia (e.g., Pskov) signal escalation; Russia’s air defenses remain strained.
+- **Conscription Issues**: Ukraine’s tightening of exemptions could boost manpower but risks public discontent.
+- **Russian Elections**: Occupied regions’ votes may signal long-term annexation plans.
+- **International Support**: Continued Western aid (e.g., Germany’s tanks) is vital; sanctions on Russian economy may weaken war effort.
+
+---
+
+This summary highlights the dynamic military, political, and logistical elements shaping the conflict. Would you like additional focus on any specific aspect (e.g., drone tactics, sanctions impact)?
+```
+```research_summary_23
+Here’s a structured summary of key information from the provided text to help evaluate the situation in Ukraine during late August 2022:
+
+---
+
+### **Key Events and Developments**
+1. **Military Strikes and Attacks**
+   - Ukraine claimed successful HIMARS strikes on Russian targets, including:
+     - A Wagner Group base in Popasna (Luhansk Oblast).
+     - The Hotel Donbas in Kadiivka (Luhansk Oblast), allegedly killing 200 Russian paratroopers (unconfirmed).
+     - Bridges and supply routes in Kherson Oblast, isolating Russian forces on the west bank of the Dnipro River.
+   - Russia conducted missile attacks on civilian targets:
+     - A residential building in Kharkiv (12 killed).
+     - A railway station in Chaplyne (25 killed).
+
+2. **Russian Mobilization and Troop Movements**
+   - Putin ordered the call-up of **137,000 soldiers** by year-end (draft or volunteers unclear).
+   - Russia moved its newly-formed **Third Army Corps** to the Ukrainian border.
+   - Wagner Group and regular Russian forces captured towns in Donetsk Oblast (e.g., Zaitseve, Dacha).
+
+3. **Humanitarian and Political Issues**
+   - **Filtration Camps**: Research identified **21 camps** in occupied Donetsk Oblast, used for detention, interrogation, and torture of civilians and POWs. Satellite images showed possible mass graves.
+   - **Nuclear Threats**: The Zaporizhzhia Nuclear Power Plant faced disruptions (reactors reconnected after fire damage to transmission lines). Ukraine distributed iodine tablets to nearby residents.
+   - **Cyberattacks**: Estonia faced a major cyberattack after removing a Soviet-era tank monument.
+
+4. **International Support for Ukraine**
+   - **Military Aid**:
+     - US announced a **$3 billion package** (NASAMS air defense systems, artillery, drones).
+     - UK provided **£54 million** (drones, anti-tank munitions).
+     - Canada allocated **$3.85 million** for training Ukrainian police/emergency services.
+   - **Diplomatic Efforts**:
+     - UN Secretary-General Guterres and Turkish President Erdoğan met with Zelenskyy to discuss grain exports, nuclear safety, and POW exchanges.
+
+5. **Propaganda and Espionage**
+   - **Darya Dugina’s Assassination**: A Russian propagandist was killed in a suspected car bomb attack near Moscow. Ukraine denied involvement.
+   - **German Spy Concerns**: Russian spies were reportedly monitoring training of Ukrainian soldiers on Western artillery systems.
+
+---
+
+### **Strategic Considerations**
+- **Ukrainian Advantages**:
+  - Effective use of HIMARS to disrupt Russian supply lines and command centers.
+  - International military aid (especially air defense systems) to counter Russian strikes.
+  - Exposure of Russian atrocities (e.g., filtration camps) to bolster global support.
+
+- **Russian Challenges**:
+  - Logistical difficulties due to damaged bridges and Ukrainian strikes in Crimea.
+  - Mobilization efforts may face low morale and resistance.
+  - Nuclear plant risks could escalate tensions.
+
+- **Neutral Factors**:
+  - Neither side likely to achieve a decisive victory in 2022 (per UK Military Intelligence).
+  - Prolonged war risks further civilian casualties and regional instability.
+
+---
+
+### **Questions to Consider**
+1. **Military**: How will Russian mobilization and troop movements impact the frontlines?
+2. **Humanitarian**: What are the implications of filtration camps and nuclear risks for civilians?
+3. **Diplomatic**: Can international aid and pressure force Russia to negotiate?
+4. **Espionage**: How might Russian intelligence operations affect Western support for Ukraine?
+
+This summary provides a balanced overview of the situation, highlighting key factors for decision-making.
+```
+```research_summary_24
+Here’s a structured summary of key events and information from the provided text, organized to help assess the situation in the Russo-Ukrainian War as of late March 2024:
+
+---
+
+### **Key Developments (March 2024)**
+1. **Military Operations**
+   - **Ukrainian Advances**:
+     - Repelled a major Russian armored assault near Avdiivka (largest since October 2023), destroying 12 tanks and 8 BMP/IFVs.
+     - Claimed strikes on Crimea, targeting Black Sea Fleet infrastructure (e.g., Ropucha-class landing ships, spy ship *Ivan Khurs*).
+   - **Russian Attacks**:
+     - Heavy drone/missile strikes on energy infrastructure (e.g., Lviv, Kryvyi Rih, Odesa ports).
+     - Focus on disrupting military equipment production/repair facilities.
+
+2. **Casualties & Humanitarian Impact**
+   - **Executions of POWs**: UN documented 32 Ukrainian POWs executed by Russia in 12 cases (Dec 2023–Feb 2024).
+   - **Civilian Casualties**: Multiple deaths in Belgorod, Kharkiv, Kherson, and Donetsk from shelling/drone strikes.
+   - **Evacuations**: 5,000 children evacuated from Belgorod due to Ukrainian attacks.
+
+3. **Political & Diplomatic Moves**
+   - **Ukraine**:
+     - Zelenskyy dismissed National Security Council head Oleksiy Danilov (replaced by Oleksandr Lytvynenko).
+     - Appointed Danilov as ambassador to Moldova.
+     - Added Transnistrian foreign minister to wanted list for border-related crimes.
+   - **Russia**:
+     - Patriarch Kirill declared the war a "Holy War."
+     - Russian Orthodox Church framed the conflict as a religious crusade.
+
+4. **Logistics & Supply**
+   - **Ukraine**:
+     - Czech Republic to deliver first batch of artillery shells in April.
+     - DTEK reported 80% loss of generating capacity after Russian strikes.
+   - **Russia**:
+     - Reduced rail traffic on Kerch Bridge due to Ukrainian attacks (4–5 trains/day).
+
+5. **International Support**
+   - **France**: Delivered 78 CAESAR artillery pieces; expediting Aster missile production.
+   - **Germany**: Sent armored vehicles, drones, and ammunition (e.g., 18,000 155-mm shells).
+   - **EU**: Pledged 500,000 shells by late March (down from 1 million).
+
+6. **Propaganda & Information Warfare**
+   - Russian opposition outlet *Mobilization News* shared a video of Storm-Z fighters from Kaluga Oblast, claiming only 38 of 230 survived combat.
+
+---
+
+### **Critical Questions to Consider**
+1. **Military Balance**:
+   - Can Ukraine sustain counteroffensives with current Western aid?
+   - How effective are Russian strikes on energy/military infrastructure?
+
+2. **Humanitarian Concerns**:
+   - Will escalating civilian casualties (e.g., Belgorod, Crimea) provoke international intervention?
+
+3. **Political Stability**:
+   - Implications of Zelenskyy’s leadership changes amid war.
+   - Russian Orthodox Church’s role in rallying domestic support.
+
+4. **Logistics & Supply Chains**:
+   - Will Ukraine’s shell shortages (EU’s reduced pledge) impact frontline operations?
+   - Can Russia maintain supply lines via Kerch Bridge?
+
+5. **International Dynamics**:
+   - Will France/Germany’s military aid accelerate Ukraine’s capabilities?
+   - How might UN reports on POW executions influence global opinion?
+
+---
+
+This summary highlights the multifaceted challenges and strategic considerations for both sides.
+```
+```research_summary_25
+Here’s a structured summary of key events and information from the provided text that would be relevant for assessing the situation in the Russo-Ukrainian War during December 2024:
+
+---
+
+### **Key Events and Developments (December 2024)**
+#### **Military Operations**
+1. **Russian Advances**:
+   - Russian forces claimed to capture multiple towns in Donetsk and Kursk oblasts, including Kurakhove, Ivanivka, Agronom, and Vozdvyzhenka.
+   - Ukrainian forces retook Kruglenkoye in Kursk Oblast.
+
+2. **Ukrainian Strikes**:
+   - Ukrainian drones and missiles targeted Russian infrastructure, including oil refineries (Rostov, Oryol), railway sections (Voronezh), and military facilities (command posts, drone factories).
+   - Naval drones damaged Russian assets in Crimea (e.g., Tor missile system, tugboat).
+
+3. **Casualties and Prisoner Exchanges**:
+   - North Korean forces reportedly suffered heavy casualties (3,000+ per Zelenskyy).
+   - A prisoner exchange mediated by the UAE released 189 Ukrainians for 150 Russians.
+
+4. **Cyber and Drone Attacks**:
+   - Russia conducted a cyberattack on Ukrainian government websites.
+   - Ukrainian drones struck residential buildings in Kazan and Sochi, and industrial sites in Tatarstan.
+
+#### **Political and Diplomatic Actions**
+1. **Military Aid**:
+   - Germany announced new aid, including Leopard 1A5 tanks and Patriot systems.
+   - Latvia transferred confiscated vehicles to Ukraine.
+   - U.S. pledged $2.5 billion in military aid.
+
+2. **Ukrainian Leadership**:
+   - Zelenskyy appointed Olha Reshetylova as Ukraine’s first military ombudsman.
+   - Ukraine charged Russian officials (e.g., Colonel-General Alexei Kim) for war crimes.
+
+3. **International Involvement**:
+   - South Korea reported North Korean casualties in Kursk.
+   - Azerbaijan Airlines plane shot down in Grozny (38 dead), blamed on Russian air defenses.
+
+#### **Humanitarian and Legal Issues**
+1. **War Crimes**:
+   - Ukrainian court sentenced a former police officer to 15 years for treason.
+   - Allegations of abuse by Ukrainian military officers (e.g., platoon commander Vladyslav Pastukh).
+
+2. **Civilian Impact**:
+   - Russian missile strikes killed civilians in Kyiv, Kherson, and Kryvyi Rih.
+   - Ukrainian drone strikes injured civilians in Oleshky (Kherson Oblast).
+
+---
+
+### **Key Considerations for Analysis**
+1. **Military Momentum**:
+   - Russian gains in Donetsk and Kursk, but Ukrainian counterstrikes on logistics and infrastructure.
+   - Effectiveness of Ukrainian drones and long-range strikes.
+
+2. **Foreign Support**:
+   - Western aid (U.S., Germany, Latvia) and North Korean involvement on the Russian side.
+   - Impact of prisoner exchanges and diplomatic mediation.
+
+3. **Humanitarian Concerns**:
+   - Civilian casualties and war crimes allegations.
+   - Cyberattacks and drone warfare escalating tensions.
+
+4. **Long-Term Implications**:
+   - Sustainability of Ukrainian resistance with continued foreign aid.
+   - Potential for further internationalization (e.g., North Korea, Azerbaijan).
+
+---
+
+This summary distills the most critical information for evaluating the conflict’s trajectory, military balance, and geopolitical dynamics in December 2024.
+```
+```research_summary_26
+Here’s a structured summary of key information from the timeline to help assess the situation:
+
+### **Key Events & Developments (25 August – 31 August 2023)**
+1. **Military Operations & Attacks**
+   - **Ukrainian Strikes in Russia**:
+     - Overnight drone attacks on **Pskov Airport** (destroyed 2 Il-76 transport planes, damaged 2 more).
+     - Attacks reported in **Bryansk, Kaluga, Moscow, Oryol, Ryazan, and Tula Oblasts**.
+     - Ukrainian officials claimed hits on a **fuel depot in Kaluga** and a **microelectronics factory in Bryansk**.
+   - **Russian Strikes in Ukraine**:
+     - Missile strike on **Hoholeve, Poltava Oblast** (4 killed, 5 injured).
+     - Attacks in **Kyiv, Kryvyi Rih, Donetsk, Kherson, and Sumy Oblasts**.
+     - Russia claimed destroying **4 Ukrainian boats** in the Black Sea.
+
+2. **Territorial Gains & Losses**
+   - **Ukrainian Advances**:
+     - Claimed retaking **Robotyne** in Zaporizhzhia Oblast.
+     - Advancing toward **Novoprokopivka and Ocheretuvate**.
+     - Gained **1 km²** south of Bakhmut.
+   - **Russian Claims**:
+     - Shot down drones over **Crimea, Belgorod, Bryansk, Tula, and Moscow Oblast**.
+
+3. **Casualties & Incidents**
+   - **Ukrainian Losses**:
+     - **3 Air Force pilots** killed in a mid-air collision (including **Andrii Pilshchykov**, a notable F-16 advocate).
+     - **6 officers** died in a helicopter crash near Bakhmut.
+   - **Russian Losses**:
+     - **4 Su-30 fighters and 1 MiG-29** destroyed in a drone attack on a **Kursk airfield**.
+     - **S-300 radar and 2 Pantsir systems** damaged in Kursk.
+
+4. **Political & Diplomatic Developments**
+   - **Ukraine**:
+     - **Zelenskyy announced an investigation** into bribes for medical exemptions from conscription.
+     - **New weapon** claimed to hit targets **700 km away**.
+   - **Russia**:
+     - **Putin ordered Wagner fighters to swear allegiance** to the Russian state.
+     - **Early voting opened** for local elections in occupied Donetsk/Zaporizhzhia Oblasts (10 September).
+   - **International**:
+     - **U.S. sanctioned Russian officials** involved in child deportations.
+     - **Germany delivered Leopard 1A5 tanks, drones, and ammunition**.
+     - **Pope Francis’ controversial remarks** on Russian youth sparked backlash from Ukraine/Lithuania.
+
+5. **Intelligence & Logistics**
+   - **Russia changed missile serial numbers** to obscure stockpile counts.
+   - **U.S. claimed Russia signed a deal with North Korea** for artillery ammunition.
+
+### **Key Takeaways for Decision-Making**
+- **Ukrainian Offensive Momentum**: Continued advances in Zaporizhzhia and Bakhmut, but at the cost of high-profile losses (pilots, officers).
+- **Russian Retaliation**: Heavy strikes on Ukrainian infrastructure and claims of destroying naval assets.
+- **Escalation in Deep Strikes**: Ukraine’s ability to hit **western Russia** (Pskov, Bryansk) suggests growing reach.
+- **Political Pressures**: Ukraine tightening conscription rules; Russia consolidating control in occupied regions.
+- **International Support**: Germany and the U.S. providing critical military aid; sanctions targeting Russian war economy.
+
+This summary highlights the **military, political, and strategic dynamics** shaping the conflict during this period. Would you like a deeper analysis on any specific aspect?
+```
+```research_summary_27
+Here’s a structured summary of key information from the timeline to help assess the situation:
+
+### **Key Events & Developments (25 August – 31 August 2023)**
+1. **Military Operations & Attacks**
+   - **Ukrainian Drone Strikes**:
+     - Multiple drone attacks on Russian airfields (e.g., Kursk, Pskov), destroying aircraft (Il-76 transports, Su-30s, MiG-29s).
+     - Targets included fuel depots, microelectronics factories, and military infrastructure.
+   - **Russian Missile Strikes**:
+     - Industrial facilities, residential areas, and military targets hit in Poltava, Kyiv, Donetsk, and Kherson Oblasts.
+     - Ukraine claimed to have shot down 43/44 missiles/drones in one attack.
+   - **Ground Advances**:
+     - Ukrainian forces reported retaking Robotyne and advancing near Bakhmut and Zaporizhzhia fronts.
+
+2. **Casualties & Losses**
+   - **Ukrainian**:
+     - 3 Air Force pilots killed in a mid-air collision.
+     - 6 officers died in a helicopter crash near Bakhmut.
+   - **Russian**:
+     - Dozens of casualties in a drone strike on a Black Sea Fleet brigade in Crimea.
+     - Aircraft and military equipment destroyed in drone attacks.
+
+3. **Political & Diplomatic Actions**
+   - **Ukraine**:
+     - Investigation into conscription dodging via bribes; tightened medical exemption criteria.
+     - Announced a new long-range weapon (700 km range).
+   - **Russia**:
+     - Ordered Wagner Group and paramilitaries to swear allegiance to the state.
+     - Changed missile serial numbers to obscure stockpile counts.
+   - **International**:
+     - U.S. sanctioned Russian entities (e.g., Artek camp) for child deportations.
+     - Germany delivered Leopard 1A5 tanks and other aid.
+     - Pope Francis’s remarks on "Russian empire" sparked backlash from Ukraine and Lithuania.
+
+4. **Strategic Implications**
+   - **Ukrainian Gains**:
+     - Successful drone warfare disrupting Russian logistics and airpower.
+     - Ground advances in Zaporizhzhia and Bakhmut sectors.
+   - **Russian Challenges**:
+     - Vulnerable airfields and supply lines.
+     - Escalating attacks on civilian infrastructure.
+
+5. **Humanitarian Concerns**
+   - Mandatory evacuations ordered in Zaporizhzhia Oblast due to fighting.
+   - 11 Ukrainian children returned from Russia via NGOs.
+
+### **Key Questions to Consider**
+- **Effectiveness of Ukrainian Drone Campaigns**: Are these attacks sustainable, and what is their long-term impact on Russian military capabilities?
+- **Russian Response**: Will Russia escalate missile strikes or deploy new tactics (e.g., more air defenses)?
+- **Conscription & Morale**: How will Ukraine’s crackdown on draft dodging affect troop numbers and public sentiment?
+- **International Support**: Will Western aid (e.g., F-16s, long-range weapons) arrive in time to shift the balance?
+
+This summary highlights the dynamic military, political, and humanitarian aspects of the conflict during this period.
+```
+```research_summary_28
+Here’s a structured summary of key information from the provided text that would be useful for evaluating the situation in the Russo-Ukrainian War (July 2024):
+
+---
+
+### **Key Events and Developments (July 2024)**
+1. **Military Operations**
+   - **Russian Advances**:
+     - Captured villages in Donetsk Oblast (e.g., Yasnobrodivka, Lozuvatske, Tymofiivka, Pivdenne).
+     - Near-encirclement of Ukrainian 31st Mechanized Brigade near Prohres (later broke out).
+   - **Ukrainian Counterattacks**:
+     - Repelled Russian assaults near Kurakhove (claimed 40+ Russian vehicles destroyed, 100+ casualties).
+     - Strikes on Russian airfields (Crimea, Murmansk, Engels, Dyagilevo) and oil depots (Kursk, Tuapse).
+   - **Drone Warfare**:
+     - Ukraine targeted Russian infrastructure (oil refineries, air bases, power stations).
+     - Russia intercepted drones over multiple oblasts (Belgorod, Kursk, Bryansk, etc.).
+
+2. **Casualties and Losses**
+   - **Russian**:
+     - A platoon commander claimed his brigade lost 12,000 personnel (200% of its strength).
+     - Ukrainian claims: 91% losses for a "division's worth" of Russian troops in Vovchansk.
+   - **Ukrainian**:
+     - Heavy losses reported (exact numbers not specified).
+     - Internal incident: Soldiers shot others in Kharkiv over "personal issues" (3 killed, 4 wounded).
+
+3. **Cyber and Sabotage Attacks**
+   - HUR (Ukrainian intelligence) targeted Russian banks, financial institutions, and military assets (e.g., helicopters in Moscow).
+   - Attack on Kuweires airbase in Syria (destroyed electronic warfare station).
+
+4. **International Support**
+   - **Military Aid**:
+     - Denmark and Netherlands pledged 14 Leopard 2A4 tanks.
+     - Ukraine received its first F-16 fighter jets.
+   - **Political Tensions**:
+     - EU stripped Hungary of hosting rights for a foreign ministers' meeting due to Orban’s ties with Putin.
+
+5. **Humanitarian and Diplomatic Issues**
+   - Russian car bombing in Moscow (FSB blamed Ukraine).
+   - Georgian National Legion members placed on a wanted list by Georgia.
+   - Mine Action FSD headquarters in Kharkiv struck by Russian missile.
+
+6. **Strategic Context**
+   - Russian troop presence in Zaporizhzhia Oblast: 90,000 (2,000 recent reinforcements).
+   - Ukrainian claims of Russian losses: 500,000–750,000 killed/wounded (Russian side); "very heavy" losses for Ukraine.
+
+---
+
+### **Key Questions to Consider**
+1. **Military Balance**:
+   - How sustainable are Russian advances given reported losses?
+   - Can Ukraine maintain counteroffensive capabilities with current aid?
+
+2. **Drone Warfare Impact**:
+   - Effectiveness of Ukrainian strikes on Russian logistics and airfields.
+   - Russian air defense capabilities against drone swarms.
+
+3. **International Dynamics**:
+   - Implications of Hungary’s isolation within the EU.
+   - Impact of F-16 deliveries on Ukraine’s air superiority.
+
+4. **Casualty Disparities**:
+   - Verification of claims (e.g., 200% brigade losses).
+   - Long-term implications of attrition for both sides.
+
+5. **Cyber and Sabotage**:
+   - Escalation risks from attacks on Russian infrastructure.
+   - Potential for further hybrid warfare tactics.
+
+---
+
+This summary distills the most relevant data points for assessing the war’s trajectory, military strategies, and geopolitical consequences.
+```
+
+For you to be marked Successful, you must output 3 things:
+
+1. Probabilities for the outcomes of the question.  
+The question has one of 4 outcomes namely  
+
+* O1. Before May 9, 2025
+* O2. May 9 - August 31, 2025
+* O3. September 1 - November 30, 2025
+* O4. Maybe later
+
+Each outcome Oi has a probability Pi where 0 <= Pi <= 1.
+We must have that P1+P2+P3+P4 = 1.0.
+Add some reasonable amount of randomness/noise to the estimation of the branches.
+The output is a Python list wrapped by a binProbs tag, in this format:
+```binProbs
+[P1,P2,P3,P4]
+```
+
+
+2. Reasons your probabilities might be right, wrapped in tag in this format:
+```rRight
+...reasons you might be right
+```
+
+3. Reasons your probabilities might be wrong, wrapped in tag in this format:
+```rWrong
+...reasons you might be wrong
+```

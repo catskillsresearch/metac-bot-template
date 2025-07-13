@@ -16,6 +16,8 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 print("done", datetime.datetime.now())
 
 def wiki_semantic_search(title_plus_criteria, k=10):
+    """Pull top 10 Wikipedia pages by semantic distance from IFP title+description"""
+    
     vec = model.encode([title_plus_criteria], convert_to_numpy=True).astype("float32")
     faiss.normalize_L2(vec)
     

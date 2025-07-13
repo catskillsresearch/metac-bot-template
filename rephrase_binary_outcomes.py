@@ -5,7 +5,8 @@ from is_binary import is_binary
 def rephrase_binary_outcomes(ifp):
     if not is_binary(ifp):
         return
-   
+    fdir = f'glimt/prompt/{ifp["id"]}'
+    os.makedirs(fdir, exist_ok = True)
     fn = f'glimt/prompt/{ifp["id"]}/rephrase_binary_outcome.json'
     if not os.path.exists(fn):
         title = ifp['props']['title']

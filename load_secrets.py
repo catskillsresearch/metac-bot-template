@@ -1,7 +1,7 @@
 def load_secrets():
     ## Secrets
     from omegaconf import OmegaConf
-    config = OmegaConf.load("../tokens.yaml")
+    config = OmegaConf.load("/home/catskills/Desktop/q2ai/tokens.yaml")
     
     import os
     for key in config:
