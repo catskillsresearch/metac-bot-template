@@ -1,0 +1,1117 @@
+
+You are a talented, experienced and confident superforecaster. You are asked a question:
+
+```question
+What proportion of the Donetsk region will Russia control on September 1, 2025?
+```
+
+You are given details on how to interpret the terms of the question:
+
+```details
+Since the start of the full-scale invasion in February 2022, Russia has declared that one of the objectives of the war against Ukraine is the complete capture of the Donetsk and Luhansk regions, most of the territory of which Russia has controlled since 2014. Russia managed to capture the Luhansk region almost completely during the first weeks of the 2022 invasion. In the Donetsk region Russia has had much less success. After almost three years of war the fighting is still taking place only tens of kilometers from the demarcation line of the 2014 Minsk agreements. As of early 2025, Russia controls about 65% of the territory of the Donetsk region, but continues to focus its main efforts there.
+
+<p><b>Resolution</b><p> 
+
+This question will be resolved after September 1 based on Ukrainian goverment estimates.
+```
+
+Your assistant has research related news and Wikipedia articles and prepared summaries of each one.
+Use the data in these research summaries to analyse the question:
+
+```research_summary_0
+To analyze the proportion of the Donetsk region that Russia will control on September 1, 2025, the following key points from the provided content should be considered:
+
+1. **Recent Russian Advances**:
+   - The Russian Ministry of Defense announced that Russian forces have taken control of the village of Tolstoy in the Donetsk region. This indicates ongoing territorial gains by Russia in the area.
+
+2. **Strategic Targets**:
+   - Russian forces have bombed Ukrainian military airports in overnight attacks. This suggests a continued focus on weakening Ukrainian military capabilities, which could facilitate further territorial advances.
+
+3. **Historical Context**:
+   - Russia began its full-scale invasion of Ukraine on February 24, 2022, with one of its stated objectives being the complete capture of the Donetsk and Luhansk regions.
+   - Russia has already annexed the Donetsk People's Republic, among other regions, and has been imposing sanctions on countries that do not support its stance in the war.
+
+4. **Current Control**:
+   - As of early 2025, Russia controls about 65% of the territory of the Donetsk region. The recent capture of Tolstoy suggests that Russia is continuing to push forward, potentially increasing its control.
+
+5. **Western Response**:
+   - Western countries have imposed sanctions on Russia in an attempt to stop the war, but Russia has continued its military operations despite these measures.
+
+**Summary for Analysis**:
+- Russia is making incremental gains in the Donetsk region, as evidenced by the capture of Tolstoy.
+- The bombing of Ukrainian military airports indicates a strategy to weaken Ukrainian defenses, which could lead to further territorial advances.
+- The historical context and current control (65%) provide a baseline for assessing future control.
+- The continued imposition of sanctions and Russia's resilience suggest that it will likely maintain or increase its control over the Donetsk region.
+
+These points will be crucial in evaluating the proportion of the Donetsk region that Russia will control by September 1, 2025.
+```
+```research_summary_1
+Here’s a structured summary of the key information from the provided content that would be relevant to assessing the proportion of the Donetsk region Russia will control on September 1, 2025:
+
+---
+
+### Key Points for Analysis:
+
+1. **Current Russian Advances in Donetsk (DNR)**:
+   - The Russian army is close to fully liberating the Donetsk People's Republic (DNR).
+   - The capture of **Konstantinovka** is described as the "main goal" of the Russian advance, as it serves as a strategic gateway to the last major Ukrainian defensive line in the region.
+   - If Konstantinovka falls, almost all cities north of it would be within range of Russian drones, potentially facilitating further territorial gains.
+
+2. **Strategic Importance of Konstantinovka**:
+   - Konstantinovka is a critical transportation hub. Controlling it would allow Russia to cut off key supply lines to Ukrainian forces in the region.
+   - Ukrainian soldiers report that Russia's increased drone capabilities give it a significant advantage, making it harder for Ukrainian troops to hold positions or evacuate wounded.
+
+3. **Broader Context**:
+   - The Luhansk People's Republic (LNR) was fully liberated by Russian forces (as reported by LNR head Leonid Pasechnik).
+   - LNR and DNR were declared in 2014 after political upheaval in Ukraine, and Russia recognized their independence in February 2022. Referendums in 2022 led to their annexation by Russia.
+
+4. **Implications for 2025**:
+   - The capture of Konstantinovka and the surrounding defensive lines could significantly shift control in the Donetsk region.
+   - If Russia succeeds in securing these areas, it may accelerate the liberation of the remaining Ukrainian-held territory in DNR.
+
+---
+
+### Considerations for the Question:
+- **Timeline**: The article suggests that Russia is making rapid progress in 2024, but the question asks about control as of September 1, 2025. Further advances or counteroffensives could occur in the intervening period.
+- **Strategic Momentum**: The focus on Konstantinovka and the last defensive lines indicates that Russia is prioritizing the Donetsk region, which aligns with the stated objective of fully capturing it.
+- **Supply Lines and Drone Warfare**: The disruption of Ukrainian supply lines and the effectiveness of Russian drones could be decisive factors in determining territorial control.
+
+This information provides a snapshot of the situation as of early 2024, but additional updates on battlefield developments between now and 2025 would be necessary for a definitive assessment.
+```
+```research_summary_2
+Here’s a structured summary of the key information from the provided content that would be relevant for assessing the question about Russia's control of the Donetsk region by September 1, 2025:
+
+---
+
+### Key Points for Analysis:
+1. **Current Control (as of the article's publication)**:
+   - Russia controls **over two-thirds (more than 65%)** of the Donetsk region.
+   - This aligns with the broader context provided in the original question (early 2025 estimates of ~65% control).
+
+2. **Recent Military Developments**:
+   - The Russian army has made **significant territorial gains** during a summer offensive.
+   - The gains are described as part of an ongoing effort to capture the remaining territory of the Donetsk region.
+
+3. **Strategic Challenges**:
+   - To fully capture Donetsk, Russia must take control of **cities crucial for Ukrainian logistics**.
+   - These cities are likely strongholds or supply hubs for Ukrainian forces, making their capture difficult.
+
+4. **Intensity of Fighting**:
+   - The front line is described as **intense**, with Russian drones attacking every **10-20 minutes**.
+   - This suggests sustained pressure but does not indicate an imminent collapse of Ukrainian defenses.
+
+5. **Lack of Direct Quotes**:
+   - The article does not include direct statements from military or government sources, which may limit the reliability of some claims.
+
+6. **Contextual Notes**:
+   - The article emphasizes the **importance of these cities** in the broader conflict, implying their strategic value.
+
+---
+
+### Relevance to the Question:
+- The **current control figure (>65%)** is a starting point for projecting future control.
+- The **summer offensive gains** suggest Russia may continue to push forward, but the need to capture key cities indicates **potential bottlenecks**.
+- The **intensity of fighting** and reliance on drone strikes could signal a prolonged struggle rather than rapid territorial shifts.
+- The **absence of direct quotes** may require cross-referencing with other sources for verification.
+
+This summary provides a clear, actionable framework for further analysis or tool-based research (e.g., checking for updates on city-level control or Ukrainian government statements).
+```
+```research_summary_3
+To analyze the proportion of the Donetsk region that Russia will control on September 1, 2025, the following key points from the provided content should be considered:
+
+1. **Russian Advances in Other Regions**:
+   - Russia has recently claimed control of villages in the Dnipropetrovsk and Sumy regions, marking an unprecedented advance in central-eastern Ukraine.
+   - This suggests that Russia is capable of expanding its territorial control beyond the Donetsk and Luhansk regions, potentially indicating a shift in strategic focus or resources.
+
+2. **Ukrainian Defense Challenges**:
+   - The Ukrainian Army is described as struggling due to a lack of soldiers and equipment, which could limit its ability to hold or retake territory in the Donetsk region.
+   - The Ukrainian forces' struggle to prevent Russian advances in other regions may indicate vulnerabilities that could affect their defense in Donetsk.
+
+3. **Russian Strategic Objectives**:
+   - Russia's demand for Ukraine to cede four regions (including Donetsk and Luhansk) and renounce NATO membership remains a stated goal.
+   - The ongoing offensive in Dnipropetrovsk and Sumy regions suggests that Russia may be prioritizing territorial gains in multiple areas, which could impact its focus on Donetsk.
+
+4. **Symbolic and Military Significance**:
+   - The capture of villages in new regions is described as a symbolic blow to Ukrainian forces, which may affect morale and strategic planning.
+   - The Russian Army's emphasis on expelling Ukrainian forces from populated areas and fortifications indicates a continued offensive posture.
+
+5. **Temporal Context**:
+   - The events described occurred in early 2025, providing a snapshot of the situation leading up to the resolution date of September 1, 2025.
+   - The dynamics of control and advances in other regions could influence the situation in Donetsk over the following months.
+
+### Summary for Analysis:
+- **Russian Advances**: Recent gains in Dnipropetrovsk and Sumy regions suggest potential for further territorial expansion.
+- **Ukrainian Vulnerabilities**: Lack of soldiers and equipment may hinder Ukrainian defense in Donetsk.
+- **Strategic Priorities**: Russia's focus on multiple regions could divert resources from Donetsk, but continued offensives indicate sustained pressure.
+- **Temporal Trends**: Early 2025 advances may set the stage for further shifts in control by September 2025.
+
+These points should be weighed against other factors, such as Ukrainian counteroffensives, international support, and internal political developments in both Russia and Ukraine, to assess the likely proportion of Donetsk under Russian control by September 1, 2025.
+```
+```research_summary_4
+Here’s a structured summary of the relevant information from the provided content that could be considered when assessing the question about Russia's control of the Donetsk region by September 1, 2025:
+
+---
+
+### Key Points for Analysis:
+1. **Russian Advances in New Regions**:
+   - Russia claims to have captured the village of Datchnoïe in the Dnipropetrovsk region, marking its first advance into this area since the start of the full-scale invasion in February 2022.
+   - This suggests Russia is expanding its territorial gains beyond the Donetsk and Luhansk regions, potentially indicating a shift in strategic focus or capabilities.
+
+2. **Ukrainian Denials and Counterclaims**:
+   - Ukrainian forces deny the capture of Datchnoïe, asserting they repelled Russian attacks and still control the village.
+   - This highlights ongoing disputes over territorial control and the reliability of claims from either side.
+
+3. **Strategic and Symbolic Implications**:
+   - The reported advance in Dnipropetrovsk could signal a new phase in the war, with Russia pushing into previously uncontested areas.
+   - The timing of this advance coincides with stalled diplomatic efforts, suggesting Russia may be leveraging military gains to strengthen its negotiating position.
+
+4. **Challenges Faced by Ukrainian Forces**:
+   - The article notes Ukrainian forces are struggling due to a lack of manpower and equipment, which could impact their ability to hold or retake territory in Donetsk and other regions.
+   - This factor may influence the trajectory of control in Donetsk by September 2025.
+
+5. **Russian Objectives and Stance**:
+   - Russian President Vladimir Putin’s maximalist demands (e.g., territorial cession, NATO renunciation) remain unchanged, indicating Russia’s intent to maintain or expand its territorial holdings.
+   - The article does not provide specific details about operations in Donetsk, but the broader context of Russian advances and Ukrainian struggles could indirectly affect the situation in Donetsk.
+
+---
+
+### Considerations for the Question:
+- The reported advance in Dnipropetrovsk does not directly address the status of Donetsk, but it may reflect broader trends in the war, such as Russia’s ability to capture new territory or Ukraine’s capacity to defend its borders.
+- The lack of recent updates on Donetsk-specific developments means the 2025 estimate (65% control by Russia) may still hold unless new data emerges.
+- The reliability of territorial claims from either side remains a critical factor, as both Russia and Ukraine have incentives to misrepresent control.
+
+---
+
+This summary distills the most relevant information for assessing the question while noting the limitations of the provided content. Additional data on Donetsk-specific developments would be necessary for a more precise analysis.
+```
+```research_summary_5
+Here’s a structured summary of the relevant information from the provided content that could be considered when assessing the question about Russia's control of the Donetsk region by September 1, 2025:
+
+---
+
+### Key Points for Analysis:
+
+1. **Russian Military Advances**:
+   - Russia claims to have captured the town of Dachne in the Dnipropetrovsk region, marking its first reported advance into this region since the start of the full-scale invasion in February 2022.
+   - Ukraine denies this claim, asserting that it repelled a Russian offensive in the area.
+
+2. **Strategic and Symbolic Implications**:
+   - A Russian advance into Dnipropetrovsk could have strategic value in future negotiations, which have been stalled.
+   - Russia continues to demand Ukraine cede four regions (including Crimea) and renounce NATO membership, conditions Ukraine rejects.
+
+3. **Ukrainian Challenges**:
+   - Ukrainian forces are reportedly struggling due to a lack of troops and equipment.
+   - The Dnipropetrovsk region has been a frequent target of Russian bombings, and many Ukrainians have fled there from eastern regions like Donetsk and Luhansk.
+
+4. **Broader Context**:
+   - Russian drone and artillery attacks continue across Ukraine, with recent incidents causing casualties.
+   - Ukraine relies on international military aid, particularly from the U.S., to sustain its defenses.
+
+5. **Relevance to Donetsk Region**:
+   - While the content focuses on Dnipropetrovsk, the broader context of Russian military capabilities, Ukrainian resource constraints, and the stalled negotiations could indirectly impact the situation in Donetsk.
+   - The mention of Ukrainian forces struggling due to a lack of troops and equipment may suggest potential vulnerabilities in other regions, including Donetsk.
+
+---
+
+### Considerations for the Question:
+- The capture of Dachne, if confirmed, could indicate Russia's ability to expand its territorial control beyond the current frontlines.
+- The Ukrainian denial and reported repulsion of the offensive suggest resilience in defending key areas, which might apply to Donetsk as well.
+- The strategic and symbolic value of advances could influence Russia's focus on Donetsk, where it has already declared territorial objectives.
+- The reliance on international aid and the challenges faced by Ukrainian forces may affect their ability to hold or retake territory in Donetsk by 2025.
+
+---
+
+This summary extracts the most pertinent details for assessing the proportion of the Donetsk region Russia might control by September 1, 2025, while acknowledging the indirect nature of some of the information.
+```
+```research_summary_6
+To assess the proportion of the Donetsk region that Russia will control on September 1, 2025, the following information from the provided content is relevant:
+
+1. **Russian Advances in Other Regions**:
+   - Russia has captured the town of Datchnoïe in the Dnipropetrovsk region, marking the first time a location in this administrative area has been captured since the start of the full-scale invasion in February 2022.
+   - This indicates that Russia is still capable of making territorial gains in regions beyond Donetsk and Luhansk, suggesting continued offensive capabilities.
+
+2. **Ukrainian Claims**:
+   - A Ukrainian unit fighting in the area claimed that they still "controlled" Datchnoïe, indicating potential disputes over territorial control and the possibility of counteroffensives or contested areas.
+
+3. **External Support to Ukraine**:
+   - The US plans to send more "defensive" arms to Kiev, which could influence the balance of power and Ukraine's ability to hold or retake territory in the Donetsk region.
+
+4. **Russian Focus on Donetsk**:
+   - The content does not explicitly mention the Donetsk region, but the broader context of Russia's offensive capabilities and territorial gains in other regions is relevant to understanding their potential actions in Donetsk.
+
+### Key Points to Consider for the Question:
+- **Russian Offensive Capabilities**: The capture of Datchnoïe suggests that Russia can still make territorial gains, which may impact the control of the Donetsk region by September 1, 2025.
+- **Contested Control**: The dispute over Datchnoïe highlights the fluid nature of territorial control, which could apply to the Donetsk region as well.
+- **External Support**: Increased defensive aid to Ukraine could affect Russia's ability to capture or hold territory in Donetsk.
+
+This information provides context for assessing Russia's potential control of the Donetsk region in the future, but more specific data on the situation in Donetsk would be necessary for a precise estimate.
+```
+```research_summary_7
+Here’s a structured summary of the relevant information from the provided content that could be considered when assessing the proportion of the Donetsk region Russia will control on September 1, 2025:
+
+---
+
+### Key Points for Analysis:
+
+1. **Russian Advances and Strategic Objectives**:
+   - Russia has recently captured the village of Dachne in the Dnipropetrovsk region, marking a new border crossing and escalating violence.
+   - Moscow appears to be prioritizing border crossings and creating buffer zones, which could indicate a shift in strategy or resource allocation.
+   - The capture of Dachne is described as a "psychological blow" to Ukraine, suggesting potential morale or logistical impacts on Ukrainian forces.
+
+2. **Military and Logistical Challenges for Ukraine**:
+   - Ukrainian military expert Oleksiy Kopytko acknowledges the "objectively difficult" situation in Dnipropetrovsk, though Ukrainian troops are reportedly holding firm.
+   - Russia’s focus on creating buffer zones could pose logistical and economic problems for Ukraine, potentially diverting resources from other regions like Donetsk.
+
+3. **Intensified Aerial Attacks**:
+   - Russia has escalated drone and missile attacks, including targeting Ukrainian army recruitment centers and civilian areas.
+   - Over 1,270 drones, 39 missiles, and nearly 1,000 gliders were launched in the past week alone, indicating a sustained effort to weaken Ukrainian defenses and infrastructure.
+
+4. **Ukrainian Counterattacks and Defense**:
+   - Ukraine claimed a drone attack on a Russian munitions factory in the Moscow region, showing its ability to strike deep behind enemy lines.
+   - Ukrainian forces repelled Russian attacks near Dachne, suggesting ongoing resistance in contested areas.
+
+5. **Internal Russian Issues**:
+   - The dismissal of Russia’s Minister of Transportation, Roman Starovoit, amid allegations of diverted funds for fortifications in the Kursk region, may indicate inefficiencies or corruption in Russia’s military logistics.
+   - This could affect Russia’s ability to sustain long-term offensives or defend captured territories effectively.
+
+6. **Civilian Impact and Morale**:
+   - Russian attacks have killed at least 11 civilians and injured over 80 people, including children, which may influence public support for the war in Ukraine.
+   - Evacuations and damage to residential buildings in Kharkiv and Zaporizhia highlight the humanitarian toll of the conflict.
+
+7. **Geopolitical Factors**:
+   - Concerns about continued US military aid under President Donald Trump could impact Ukraine’s ability to defend or retake territory.
+   - President Zelensky emphasized air defense as a priority, suggesting a focus on protecting key infrastructure and civilian areas.
+
+---
+
+### Relevance to the Question:
+- The information suggests that while Russia is making incremental gains (e.g., capturing Dachne), it faces significant challenges in sustaining momentum due to Ukrainian resistance, logistical issues, and internal corruption.
+- The escalation of aerial attacks and the focus on creating buffer zones could indicate a shift in strategy, but it remains unclear whether this will translate into significant territorial gains in Donetsk by September 1, 2025.
+- The dismissal of the Russian transportation minister and allegations of diverted funds may weaken Russia’s ability to support long-term offensives in Donetsk.
+
+This summary provides a foundation for further analysis, though additional data on specific advances or setbacks in Donetsk would be necessary for a more precise assessment.
+```
+```research_summary_8
+Here’s a structured summary of the key information from the provided content that would be relevant to assessing the proportion of the Donetsk region Russia will control by September 1, 2025:
+
+---
+
+### **Key Points for Analysis**
+
+1. **Current Control and Strategic Objective**
+   - As of the report, Russia controls **more than two-thirds (65%)** of the Donetsk region.
+   - Russia’s long-term goal is to capture the **entire Donetsk region**, with Konstantinovka being a critical target to achieve this.
+
+2. **Military Situation Around Konstantinovka**
+   - Konstantinovka is the **"southern gate" to the last major Ukrainian defensive belt** in Donetsk.
+   - If captured, Russia would gain a strategic advantage, bringing **all northern cities within drone strike range**.
+   - Russian forces have created a **16-kilometer deep pocket** around Konstantinovka, partially surrounding Ukrainian defenders from three sides (east, south, west).
+
+3. **Russian Tactics and Advantages**
+   - Russia’s **"Rubicon" elite drone unit** is systematically targeting Ukrainian logistics, roads, and supply lines.
+   - Drones strike **every 10-20 minutes** within a **15-kilometer zone**, making movement extremely difficult for Ukrainian forces.
+   - Ukrainian soldiers describe the situation as **"heroic" to even leave underground shelters**, highlighting the intensity of drone warfare.
+
+4. **Potential Scenarios for Capture**
+   - Russia may attempt a **frontal assault** (similar to Bakhmut in 2023) or an **encirclement strategy** (like Avdiivka in 2024).
+   - The battle for Konstantinovka could last **months**, depending on Ukraine’s ability to hold out.
+
+5. **Implications for Donetsk Control**
+   - If Konstantinovka falls, Russia would likely **press further north**, potentially capturing remaining Ukrainian-held cities.
+   - The outcome hinges on **Ukraine’s defensive capabilities, supply lines, and Russian drone dominance**.
+
+---
+
+### **Assessment Considerations**
+- **Timeline**: The report suggests the battle for Konstantinovka is ongoing, with no immediate resolution.
+- **Russian Momentum**: Moscow has achieved **largest monthly territorial gains since 2022**, indicating strong offensive pressure.
+- **Ukrainian Resilience**: The ability of Ukrainian forces to hold or retreat from Konstantinovka will determine how much of Donetsk remains under their control.
+
+This structured breakdown provides a clear framework for evaluating the likelihood of Russia capturing additional territory in Donetsk by September 1, 2025.
+```
+```research_summary_9
+To analyze the proportion of the Donetsk region that Russia will control on September 1, 2025, I would consider the following key points from the provided content and additional relevant factors:
+
+### Key Points from the Provided Content:
+1. **Discrepancy in Claims**: Russia claims the capture of cities, but Ukrainian forces often dispute these claims. This indicates that territorial control is contested and subject to conflicting reports.
+2. **Ongoing Conflict**: The war has been ongoing since 2014, with a large-scale invasion in 2022. The situation is dynamic, with frequent changes in control.
+3. **Focus on Eastern Ukraine**: The conflict is centered in eastern Ukraine, including the Donetsk and Luhansk regions.
+
+### Additional Factors to Consider:
+1. **Current Control (Early 2025)**: As of early 2025, Russia controls approximately 65% of the Donetsk region. This serves as a baseline for future projections.
+2. **Military Strategies**: Assess the strategies and capabilities of both Russian and Ukrainian forces, including troop movements, weaponry, and international support.
+3. **Geopolitical Influences**: Consider the role of international actors, such as NATO, the EU, and other countries providing military or humanitarian aid to Ukraine.
+4. **Economic and Resource Factors**: Evaluate the economic impact of the war on both sides, including resource availability, infrastructure damage, and logistical challenges.
+5. **Historical Patterns**: Analyze past territorial changes and patterns of control to identify trends or potential shifts.
+6. **Diplomatic Efforts**: Examine any ongoing or potential peace negotiations, ceasefires, or diplomatic initiatives that could affect territorial control.
+7. **Technological and Intelligence Advantages**: Assess the use of advanced technologies, such as drones, satellite imagery, and cyber warfare, which could influence the outcome.
+
+### Summary for Analysis:
+- **Baseline Control (2025)**: 65% of Donetsk region under Russian control.
+- **Contested Claims**: Discrepancies between Russian and Ukrainian claims of territorial control.
+- **Dynamic Conflict**: Ongoing military operations and potential shifts in control.
+- **Geopolitical and Economic Factors**: Influences that could alter the balance of power.
+- **Historical and Technological Context**: Patterns and advancements that may impact future control.
+
+By considering these factors, a more accurate projection of the proportion of the Donetsk region under Russian control on September 1, 2025, can be made. However, it is important to note that the situation is highly fluid and subject to rapid changes.
+```
+```research_summary_10
+Here’s a structured summary of the relevant information from the provided content, formatted for clarity and ease of analysis:
+
+---
+
+### Key Points for Analysis: Russian Control of Donetsk Region (Projected for September 1, 2025)
+
+1. **Current Status of Luhansk Oblast (Relevant for Context)**
+   - As of November 2024, Russian forces controlled approximately **99% of Luhansk Oblast**, but disputed areas (e.g., villages of Nadia and Novoegorievka) and "gray zones" remain.
+   - Russian claims of full capture (e.g., by Leonid Pashchuk in June 2024) are disputed by war bloggers and ISW.
+   - Ukrainian forces regained some territory in Luhansk during the 2022 Kharkiv counteroffensive, and Russian advances since then have been limited.
+
+2. **Donetsk Oblast Focus (Primary Question)**
+   - The content does not provide direct data on Donetsk Oblast’s control status as of early 2025 (65% controlled by Russia, per the original question).
+   - However, the broader context suggests:
+     - **Russian Priorities**: Russia has shifted focus to Donetsk after near-complete capture of Luhansk.
+     - **Stalemate**: Fighting remains near the 2014 Minsk line, with no major territorial gains by Russia in recent years.
+     - **Offensive Efforts**: Russian forces intensified offensives in early 2024 (e.g., Kupiansk, Borysivka, Lyman axes) but failed to capture key settlements.
+
+3. **Implications for Donetsk Control (September 1, 2025)**
+   - **No Significant Advances**: The pattern in Luhansk (99% control but lingering disputes) and Donetsk (stalemate) suggests Russia may struggle to capture additional territory by 2025.
+   - **Potential Factors**:
+     - Ukrainian defenses (e.g., counteroffensives, fortified positions).
+     - Russian resource allocation (e.g., prioritizing Luhansk’s remaining 1% over Donetsk gains).
+     - International support (e.g., Western aid to Ukraine).
+
+4. **Unresolved Questions**
+   - What is the current (2025) frontline status in Donetsk?
+   - Are there recent Ukrainian counteroffensives or Russian breakthroughs?
+   - How does the "gray zone" concept apply to Donetsk?
+
+---
+
+### Suggested Next Steps
+To refine the projection for September 1, 2025:
+1. **Verify 2025 Control Data**: Confirm if Russia’s control of Donetsk remains at ~65% or has changed.
+2. **Assess Recent Battles**: Review updates on offensives/defenses in Donetsk since early 2025.
+3. **Evaluate External Factors**: Consider Ukrainian military capabilities, Russian troop deployments, and geopolitical influences.
+
+This structured approach ensures the analysis aligns with the original question’s resolution criteria (Ukrainian government estimates post-September 1, 2025).
+```
+```research_summary_11
+Here is a structured summary of the relevant information from the provided content that would be useful for assessing the question about Russia's control of the Donetsk region by September 1, 2025:
+
+---
+
+### Key Information for Analysis:
+
+1. **Current Control of Donetsk Region (as of the article's timeline, likely early 2025):**
+   - Russia controls **61%** of the Donetsk region.
+   - This is an increase from **31%** in the same period the previous year (likely early 2024).
+
+2. **Recent Territorial Gains in Donetsk (2024):**
+   - The article does not provide specific monthly gains for Donetsk in 2025, but it mentions significant gains in Luhansk (e.g., 588 sq km in June 2025, 507 sq km in May 2025, etc.).
+   - The largest gains in Luhansk occurred in October and November 2024 (610 and 725 sq km, respectively).
+
+3. **Broader Context:**
+   - Russia has fully captured the Luhansk region (100% control as of the article's timeline).
+   - The Ukrainian army has launched counterattacks, including a drone strike on a Russian military factory in Igivsk.
+   - The Russian army has also conducted counterattacks, such as a drone strike on a Ukrainian military base in Dniproptrovsk.
+
+4. **General Situation:**
+   - The war remains dynamic, with both sides making gains and losses.
+   - The focus of Russian efforts appears to be on consolidating control in the Donetsk region.
+
+---
+
+### Notes for Further Analysis:
+- The article does not provide specific projections or estimates for September 1, 2025, but the data suggests Russia has been making steady progress in Donetsk.
+- The 61% figure (as of early 2025) is a critical data point, but additional information on territorial changes between early 2025 and September 2025 would be needed for a precise forecast.
+- The counterattacks and drone strikes indicate ongoing instability, which could influence future control.
+
+This summary provides a clear, structured overview of the relevant details for assessing the question.
+```
+```research_summary_12
+Here’s a structured summary of the key information from the provided content that would be relevant for assessing the proportion of the Donetsk region Russia will control on September 1, 2025:
+
+---
+
+### **Key Information for Analysis**
+
+1. **Current Situation (as of early 2025)**
+   - Russia controls approximately **65% of the Donetsk region** as of early 2025.
+   - The **Pokrovsk and Toretsk directions** are critical fronts in the Donetsk region, with intense fighting.
+   - As of **January 2, 2025**, Russian forces were **2 km from Pokrovsk**, indicating continued pressure on Ukrainian-held areas.
+
+2. **Russian Objectives and Priorities**
+   - Capturing the **entire Donetsk region** remains a **top priority for Russian President Vladimir Putin** (as reported by *The Washington Post* on May 27, 2024).
+   - Russia is focusing its **main efforts** on advancing in Donetsk, despite limited progress since 2022.
+
+3. **Ukrainian Military Actions**
+   - Ukrainian forces have **struck a Russian command center**, disrupting Russian operations in the Pokrovsk and Toretsk directions.
+   - The Ukrainian military is **targeting Russian command and communication systems** to hinder their advances.
+   - Heavy fighting continues in the **Pokrovsk direction**, with Russians attempting to **block the agglomeration** (as reported on June 30, 2024).
+
+4. **Historical Context**
+   - Russia has controlled parts of Donetsk and Luhansk since **2014** (after the annexation of Crimea).
+   - The **full-scale invasion began on February 24, 2022**, with Donetsk being one of the main directions of Russian advance.
+
+5. **Factors Influencing Future Control**
+   - **Russian momentum**: If Russia maintains pressure near Pokrovsk and Toretsk, it may gain additional territory.
+   - **Ukrainian resistance**: Successful strikes on Russian command centers could slow or halt Russian advances.
+   - **Geopolitical and military developments**: External support for Ukraine (e.g., weapons, intelligence) could impact the balance of power.
+
+---
+
+### **Summary for Decision-Making**
+- **Current control (early 2025)**: ~65% of Donetsk under Russian control.
+- **Key battlegrounds**: Pokrovsk and Toretsk directions.
+- **Russian strategy**: Focused on capturing remaining Ukrainian-held areas in Donetsk.
+- **Ukrainian strategy**: Disrupting Russian command structures to delay or prevent further advances.
+
+This information suggests that the outcome will depend on whether Russia can sustain its offensive momentum or if Ukrainian countermeasures can effectively limit further territorial gains. The resolution will depend on developments between early 2025 and September 1, 2025.
+```
+```research_summary_13
+Here’s a structured summary of the relevant information from the provided content, formatted for clarity and ease of analysis:
+
+---
+
+### Key Points on Russian Control of Donetsk Region by September 1, 2025
+
+1. **ISW Assessment of Russian Goals**:
+   - Russia aims to capture the entire Donetsk and Luhansk regions by September 1, 2025.
+   - These goals are deemed **unlikely to be achieved** by the Institute for the Study of War (ISW).
+
+2. **Current Control and Progress**:
+   - As of early 2025, Russia controls approximately **65% of the Donetsk region**.
+   - Over the past 15 months (as of the report's timeframe), Russian forces have advanced only **30–50 km** from Avdiivka to Pokrovsk.
+   - This pace is **too slow** to capture the remaining territory of Donetsk by September 1, 2025.
+
+3. **Challenges for Russia**:
+   - **Manpower and Equipment Losses**: Significant losses over the past three years hinder Russia's ability to achieve operational maneuver.
+   - **Terrain and Logistics**: Capturing the rest of Donetsk requires overcoming entrenched Ukrainian defenses and advancing through contested areas.
+   - **Western Aid to Ukraine**: Continued support for Ukraine is critical in preventing further Russian territorial gains.
+
+4. **Broader Context**:
+   - Russia has other ambitious goals (e.g., capturing Odessa and Mykolaiv by 2026), but ISW assesses these as unlikely without major shifts in the balance of power.
+   - The Dnipro River crossing remains a significant obstacle for Russian forces in other regions (e.g., Kherson).
+
+---
+
+### Implications for the Question
+- The ISW explicitly states that Russia will **struggle to capture the remaining part of Donetsk by September 1, 2025**.
+- The slow pace of advances (30–50 km in 15 months) suggests that Russia is unlikely to significantly increase its control beyond the ~65% held as of early 2025.
+- Western aid and Ukrainian resilience are key factors in preventing further Russian territorial gains.
+
+This information supports the conclusion that Russia will **not** control the entire Donetsk region by September 1, 2025, and may retain control of roughly **65%** of the territory.
+```
+```research_summary_14
+Here’s a structured summary of the key information from the provided content that would be relevant for assessing the proportion of the Donetsk region Russia will control on September 1, 2025:
+
+---
+
+### Key Points for Analysis:
+1. **Russian Objectives and Deadlines**:
+   - Russia aimed to capture the entire Donetsk region by September 2022 and then by March 2023, but failed to achieve this.
+
+2. **Military Progress Since 2022**:
+   - Since July 2022, Russia has made only limited territorial gains (a few kilometers) in Donbass.
+   - Ukraine launched a counteroffensive in September 2022, pushing the front line back by 300 km, though Russia has since regained some territory.
+
+3. **Current Front Lines (as of the content's timestamp)**:
+   - **Bakhmut**: Russian forces are attacking villages like Chasiv Yar and Predtecha.
+   - **Toretsk**: Under siege by Russian forces.
+   - **Southern Donetsk**: Ukrainian forces are resisting Russian advances.
+
+4. **Ukrainian Counteroffensives**:
+   - Ukraine has made gains in the Luhansk region, liberating several villages.
+   - Ukrainian forces are actively pushing back against Russian advances in Donetsk.
+
+5. **Russian Losses**:
+   - Significant casualties, including 20,000 soldiers lost in the Luhansk region.
+
+6. **Ukrainian Confidence**:
+   - Ukrainian military claims they are holding firm and aim to liberate the entire Donetsk region.
+
+---
+
+### Implications for September 1, 2025:
+- **Stalemate or Slow Advances**: The content suggests a stalemate with limited Russian progress, but no clear indication of a decisive shift by 2025.
+- **Ukrainian Resistance**: Continued Ukrainian counteroffensives and defensive success could limit further Russian gains.
+- **Russian Focus**: Despite setbacks, Russia may continue prioritizing Donetsk, but the pace of territorial control expansion remains uncertain.
+
+This summary provides a foundation for further analysis, though additional data (e.g., updates on front lines, troop movements, or political developments) would be needed for a more precise forecast.
+```
+```research_summary_15
+Here’s a structured summary of the relevant information from the provided content that would be useful for assessing the question about Russia's control of the Donetsk region by September 1, 2025:
+
+---
+
+### Key Points for Analysis:
+
+1. **Strategic Objective of Russia**:
+   - Russia's declared goal remains the capture of the entire Donetsk and Luhansk regions, which Moscow annexed in September 2022.
+   - The Kremlin's focus is on expanding control beyond the current frontlines, particularly in Donetsk.
+
+2. **Current Frontline Dynamics**:
+   - Russian forces are advancing toward the Dnipropetrovsk region from the Donetsk region, indicating ongoing offensive operations in the area.
+   - They are less than 3 kilometers from the Dnipropetrovsk border, suggesting continued pressure on Ukrainian defenses in Donetsk.
+
+3. **Critical Battles in Donetsk**:
+   - The city of Pokrovsk is identified as a key target for Russian forces, with daily attacks aimed at capturing it.
+   - Success in Pokrovsk could be a stepping stone for further advances into Ukrainian-held territory in Donetsk.
+
+4. **Military Deployments**:
+   - Russia has concentrated around 50,000 soldiers near the Sumi region, though this is not directly related to Donetsk. However, it highlights Russia's broader military posture and potential for redeployment.
+
+5. **Ukrainian Resistance**:
+   - Ukrainian President Zelenski emphasizes that Russian forces have not yet succeeded in crossing into Dnipropetrovsk, suggesting ongoing Ukrainian resistance in Donetsk.
+   - The Ukrainian government is actively monitoring and countering Russian advances.
+
+6. **Long-Term Implications**:
+   - The ongoing fighting near the 2014 Minsk demarcation line suggests that significant territorial changes in Donetsk are still possible by 2025.
+   - The proportion of Donetsk under Russian control could shift based on the outcome of battles like Pokrovsk.
+
+---
+
+### Relevance to the Question:
+- The information underscores Russia's continued focus on Donetsk and the potential for further territorial gains by 2025.
+- The capture of Pokrovsk and advances toward Dnipropetrovsk could indicate whether Russia is gaining or losing ground in the region.
+- Ukrainian resistance and military deployments will be critical factors in determining the final proportion of Donetsk under Russian control.
+
+This summary provides a clear, actionable framework for assessing the question.
+```
+```research_summary_16
+Here’s a structured summary of the relevant information from the provided content that could help assess the proportion of the Donetsk region Russia might control by September 1, 2025:
+
+---
+
+### Key Points for Analysis:
+1. **Recent Russian Advances in Donetsk**:
+   - Russia claims to have captured the village of Sukhaya Balka in the Donetsk region (referred to as the "Donetsk People's Republic" by Russia).
+   - Ukraine has not confirmed this capture, so its validity is uncertain.
+
+2. **Annexation and Territorial Claims**:
+   - Russia annexed Donetsk (along with Luhansk, Kherson, and Zaporizhia) in October 2022, though this is unrecognized internationally.
+   - The annexation suggests Russia’s long-term intent to retain control over these regions, including Donetsk.
+
+3. **Counteroffensive Dynamics**:
+   - Ukraine launched a counteroffensive into Russia’s Kursk region in August 2024, capturing territory and over 100 cities/villages.
+   - Russian forces claim to have "liberated" 99.5% of Kursk, but Ukraine disputes this, indicating ongoing instability in Russian-held areas.
+   - Both sides acknowledge setbacks in recent months, suggesting a stalemate or slow attrition in some sectors.
+
+4. **General Trends**:
+   - Russia has focused heavily on Donetsk since 2022, with limited territorial gains compared to Luhansk.
+   - As of early 2025, Russia controls ~65% of Donetsk, but the frontline remains fluid due to counteroffensives and localized battles.
+
+---
+
+### Implications for September 1, 2025:
+- **Russian Control**: If Russia maintains its current momentum (e.g., capturing Sukhaya Balka), it may incrementally expand control, but major breakthroughs seem unlikely given Ukraine’s defensive capabilities.
+- **Ukrainian Counterpressure**: Ukraine’s ability to hold or retake territory (as seen in Kursk) could limit Russian gains, especially if resources are diverted to defend other fronts.
+- **Stalemate Risk**: Without significant shifts in military strategy or external support, the proportion of Donetsk under Russian control may remain close to the 65% baseline, with minor fluctuations.
+
+---
+
+### Data Gaps:
+- No specific timeline or projections for further Russian advances in Donetsk beyond the Sukhaya Balka claim.
+- No mention of Ukrainian offensives in Donetsk, focusing instead on Kursk.
+
+This summary provides a foundation for further analysis, but additional data (e.g., battlefield updates, political shifts, or resource allocations) would be needed for a precise forecast.
+```
+```research_summary_17
+Here’s a structured summary of the relevant information from the provided content that would be useful for assessing the proportion of the Donetsk region Russia will control on September 1, 2025:
+
+---
+
+### Key Points for Analysis:
+1. **Current Frontline Dynamics (Early 2025)**:
+   - Russian troops are intensifying pressure on Ukrainian forces in the Luhansk region, with advances reported near the northern Donetsk border (e.g., Kateryniwka).
+   - Ukrainian sources acknowledge Russian progress but deny full capture of Kateryniwka, suggesting ongoing resistance.
+
+2. **Strategic Focus Areas**:
+   - **Donetsk Region**: The industrial city of Pokrowsk remains a contested hotspot, indicating sustained Russian efforts to push deeper into Donetsk.
+   - **Luhansk Region**: Russia aims to fully capture the remaining Ukrainian-held areas, with recent advances threatening to encircle defenders.
+
+3. **Operational Context**:
+   - Russia conducted **165 storm attacks** along the front line in a single day, highlighting aggressive tactics.
+   - The war has been ongoing for over three years, with no signs of immediate breakthroughs but gradual territorial shifts.
+
+4. **Historical Context**:
+   - Russia has controlled ~65% of Donetsk since 2014, with limited progress since the 2022 full-scale invasion.
+   - Luhansk was nearly fully captured early in the war, but pockets of resistance persist.
+
+---
+
+### Implications for September 1, 2025:
+- **Donetsk Control**: If Russia maintains its current momentum (e.g., advances near Pokrowsk), it may capture additional territory by 2025, but significant gains are unlikely without major Ukrainian withdrawals.
+- **Luhansk Impact**: Further losses in Luhansk could force Ukrainian redeployments, indirectly affecting Donetsk defenses.
+- **Stalemate Risk**: Prolonged attrition warfare suggests incremental changes rather than rapid territorial shifts.
+
+---
+
+### Data Gaps to Address:
+- **Ukrainian Counteroffensives**: Are there planned or ongoing Ukrainian operations to reclaim lost ground?
+- **Resource Availability**: How do weapon supplies (e.g., Western aid) and troop morale influence future battles?
+- **Diplomatic Factors**: Could negotiations or international pressure alter Russia’s objectives?
+
+This summary provides a foundation for further analysis, but real-time updates and additional sources (e.g., Ukrainian government estimates) would be necessary for a definitive projection.
+```
+```research_summary_18
+To analyze the question of what proportion of the Donetsk region Russia will control on September 1, 2025, I would consider the following key factors and information:
+
+1. **Current Control and Frontlines (as of early 2025)**:
+   - Russia controls approximately 65% of the Donetsk region.
+   - The frontlines have been relatively stable, with fighting concentrated in specific areas near the 2014 Minsk demarcation line.
+
+2. **Historical Context and Objectives**:
+   - Russia's stated objective is the complete capture of the Donetsk and Luhansk regions.
+   - Luhansk was nearly fully captured during the early stages of the 2022 invasion, but progress in Donetsk has been slower.
+
+3. **Military Dynamics and Recent Developments**:
+   - The intensity and location of recent attacks in Donetsk (e.g., March 2022, September 2022) can indicate areas of strategic importance or vulnerability.
+   - The frequency and success of Ukrainian counteroffensives or Russian advances in 2024-2025.
+
+4. **Geopolitical and Strategic Factors**:
+   - International support for Ukraine, including military aid and sanctions on Russia.
+   - Internal political stability in Russia and Ukraine, which could influence military strategies and resource allocation.
+
+5. **Terrain and Logistics**:
+   - The geographical features of Donetsk (e.g., urban areas, industrial zones) that may affect military operations.
+   - Supply lines and logistical capabilities of both sides.
+
+6. **Technological and Tactical Advancements**:
+   - Use of drones, artillery, and other military technologies that could shift the balance of control.
+   - Adaptations in tactics by either side based on past engagements.
+
+7. **Economic and Human Factors**:
+   - The impact of economic sanctions or resource shortages on Russia's military capabilities.
+   - Civilian population movements and their influence on military operations.
+
+8. **Historical Patterns**:
+   - Analysis of past territorial gains and losses to predict future trends.
+   - Seasonal patterns in military operations (e.g., winter vs. summer offensives).
+
+By considering these factors, I can better assess the likelihood of territorial changes in the Donetsk region by September 1, 2025.
+```
+```research_summary_19
+To address the question of what proportion of the Donetsk region Russia will control on September 1, 2025, I need to focus on relevant geopolitical, military, and strategic factors. The provided content about the Donegal county football team's 2024 season is entirely unrelated to the question at hand. Therefore, I will outline the key information and factors that would be relevant for analyzing the control of the Donetsk region by Russia in 2025.
+
+### Relevant Information for Analysis:
+
+1. **Current Control and Territorial Gains (as of early 2025):**
+   - As of early 2025, Russia controls approximately 65% of the Donetsk region.
+   - Historical context: Russia has controlled parts of Donetsk since 2014, but the full-scale invasion began in February 2022.
+
+2. **Military Objectives and Strategies:**
+   - Russia's declared objective is the complete capture of the Donetsk and Luhansk regions.
+   - Progress in Luhansk: Russia captured almost the entire Luhansk region during the initial weeks of the 2022 invasion.
+   - Progress in Donetsk: Russia has had less success, with fighting still occurring near the 2014 Minsk demarcation line.
+
+3. **Recent Military Developments (up to early 2025):**
+   - Assessment of recent offensives, counteroffensives, and stalemates.
+   - Changes in territorial control since the start of 2025.
+   - Impact of international support (e.g., weapons, sanctions) on both sides.
+
+4. **Geopolitical Factors:**
+   - International diplomatic efforts and potential peace agreements.
+   - Influence of global powers (e.g., U.S., EU, China) on the conflict.
+   - Economic and resource considerations affecting the war effort.
+
+5. **Internal Dynamics:**
+   - Morale and capabilities of Russian and Ukrainian forces.
+   - Logistical and supply chain challenges for both sides.
+   - Civilian and military casualties, and their impact on the conflict.
+
+6. **Historical Patterns and Trends:**
+   - Analysis of past territorial changes and the pace of advances or retreats.
+   - Seasonal factors affecting military operations (e.g., winter conditions).
+
+7. **Future Projections:**
+   - Expert forecasts and analyses from military and intelligence analysts.
+   - Potential scenarios for territorial control by September 1, 2025.
+
+### Next Steps:
+To provide an accurate and up-to-date answer, I would need to gather the latest intelligence reports, military assessments, and geopolitical analyses as of early 2025. This would include reviewing recent developments in the conflict, changes in territorial control, and any significant events or agreements that could influence the outcome.
+
+If you have access to specific reports, data, or tools that can provide this information, please share them, or let me know how to proceed to gather the necessary details.
+```
+```research_summary_20
+### **Key Considerations for Evaluating Russia’s 2022 Mobilization**
+
+#### **1. Background & Context**
+- **Why Mobilization?** Russia announced partial mobilization in September 2022 to address manpower shortages in Ukraine.
+- **Legal Changes:** Amendments to desertion laws made it easier to punish soldiers for refusing orders.
+- **International Reactions:** Many Western nations saw it as a sign of desperation, while some (like Germany) offered asylum to deserters.
+
+#### **2. Impact on Military Effectiveness**
+- **Training & Equipment Issues:**
+  - Mobilized soldiers were often poorly trained and lacked proper equipment.
+  - Russia’s military infrastructure struggled to absorb and deploy new recruits effectively.
+- **High Casualties:**
+  - By July 2024, **7,152 mobilized Russians** were confirmed killed (12.2% of all identified Russian fatalities).
+  - Many died in poorly planned offensives (e.g., Battle of Vuhledar).
+
+#### **3. Societal & Economic Consequences**
+- **Brain Drain & Emigration:**
+  - Many Russians (especially IT professionals) fled to avoid conscription.
+  - Kazakhstan initially welcomed refugees but later tightened visa rules.
+- **Demographic Impact:**
+  - Russia may lose **10% of men aged 20–29** due to war deaths and emigration.
+  - Long-term effects include higher crime rates and fatherless children.
+
+#### **4. Political & Strategic Implications**
+- **Domestic Backlash:**
+  - Protests erupted against mobilization, with chants like *"Let our children live."*
+- **International Isolation:**
+  - Western nations dismissed Putin’s nuclear threats and continued supporting Ukraine.
+  - Some countries (e.g., Estonia, Latvia) refused visas to Russians evading conscription.
+
+#### **5. Long-Term Risks for Russia**
+- **Cannon Fodder Strategy:**
+  - Experts believe Putin prioritized overwhelming Ukraine with numbers over quality troops.
+- **Economic Strain:**
+  - War spending and sanctions have weakened Russia’s economy.
+- **Future Instability:**
+  - A generation of traumatized soldiers and displaced families could fuel unrest.
+
+### **Conclusion: Key Questions to Consider**
+- **Is mobilization working militarily?** (Likely not—high casualties, poor training.)
+- **What are the long-term costs for Russia?** (Demographic collapse, economic decline, social unrest.)
+- **How will international reactions shape the war?** (Western support for Ukraine may increase.)
+
+This summary provides a structured way to assess the implications of Russia’s mobilization decision. Would you like any specific aspect explored further?
+```
+```research_summary_21
+To address the question of what proportion of the Donetsk region Russia will control on September 1, 2025, I would need to consider several key factors and pieces of information. The provided content about the Syrian civil war is not directly relevant to this question, so I will outline the types of information that would be useful for an accurate analysis.
+
+### Key Information to Consider:
+
+1. **Current Control and Frontlines (as of early 2025):**
+   - As of early 2025, Russia controls approximately 65% of the Donetsk region. This is a crucial starting point for any projection.
+   - The current frontlines and areas of active fighting should be mapped to understand the potential for territorial changes.
+
+2. **Military Capabilities and Resources:**
+   - The military strength of both Russia and Ukraine, including troop numbers, equipment, and supply lines.
+   - The level of international support each side receives, particularly in terms of weapons, ammunition, and training.
+
+3. **Strategic Objectives and Priorities:**
+   - Russia's stated objectives and whether they remain focused on capturing the entire Donetsk region.
+   - Ukraine's defensive strategies and counteroffensive capabilities in the Donetsk region.
+
+4. **Geopolitical and Diplomatic Factors:**
+   - The involvement of international actors, such as the United States, European Union, and other countries, in supporting either side.
+   - Potential peace negotiations or ceasefire agreements that could affect territorial control.
+
+5. **Economic and Logistical Considerations:**
+   - The economic impact of the war on both sides and how this might influence their ability to sustain military operations.
+   - The logistical challenges of supplying troops and maintaining control over captured territories.
+
+6. **Historical Context and Patterns:**
+   - Past patterns of territorial control and shifts in the Donetsk region since the start of the full-scale invasion in February 2022.
+   - Lessons from previous conflicts or similar situations that might provide insights into potential future developments.
+
+7. **Technological and Tactical Advancements:**
+   - Any new technologies or tactics being employed by either side that could significantly alter the balance of power.
+   - The role of drones, artillery, and other military technologies in shaping the conflict.
+
+8. **Domestic Political Factors:**
+   - The political stability and leadership changes in both Russia and Ukraine that could impact their military strategies.
+   - Public opinion and morale within both countries, which can influence the sustainability of the conflict.
+
+### Conclusion:
+To provide an accurate projection of the proportion of the Donetsk region that Russia will control on September 1, 2025, a comprehensive analysis incorporating the above factors would be necessary. The provided content about the Syrian civil war does not contribute to this analysis, so I would need up-to-date and specific information on the current situation in the Donetsk region and the broader context of the Russo-Ukrainian war.
+
+If you have access to more relevant data or specific details about the current state of the conflict, please provide them, and I can help analyze the information further.
+```
+```research_summary_22
+When deciding whether to recognize or support the results of the referendums and subsequent annexation of Ukrainian territories by Russia, consider the following key points:
+
+### **1. Legality and International Law**
+- **Violation of International Law**: The referendums and annexation violate the United Nations Charter, which prohibits the acquisition of territory by force.
+- **Occupation Context**: The referendums were held in territories under Russian military occupation, with reports of coercion, intimidation, and lack of free participation.
+- **Human Rights Violations**: Human rights organizations (Amnesty International, Human Rights Watch) condemned the process as a sham with no legal validity.
+
+### **2. Political and Diplomatic Consequences**
+- **Global Condemnation**: Nearly all countries (including NATO members, the EU, and the U.S.) rejected the annexation, calling it illegal and a violation of Ukraine’s sovereignty.
+- **Escalation Risks**: Russia’s threats to use nuclear weapons to defend the annexed territories raise concerns about further military escalation.
+- **Diplomatic Isolation**: Recognizing the annexation would align with Russia’s aggressive expansionist policies, undermining international norms.
+
+### **3. Humanitarian and Economic Impact**
+- **Forced Conscription**: Local men in occupied regions may be forcibly drafted into the Russian military, as seen in Donbas.
+- **Reconstruction Costs**: Russia would face massive financial burdens (estimated $100–200 billion) to rebuild war-torn areas, diverting resources from its economy.
+- **Humanitarian Crisis**: Civilians in annexed regions may face further repression, displacement, and loss of rights.
+
+### **4. Historical Precedents**
+- **Similar to 2014 Annexation of Crimea**: The process mirrors Russia’s previous illegal annexation of Crimea, which was widely condemned.
+- **Comparison to Soviet Annexations**: Some analysts draw parallels to Soviet-era forced referendums (e.g., Baltic states in 1940), which were later deemed illegitimate.
+
+### **5. Strategic Implications**
+- **Encouraging Further Aggression**: Recognizing the annexation could embolden Russia to seize more territory, destabilizing Eastern Europe.
+- **Impact on Ukraine’s Sovereignty**: Ukraine and its allies view this as an existential threat, potentially prolonging the war.
+
+### **Conclusion**
+The referendums and annexation lack legitimacy under international law and are widely seen as a coercive act of aggression. Supporting them would undermine global security, human rights, and the principle of territorial integrity.
+
+Would you like additional details on any specific aspect?
+```
+```research_summary_23
+Here’s a structured summary of key information to consider when evaluating the question about Israeli airstrikes in Syria:
+
+---
+
+### **Key Context**
+1. **Escalation Timeline**:
+   - **2024**: Increased frequency and lethality of strikes since the Gaza war (October 2023).
+   - **2023**: Targeted Iranian-linked sites, Hezbollah, and Hamas operatives.
+   - **2022–2023**: Focus on disrupting Iranian arms transfers and missile production.
+
+2. **Targets**:
+   - **Military Sites**: Airbases (e.g., Aleppo, Shayrat), missile facilities (Masyaf), and radar installations.
+   - **Iranian/Hezbollah Assets**: Command centers, weapon depots, and personnel (e.g., IRGC generals, Hezbollah leaders).
+   - **Residential Areas**: Some strikes hit buildings linked to militant groups (e.g., Mazzeh, Qudsaya).
+
+3. **Casualties**:
+   - **2024**: Highest death tolls (e.g., 38 killed in Aleppo airport strike on March 29).
+   - **2023**: Focus on senior operatives (e.g., IRGC commanders, Hamas rocket coordinators).
+
+4. **Strategic Goals**:
+   - **Disrupt Iranian Influence**: Prevent arms smuggling to Hezbollah and West Bank militants.
+   - **Counter Hamas/Hezbollah**: Target leadership and infrastructure.
+   - **Deter Iranian Attacks**: Respond to missile/drone strikes (e.g., April 2024 Iranian retaliation).
+
+5. **Geopolitical Implications**:
+   - **Syrian Civil War**: Israel operates in a complex environment with Russian and Iranian forces.
+   - **Proxy Conflicts**: Part of broader Iran-Israel tensions (e.g., IRGC involvement).
+
+---
+
+### **Critical Questions to Consider**
+1. **Legality**:
+   - Does Israel have a right to self-defense under international law?
+   - Are strikes on residential areas proportional or risk civilian harm?
+
+2. **Effectiveness**:
+   - Do strikes degrade Iranian/Hezbollah capabilities long-term?
+   - How do targets (e.g., missile sites) impact regional security?
+
+3. **Escalation Risks**:
+   - Could strikes provoke wider conflict (e.g., Iran-Hezbollah retaliation)?
+   - How does Russia’s presence in Syria factor in?
+
+4. **Humanitarian Impact**:
+   - Civilian casualties and displacement in Syria.
+   - Impact on regional stability (e.g., Lebanon’s security).
+
+5. **Diplomatic Fallout**:
+   - Reactions from Iran, Hezbollah, and international actors (e.g., UN, US).
+
+---
+
+### **Data Points for Analysis**
+- **Casualty Counts**: Highest in 2024 (e.g., 92 killed in Palmyra on November 20).
+- **Targeted Leadership**: IRGC generals, Hezbollah commanders.
+- **Infrastructure Damage**: Airports, missile factories, and command centers.
+
+---
+
+### **Conclusion**
+The strikes reflect Israel’s strategy to counter Iranian expansion and militant threats, but they also carry risks of escalation and humanitarian consequences. The decision to continue or adjust this approach depends on balancing security needs with regional stability and legal considerations.
+
+Would you like additional details on any specific aspect?
+```
+```research_summary_24
+To address the question about the proportion of the Donetsk region that Russia will control on September 1, 2025, I need to focus on relevant geopolitical, military, and strategic factors. The provided content about the Philippine sugar crisis is not directly relevant to this question. However, I can outline the key considerations that would be important for analyzing the situation in Donetsk:
+
+### Key Considerations for Analyzing Control of the Donetsk Region by September 1, 2025
+
+1. **Current Military Situation (as of early 2025)**
+   - As of early 2025, Russia controls approximately 65% of the Donetsk region.
+   - The front lines have been relatively stable, with fighting concentrated in specific areas near the demarcation line established by the 2014 Minsk agreements.
+
+2. **Military Capabilities and Strategies**
+   - **Russian Forces**: Assess the strength, morale, and supply lines of Russian troops in the region. Consider their ability to launch and sustain offensive operations.
+   - **Ukrainian Forces**: Evaluate the capabilities of Ukrainian forces, including their access to weapons, training, and international support (e.g., military aid from Western countries).
+   - **Strategic Objectives**: Understand the stated and implied goals of both Russia and Ukraine regarding the Donetsk region.
+
+3. **Geopolitical Factors**
+   - **International Support**: The level of military, financial, and diplomatic support Ukraine receives from its allies (e.g., the United States, European Union, NATO) can significantly impact the outcome.
+   - **Sanctions and Economic Pressures**: The effectiveness of international sanctions against Russia and their impact on Russia's ability to sustain the war effort.
+
+4. **Terrain and Logistics**
+   - The geographical features of the Donetsk region, including urban areas, industrial zones, and natural barriers, can influence the dynamics of control.
+   - The availability of supplies, reinforcements, and medical support for troops on both sides.
+
+5. **Historical Context**
+   - Review the progress and setbacks of both sides since the start of the full-scale invasion in February 2022.
+   - Analyze previous attempts to capture or defend key territories within the Donetsk region.
+
+6. **Political and Diplomatic Developments**
+   - Any potential peace negotiations, ceasefire agreements, or shifts in leadership that could alter the trajectory of the conflict.
+   - Domestic political situations in both Russia and Ukraine that might influence their commitment to the war.
+
+7. **Technological and Intelligence Advantages**
+   - The use of drones, satellite imagery, and cyber warfare capabilities by both sides.
+   - The role of intelligence agencies in providing strategic insights and operational support.
+
+8. **Humanitarian and Economic Impact**
+   - The effect of the conflict on civilian populations, infrastructure, and economic stability in the region.
+   - The potential for internal unrest or resistance movements that could affect control.
+
+By considering these factors, I can develop a more informed assessment of the likely proportion of the Donetsk region that Russia will control by September 1, 2025. If you have access to specific data or reports on these topics, please provide them to enhance the analysis.
+```
+```research_summary_25
+To analyze the proportion of the Donetsk region that Russia will control on September 1, 2025, the following key points from the provided content should be considered:
+
+1. **Historical Context and Objectives**:
+   - Russia's declared objective is the complete capture of the Donetsk and Luhansk regions, which it has partially controlled since 2014.
+   - By early 2025, Russia controls about 65% of the Donetsk region, with ongoing efforts to expand control.
+
+2. **Evacuation of Civilians (2022)**:
+   - In February 2022, Russia initiated mass evacuations of civilians from the Donetsk and Luhansk regions to Russia, citing threats from Ukraine.
+   - Approximately 50,000 evacuees arrived in Russia within the first two days of the evacuation announcement.
+   - Ukrainian authorities reported that most residents did not leave, and some evacuated due to fear of Russian authorities rather than Ukrainian threats.
+
+3. **Implications for Control**:
+   - The evacuation efforts may have been aimed at consolidating control over the regions by reducing civilian populations that could resist or complicate military operations.
+   - The deportation of civilians could also be part of broader strategies to alter demographics and solidify territorial claims.
+
+4. **Ongoing Conflict Dynamics**:
+   - The fighting in the Donetsk region has been intense, with Russia focusing its main efforts there despite limited territorial gains since 2014.
+   - The situation as of early 2025 suggests continued Russian military pressure, but the outcome by September 2025 will depend on future developments in the war.
+
+5. **Potential Factors Influencing Future Control**:
+   - Military successes or failures on either side.
+   - International support and sanctions affecting Russia's capabilities.
+   - Internal political and economic stability in Russia and Ukraine.
+
+These points provide a foundation for assessing the likelihood of Russia's control over the Donetsk region by September 1, 2025. However, additional up-to-date information on military developments, diplomatic efforts, and internal dynamics in both Russia and Ukraine would be necessary for a more precise forecast.
+```
+```research_summary_26
+When deciding whether to recognize or support the 2014 referendums in Donetsk and Luhansk oblasts (Donbas region) as legitimate, consider the following key points:
+
+### **1. Legal and Constitutional Issues**
+- **Violation of Ukrainian Law**: The referendums were held in violation of Ukraine’s constitution, which does not allow regions to unilaterally declare independence.
+- **No International Recognition**: No country or major international organization recognized the results as legitimate.
+
+### **2. Conditions Under Which the Referendums Took Place**
+- **Violence and Intimidation**: The voting occurred amid armed conflict, with pro-Russian separatists controlling polling stations and threatening opposition.
+- **Lack of Free and Fair Process**:
+  - Voters were not properly registered but were allowed to vote with identification.
+  - Reports of multiple voting, early voting, and reduced polling stations.
+  - Media and observers were intimidated or barred from monitoring.
+- **No Independent Verification**: Results were announced by separatist authorities without independent oversight.
+
+### **3. International Reactions**
+- **United States, EU, and NATO**: Rejected the referendums as illegal and non-binding.
+- **Russia**: Initially called for postponement but later recognized the results, despite widespread condemnation.
+- **OSCE and Other Bodies**: Described the process as illegitimate and called for de-escalation.
+
+### **4. Counter-Referendum in Dnipropetrovsk Oblast**
+- A parallel vote in areas still under Ukrainian control showed strong support for remaining part of Ukraine, suggesting that the separatist referendums did not reflect the will of all residents.
+
+### **5. Long-Term Implications**
+- **Precedent for Further Separatism**: Recognizing these referendums could encourage similar moves in other regions.
+- **Impact on Ukrainian Sovereignty**: Legitimizing the referendums would undermine Ukraine’s territorial integrity.
+
+### **Conclusion**
+The 2014 Donbas referendums were conducted under coercion, lacked legal basis, and were widely rejected by the international community. Recognizing them would set a dangerous precedent for unilateral secession and undermine international norms.
+
+Would you like additional details on any specific aspect?
+```
+```research_summary_27
+Here’s a structured summary of key points to consider when evaluating the economic, geopolitical, and humanitarian impacts of the Russian invasion of Ukraine:
+
+---
+
+### **1. Economic Impacts**
+#### **Ukraine**
+- **GDP Contraction**: Ukraine’s GDP shrank by **29.1%** in 2022 due to war-related destruction.
+- **Industry Damage**:
+  - Steel production dropped **71%** (key plants destroyed/occupied).
+  - Exports fell **35%** compared to 2021.
+- **Infrastructure Destruction**:
+  - Over **$10 billion** in damages to energy infrastructure (power stations, grids).
+  - **12 million people** lost electricity at some point.
+  - **Zaporizhzhia Nuclear Plant** seized, disrupting high-voltage power delivery.
+
+#### **Russia**
+- **GDP Growth**: Unexpectedly **shrunk by only 2.1%** in 2022 (less than predicted).
+- **Sanctions Evasion**:
+  - Bartering, cryptocurrency, and trade with non-sanctioning countries (e.g., China, India).
+  - **Military spending** and **oil/gas exports** offset losses.
+- **Asset Seizures**:
+  - Russia passed laws to **nationalize assets** of "unfriendly" companies (e.g., Uniper, Fortum, Carlsberg, Danone).
+  - **$10 billion** in foreign jets stranded in Russia.
+
+#### **Global Trade**
+- **"ABCD" Companies** (ADM, Bunge, Cargill, Louis Dreyfus) profited from **food price spikes**.
+- **Arms Manufacturers** (Raytheon, Lockheed Martin) saw **record profits** from increased defense spending.
+
+---
+
+### **2. Geopolitical Shifts**
+- **EU Defense**: Calls for **stronger military investment** and **accelerated green transition**.
+- **Eurasian Integration**: Potential **unwinding** of economic ties between Russia and former Soviet states.
+- **EU Expansion**: Improved **accession prospects** for Southeast European countries.
+
+---
+
+### **3. Humanitarian & Social Effects**
+#### **Russia**
+- **Brain Drain**: Mass emigration of professionals (tech workers, journalists) due to **economic hardship, censorship, and repression**.
+- **Digital Isolation**: Blocking of **independent media/social platforms** (similar to China’s "Golden Shield").
+- **Inflation/Shortages**: Rising prices, capital controls, and restricted travel.
+
+#### **Ukraine**
+- **Refugee Crisis**: Millions displaced internally or abroad.
+- **War Crimes**: Indiscriminate attacks on **civilian infrastructure** (power grids, hospitals) classified as **crimes against humanity**.
+
+---
+
+### **4. Opposition to Sanctions**
+- **China & India**: Oppose sanctions, citing **ineffectiveness** and harm to civilians.
+- **Middle East/Africa**: No major sanctions imposed on Russia.
+- **Trade Diversion**: Russia bypasses sanctions via **India, China, and Central Asia**.
+
+---
+
+### **5. Key Questions to Consider**
+1. **Effectiveness of Sanctions**: Are they crippling Russia’s economy, or is it adapting?
+2. **Long-Term Geopolitical Shifts**: Will the war accelerate EU defense cooperation or Eurasian fragmentation?
+3. **Human Cost**: How will Ukraine rebuild, and what support will it need?
+4. **Global Supply Chains**: Will food/energy price volatility persist?
+5. **Legal Precedents**: Will Russia’s asset seizures set a dangerous norm for future conflicts?
+
+---
+
+This summary distills complex issues into actionable insights for decision-making.
+```
+
+For you to be marked Successful, you must output 3 things:
+
+1. Probabilities for the outcomes of the question.  
+The question has one of 5 outcomes namely  
+
+* O1. Less than 40%
+* O2. 40-60%
+* O3. 60-80%
+* O4. 80-90%
+* O5. 90-100%
+
+Each outcome Oi has a probability Pi where 0 <= Pi <= 1.
+We must have that P1+P2+P3+P4+P5 = 1.0.
+Add some reasonable amount of randomness/noise to the estimation of the branches.
+The output is a Python list wrapped by a binProbs tag, in this format:
+```binProbs
+[P1,P2,P3,P4,P5]
+```
+
+
+2. Reasons your probabilities might be right, wrapped in tag in this format:
+```rRight
+...reasons you might be right
+```
+
+3. Reasons your probabilities might be wrong, wrapped in tag in this format:
+```rWrong
+...reasons you might be wrong
+```
