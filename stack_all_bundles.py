@@ -2,7 +2,7 @@ import numpy as np
 import os
 from tqdm import tqdm
 
-bundle_dir = 'glimt/wikipedia/bundles'
+bundle_dir = 'wikipedia/bundles'
 num_bundles = 20
 
 # First, determine the shape and dtype of your embeddings
@@ -19,7 +19,7 @@ for i in range(num_bundles):
     total_rows += emb.shape[0]
 
 # Create a memory-mapped file for output
-output_path = os.path.join('glimt/wikipedia', 'wiki_title_embeddings.npy')
+output_path = os.path.join('wikipedia', 'wiki_title_embeddings.npy')
 all_embeddings = np.memmap(output_path, dtype=dtype, mode='w+', shape=(total_rows, bundle_shape[1]))
 
 # Write each bundle into the correct slice of the memmap
@@ -38,4 +38,4 @@ all_embeddings.flush()
 all_embeddings = np.memmap(output_path, dtype=dtype, mode='r', shape=(total_rows, bundle_shape[1]))
 
 # Save as a proper .npy file
-np.save(os.path.join('glimt/wikipedia', 'wiki_title_embeddings_clean.npy'), np.array(all_embeddings))
+np.save(os.path.join('wikipedia', 'wiki_title_embeddings_clean.npy'), np.array(all_embeddings))

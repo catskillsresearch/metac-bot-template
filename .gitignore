@@ -170,4 +170,5 @@ cython_debug/
 # .idea/
 poetry.lock
 combined_py_files.txt
-glimt/wikipedia
+wikipedia
+glimt

@@ -3,9 +3,9 @@ import numpy as np
 import faiss
 
 # Load index and titles
-index = faiss.read_index("glimt/wikipedia/wiki_titles.index")
+index = faiss.read_index("wikipedia/wiki_titles.index")
 titles = [line.strip().replace('_',' ')
-          for line in open("glimt/wikipedia/enwiki-20250701-all-titles-in-ns0", encoding="utf-8")]
+          for line in open("wikipedia/enwiki-20250701-all-titles-in-ns0", encoding="utf-8")]
 
 # Load model and encode query
 model = SentenceTransformer("all-MiniLM-L6-v2")

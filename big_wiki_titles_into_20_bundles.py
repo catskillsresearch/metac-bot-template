@@ -1,8 +1,8 @@
 import os
 from tqdm import tqdm
 
-input_file = 'glimt/wikipedia/enwiki-20250701-all-titles-in-ns0'
-output_dir = 'glimt/wikipedia/bundles'
+input_file = 'wikipedia/enwiki-20250701-all-titles-in-ns0'
+output_dir = 'wikipedia/bundles'
 os.makedirs(output_dir, exist_ok=True)
 
 with open(input_file, 'r', encoding='utf-8') as f:

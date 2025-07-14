@@ -3,7 +3,7 @@ import torch
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
-with open('glimt/wikipedia/enwiki-20250701-all-titles-in-ns0', 'r') as f:
+with open('wikipedia/enwiki-20250701-all-titles-in-ns0', 'r') as f:
     titles = [x[0:-1].replace('_', ' ') for x in f.readlines()[1:]]
 
 # Load model (choose one optimized for short phrases)
