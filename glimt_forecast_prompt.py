@@ -1,12 +1,21 @@
 from saved_prompt import saved_prompt
+from get_periods_of_whenwill_question import get_periods_of_whenwill_question
+from filter_periods_to_today import filter_periods_to_today
+import json
 
 def glimt_forecast_prompt(ifp, research):
-    (fn, prompt) = saved_prompt(ifp)
-    if prompt: return prompt
+    (fn, savep) = saved_prompt(ifp)
+    if savep: return savep
     ## Prompt with rationale fields split into for and against
     details = ifp['props']['details']
     title = ifp['props']['title']
     bins = [x['props']['title'] for x in ifp['bins']]
+    rejected = []
+    if 'When' in title:
+        periods = get_periods_of_whenwill_question(ifp)
+        rejected, filtered = filter_periods_to_today(periods)
+        original_bins = bins
+        bins = [f"{b}-{c}" for a,b,c in filtered]
     sb1 = '\n'.join([f"""* O{i+1}. {bin}""" for i, bin in enumerate(bins)])
     psum = '+'.join([f'P{i+1}' for i, bin in enumerate(bins)])
     pcom = ','.join([f'P{i+1}' for i, bin in enumerate(bins)])
@@ -56,5 +65,6 @@ For you to be marked Successful, you must output 3 things:
 ```
 """
     with open(fn, 'w') as f:
-        f.write(prompt)
-    return prompt
+        json.dump((prompt, rejected), f)
+
+    return prompt, rejected

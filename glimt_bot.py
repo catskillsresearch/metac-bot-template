@@ -10,8 +10,6 @@ def glimt_bot():
     id_to_ifp = save_ifps_to_disk(ifps)
     news = gather_news_for_ifps(ifps)
     for ifp in ifps:
-        if ifp['id'] in [458,463,468,469]:
-            continue
         forecast_ifp(ifp, news)
 
 if __name__ == "__main__":

@@ -21,16 +21,18 @@ def forecast_ifp(ifp, news):
     source_summaries, sources = create_source_summaries(ifp['id'], title_plus_criteria, wiki_articles, ifp_news_sources, ifp_news_text)
     rephrase_binary_outcomes(ifp)
     research = format_research(source_summaries)
-    prompt = glimt_forecast_prompt(ifp, research)
+    prompt, rejected = glimt_forecast_prompt(ifp, research)
 
     ## Run the prompt 5 times
-    answers = [humor_me(prompt, i+1) for i in range(5)]
+    prompt_tries = 2 # Waste of time on Mistral 4 bit
+    answers = [humor_me(prompt, i+1) for i in range(prompt_tries)]
     binProbs = [get_bin_probs(a) for a in answers]
     rights = [get_rights(a) for a in answers]
     wrongs = [get_wrongs(a) for a in answers]
     
     ## Median forecasts and rationales
-    forecast = median_forecast(binProbs)
+    forecast = rejected + median_forecast(binProbs)
+    
     right = median_rationale(rights)
     wrong = median_rationale(wrongs)
     jsx_request(jsx_forecast(ifp['id'],forecast,right,wrong,sources))

@@ -6,7 +6,7 @@ def filter_periods_to_today(periods):
     rejected = []
     for label, start, end in periods:
         if end < today:
-            rejected.append(0)
+            rejected.append(0.0)
             continue
         if start < today:
             start = today
