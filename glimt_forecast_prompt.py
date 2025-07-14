@@ -1,7 +1,8 @@
+import json
 from saved_prompt import saved_prompt
 from get_periods_of_whenwill_question import get_periods_of_whenwill_question
 from filter_periods_to_today import filter_periods_to_today
-import json
+from get_event import get_event
 
 def glimt_forecast_prompt(ifp, research):
     (fn, savep) = saved_prompt(ifp)
@@ -15,7 +16,8 @@ def glimt_forecast_prompt(ifp, research):
         periods = get_periods_of_whenwill_question(ifp)
         rejected, filtered = filter_periods_to_today(periods)
         original_bins = bins
-        bins = [f"{b}-{c}" for a,b,c in filtered]
+        event = get_event(ifp)
+        bins = [f"{event} between {b} and {c}" for a,b,c in filtered]
     sb1 = '\n'.join([f"""* O{i+1}. {bin}""" for i, bin in enumerate(bins)])
     psum = '+'.join([f'P{i+1}' for i, bin in enumerate(bins)])
     pcom = ','.join([f'P{i+1}' for i, bin in enumerate(bins)])

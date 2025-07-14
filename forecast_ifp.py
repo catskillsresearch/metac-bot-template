@@ -37,3 +37,15 @@ def forecast_ifp(ifp, news):
     wrong = median_rationale(wrongs)
     jsx_request(jsx_forecast(ifp['id'],forecast,right,wrong,sources))
     print('end FORECASTING', ifp['id'], ifp['props']['title'], datetime.now())
+
+    result = (forecast, right, wrong, sources)
+    fn = f'glimt/forecast'
+    import os
+    os.makedirs(fn, exist_ok=True)
+    fn = f"{fn}/{ifp['id']}.json"
+
+    import json
+    with open(fn, 'w') as f:
+        json.dump(result, f)
+
+    return result
