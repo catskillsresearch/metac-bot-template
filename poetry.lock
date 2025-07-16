@@ -1499,6 +1499,21 @@ files = [
 ]
 
 [[package]]
+name = "fredapi"
+version = "0.5.2"
+description = "Python API for Federal Reserve Economic Data (FRED) from St. Louis Fed"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "fredapi-0.5.2-py3-none-any.whl", hash = "sha256:961817ec8d70e58886ff7302d3dda908614ad99f77831a59833c4fc3f6150155"},
+    {file = "fredapi-0.5.2.tar.gz", hash = "sha256:405ca048abed4207d93dbc9b7ee8c46d6b473483650323e2f1c094af83d4b247"},
+]
+
+[package.dependencies]
+pandas = "*"
+
+[[package]]
 name = "frozendict"
 version = "2.4.6"
 description = "A simple immutable dictionary"
@@ -6975,4 +6990,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<3.13"
-content-hash = "8b2fcc1029d7985728bad0de64e0ec2df1c2d162745588e2f46a471dd48bf96a"
+content-hash = "b30042104a8b85ce2c5941a28b563ac34bfb62c9a8da78a3d23468836ba32d41"
