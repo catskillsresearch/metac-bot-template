@@ -171,4 +171,5 @@ cython_debug/
 poetry.lock
 combined_py_files.txt
 wikipedia
+glimthistory.joblib
 glimt
