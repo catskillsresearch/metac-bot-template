@@ -1,21 +1,30 @@
 
 import yfinance as yf
 import pandas as pd
+from datetime import datetime, timedelta
 
-# Define the ticker symbols and the date range
-tickers = ['NVDA', 'AAPL']
-start_date = '2024-07-21'
-end_date = '2025-07-21'
+# Define the forecast period
+start_date = datetime(2025, 7, 21)
+end_date = datetime(2025, 8, 1)
 
-# Download the historical data
-data = yf.download(tickers, start=start_date, end=end_date)['Adj Close']
+# Define the lookup period (one year before the start date)
+LOOKUP_START = start_date - timedelta(days=365)
+LOOKUP_END = start_date
 
-# Save the data to CSV files
-data['NVDA'].to_csv('NVDA_adj_close.csv')
-data['AAPL'].to_csv('AAPL_adj_close.csv')
+# Ticker symbol for VIX
+VIX_TICKER = "^VIX"
+
+# Fetch historical data for the lookup period
+vix_data = yf.download(VIX_TICKER, start=LOOKUP_START, end=LOOKUP_END)
+
+# Save the data to a CSV file
+vix_data.to_csv('vix_historical_data.csv')
 
 # Display the first few rows of the data
-print("NVDA Adjusted Closing Prices:")
-print(data['NVDA'].head())
-print("\nAAPL Adjusted Closing Prices:")
-print(data['AAPL'].head())
+print(vix_data.head())
+
+# To get the highest intraday value (maximum "high" value) during the forecast period
+forecast_period_data = yf.download(VIX_TICKER, start=start_date, end=end_date)
+max_high = forecast_period_data['High'].max()
+
+print(f"The highest intraday value (maximum 'high') of the VIX during the period from {start_date.date()} to {end_date.date()} is: {max_high}")
