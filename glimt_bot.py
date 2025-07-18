@@ -10,9 +10,7 @@ def glimt_bot():
     id_to_ifp = save_ifps_to_disk(ifps)
     news = gather_news_for_ifps(ifps)
     for ifp in ifps:
-        if ifp['id'] == 469:
-            forecast_ifp(ifp, news)
-            return
+        forecast_ifp(ifp, news)
 
 if __name__ == "__main__":
     while True:
