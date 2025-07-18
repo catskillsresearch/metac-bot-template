@@ -29,7 +29,7 @@ sudo systemctl restart docker
 ### Test nvidia-smi
 
 ```
-docker run --rm --gpus all nvidia/cuda:12.4.0-base-ubuntu22.04 nvidia-smi
+sudo docker run --rm --gpus all nvidia/cuda:12.4.0-base-ubuntu22.04 nvidia-smi
 ```
 
 ### Run server (first time)
