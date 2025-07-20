@@ -1,3 +1,5 @@
+from nominal_location_to_cdf_location import nominal_location_to_cdf_location
+
 def metaculus_generate_continuous_cdf(
     percentiles: dict,
     question_data: dict,
