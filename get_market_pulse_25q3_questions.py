@@ -30,5 +30,6 @@ def get_market_pulse_25q3_questions():
             ifps.append(question)
 
     ifps_sorted = [x[2] for x in list(sorted([(ifp['post_id'], ifp['id'], ifp) for ifp in ifps]))]
+    ifps_sorted = [x for x in ifps_sorted if x['status'] == 'open']
 
     return ifps_sorted
