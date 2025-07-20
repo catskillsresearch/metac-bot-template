@@ -23,7 +23,7 @@ from post_group_forecast import post_group_forecast
 
 pd.set_option('display.max_colwidth', 1000)
 
-i# Get open questions
+# Get open questions
 ifps = get_market_pulse_25q3_questions()
 results = get_underlying_urls(ifps)
 results = {int(key): value for key, value in results.items()}
@@ -46,19 +46,18 @@ for i, ifp in enumerate(ifps):
         ifp['sources'] = [(x,y,z) for x,y,z in ifp['sources'] if y == company]
         ifp['data'] = {(x,y,z):w for (x,y,z),w in ifp['data'].items() if y == company}
 
-
-for i, ifp in enumerate(ifps):
+#for i, ifp in enumerate(ifps):
     # Get forward period start and end date
     if 'period' not in ifp:
         ifp['period'] = get_forward_period_start_and_end_date(ifp)
 
-for i, ifp in enumerate(ifps):
+#for i, ifp in enumerate(ifps):
     # Parse observable of data
     if 'observable' not in ifp:
         ifp['observable'] = get_observable(ifp)
         ifp['period_type'] = get_period_type(ifp)
 
-for i, ifp in enumerate(ifps):
+#for i, ifp in enumerate(ifps):
     # Generate forecast for each question
     print(f"[{i}] {ifp['title']}")
     ### High on any day in forward biweekly period from today
@@ -83,7 +82,7 @@ for i, ifp in enumerate(ifps):
         raise Exception(f"Unhandled question [{ifp['id']}] {ifp['title']}")
     ifp['prediction'] = prediction
 
-for i, ifp in enumerate(ifps):
+#for i, ifp in enumerate(ifps):
     # Submit the question
     row = pd.Series()
     row['id_of_question'] = ifp['id']
