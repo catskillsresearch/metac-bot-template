@@ -10,7 +10,7 @@ def ensure_min_increase(lst, min_step=5e-05):
     Returns:
         list of float: Adjusted list with minimum step enforced.
     """
-    if not lst:
+    if lst is None or len(lst) == 0:
         return []
     result = [lst[0]]
     for num in lst[1:]:

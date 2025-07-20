@@ -8,8 +8,10 @@ def forecast_stock_price_return_spread(ifp):
     title, observable, period_type, period, data = ifp['title'], ifp['observable'],  ifp['period_type'],  ifp['period'], ifp['data']
     today = datetime.now()
     print((period_type, period, observable))
-    A2 = data[('yahoo','NVDA','price')]['Close'].values
-    A1 = data[('yahoo','AAPL','price')]['Close'].values
+    S2 = ifp['sources'][0]
+    S1 = ifp['sources'][1]
+    A2 = data[S2]['Close'].values
+    A1 = data[S1]['Close'].values
     start_date, end_date = [datetime.strptime(date_str, "%Y-%m-%d") for date_str in period]
     lookahead = np.busday_count(today.strftime('%Y-%m-%d'), start_date.strftime('%Y-%m-%d'))
     biweekly = 10

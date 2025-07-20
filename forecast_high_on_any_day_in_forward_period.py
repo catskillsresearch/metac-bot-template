@@ -17,5 +17,5 @@ def forecast_high_on_any_day_in_forward_period(ifp):
     underlying = ifp['sources'][0][1]
     plt.ylabel(underlying)
     plt.xlabel('Percentile')
-    plt.title(f'[{ifp['id']} {ifp['title']} Empirical CDF of maximum intraday {underlying} in a 10-day period from today');
+    plt.title(f'Empirical CDF of maximum intraday {underlying} in a 10-day period from today');
     return rng, forecast
