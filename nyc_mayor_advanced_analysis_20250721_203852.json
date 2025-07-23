@@ -1,0 +1,1811 @@
+{
+  "analysis_timestamp": "2025-07-21T20:38:52.899288",
+  "total_contracts_found": 53,
+  "candidates": {
+    "mamdani": {
+      "full_name": "Zohran Mamdani",
+      "search_terms": [
+        "Mamdani",
+        "Zohran",
+        "MNYCG_Mamdani"
+      ],
+      "party": "Democratic",
+      "description": "State Assemblyman, Democratic Socialist"
+    },
+    "adams": {
+      "full_name": "Eric Adams",
+      "search_terms": [
+        "Adams",
+        "Eric",
+        "MNYCG_Adams"
+      ],
+      "party": "Independent",
+      "description": "Incumbent Mayor"
+    },
+    "cuomo": {
+      "full_name": "Andrew Cuomo",
+      "search_terms": [
+        "Cuomo",
+        "Andrew",
+        "MNYCG_Cuomo"
+      ],
+      "party": "Independent",
+      "description": "Former Governor"
+    },
+    "sliwa": {
+      "full_name": "Curtis Sliwa",
+      "search_terms": [
+        "Sliwa",
+        "Curtis",
+        "MNYCG_Sliwa"
+      ],
+      "party": "Republican",
+      "description": "Guardian Angels Founder"
+    },
+    "walden": {
+      "full_name": "Jim Walden",
+      "search_terms": [
+        "Walden",
+        "Jim",
+        "MNYCG_Walden"
+      ],
+      "party": "Independent",
+      "description": "Former Federal Prosecutor"
+    }
+  },
+  "contract_data": {
+    "796056051": {
+      "search_method": "symbol",
+      "search_term": "MNYCG",
+      "contract_data": {
+        "conid": "796056051",
+        "companyHeader": "General Election for New York City Mayor - FORECASTX",
+        "companyName": "General Election for New York City Mayor",
+        "symbol": "MNYCG",
+        "description": "FORECASTX",
+        "restricted": null,
+        "sections": [
+          {
+            "secType": "EC"
+          }
+        ]
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "6509": "R",
+        "conidEx": "796056051",
+        "_updated": 1753142639817,
+        "conid": 796056051,
+        "6119": "q150",
+        "72": "0",
+        "server_id": "q150"
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:19.212836"
+    },
+    "4187": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "4187",
+        "companyHeader": "ADAMS DIVERSIFIED EQUITY (NYSE)",
+        "companyName": null,
+        "symbol": "ADX",
+        "description": null,
+        "restricted": "CFD",
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "4187",
+        "conid": 4187
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:19.820285"
+    },
+    "189149349": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "189149349",
+        "companyHeader": "ADAMS NATURAL RESOURCES FUND (NYSE)",
+        "companyName": null,
+        "symbol": "PEO",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "189149349",
+        "conid": 189149349
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:20.428330"
+    },
+    "764383": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "764383",
+        "companyHeader": "ADAMS RESOURCES & ENERGY INC (VALUE)",
+        "companyName": null,
+        "symbol": "AE",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "764383",
+        "conid": 764383
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:20.935608"
+    },
+    "329439967": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "329439967",
+        "companyHeader": "ADAMS PLC (VALUE)",
+        "companyName": null,
+        "symbol": "ADA.OLD1",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "329439967",
+        "conid": 329439967
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:21.371480"
+    },
+    "79757985": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "79757985",
+        "companyHeader": "JOHN ADAMS LIFE CORP (PINK)",
+        "companyName": null,
+        "symbol": "JALC",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "79757985",
+        "conid": 79757985
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:21.990501"
+    },
+    "427052473": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "427052473",
+        "companyHeader": "ADAMS NATURAL RESOURCES FUND - TENDER NO PRICE (CORPACT)",
+        "companyName": null,
+        "symbol": "PEO.NSP",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "427052473",
+        "conid": 427052473
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:22.515331"
+    },
+    "427052476": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "427052476",
+        "companyHeader": "ADAMS NATURAL RESOURCES FUND - TENDER BID PRICE (CORPACT)",
+        "companyName": null,
+        "symbol": "PEO.SP",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "427052476",
+        "conid": 427052476
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:23.027930"
+    },
+    "443916017": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "443916017",
+        "companyHeader": "ADAMS NATURAL RESOURCES FUND - TENDER (CORPACT)",
+        "companyName": null,
+        "symbol": "PEO.TEN",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "443916017",
+        "conid": 443916017
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:23.615273"
+    },
+    "479614519": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "479614519",
+        "companyHeader": "ADAMS PLC - OPEN OFFER RIGHTS 21/04/21 (CORPACT)",
+        "companyName": null,
+        "symbol": "ADA.RTS",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "479614519",
+        "conid": 479614519
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:24.118403"
+    },
+    "481674221": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "481674221",
+        "companyHeader": "ADAMS PLC - BASIC SUBSCRIPTION 21/04/21 (CORPACT)",
+        "companyName": null,
+        "symbol": "ADA.RTS2",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "481674221",
+        "conid": 481674221
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:24.846770"
+    },
+    "603521506": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "603521506",
+        "companyHeader": "ADAMS RESOURCES & ENERGY INC (FWB2)",
+        "companyName": null,
+        "symbol": "5QT",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "603521506",
+        "conid": 603521506
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:25.663346"
+    },
+    "720322787": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "720322787",
+        "companyHeader": "ADAMS DIVERSIFIED EQUITY - TENDER (CORPACT)",
+        "companyName": null,
+        "symbol": "ADX.TEN",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "720322787",
+        "conid": 720322787
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:26.278025"
+    },
+    "794230223": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "794230223",
+        "companyHeader": "UBAM ADAMS US SMALL CAP EQUITY \"I\" (EURHDG) ACC (UBP AM (EUROPE) (LU)) (ALLFUNDS)",
+        "companyName": null,
+        "symbol": "127396787",
+        "description": null,
+        "restricted": "FUND",
+        "sections": [],
+        "secType": "FUND"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "794230223",
+        "conid": 794230223
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:26.742003"
+    },
+    "-1": {
+      "search_method": "name",
+      "search_term": "Adams",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "-1",
+        "companyHeader": "Adams Community Bank",
+        "companyName": null,
+        "symbol": null,
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "issuers": [
+          {
+            "id": "e3285637",
+            "name": "Adams Community Bank"
+          }
+        ],
+        "bondid": 13,
+        "secType": "BOND"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 400"
+      },
+      "market_data": {
+        "conidEx": "-1",
+        "conid": -1
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:27.333963"
+    },
+    "268977": {
+      "search_method": "name",
+      "search_term": "Eric",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "268977",
+        "companyHeader": "ERICSSON (LM) TEL-SP ADR (NASDAQ)",
+        "companyName": null,
+        "symbol": "ERIC",
+        "description": null,
+        "restricted": "CFD",
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "268977",
+        "conid": 268977
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:27.916345"
+    },
+    "917845": {
+      "search_method": "name",
+      "search_term": "Eric",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "917845",
+        "companyHeader": "ERICSSON LM-B SHS (SFB)",
+        "companyName": null,
+        "symbol": "ERIC.B",
+        "description": null,
+        "restricted": "CFD,OPT,WAR",
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "917845",
+        "conid": 917845
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:28.736028"
+    },
+    "1329541": {
+      "search_method": "name",
+      "search_term": "Eric",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "1329541",
+        "companyHeader": "ERICSSON LM-A SHS (SFB)",
+        "companyName": null,
+        "symbol": "ERIC.A",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "1329541",
+        "conid": 1329541
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:29.554607"
+    },
+    "537665365": {
+      "search_method": "name",
+      "search_term": "Eric",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "537665365",
+        "companyHeader": "ERICSSON LM-B SHS (MEXI)",
+        "companyName": null,
+        "symbol": "ERICBN",
+        "description": null,
+        "restricted": "STK",
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "537665365",
+        "conid": 537665365
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:30.476692"
+    },
+    "38708613": {
+      "search_method": "name",
+      "search_term": "Eric",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "38708613",
+        "companyHeader": "ERICSSON (LM) TEL-SP ADR (MEXI)",
+        "companyName": null,
+        "symbol": "ERICN",
+        "description": null,
+        "restricted": "STK",
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "38708613",
+        "conid": 38708613
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:31.021908"
+    },
+    "83914476": {
+      "search_method": "name",
+      "search_term": "Eric",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "83914476",
+        "companyHeader": "ERICSSON LM-A SHS (IBIS2)",
+        "companyName": null,
+        "symbol": "ERCG",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "83914476",
+        "conid": 83914476
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:31.536256"
+    },
+    "3623817": {
+      "search_method": "name",
+      "search_term": "Eric",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "3623817",
+        "companyHeader": "ERICSSON LM-B SHS (IBIS2)",
+        "companyName": null,
+        "symbol": "ERCB",
+        "description": null,
+        "restricted": "IOPT",
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "3623817",
+        "conid": 3623817
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:32.055090"
+    },
+    "274799192": {
+      "search_method": "name",
+      "search_term": "Eric",
+      "candidate": "adams",
+      "contract_data": {
+        "conid": "274799192",
+        "companyHeader": "ERICKSON INC (VALUE)",
+        "companyName": null,
+        "symbol": "EKSN",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Eric Adams",
+        "search_terms": [
+          "Adams",
+          "Eric",
+          "MNYCG_Adams"
+        ],
+        "party": "Independent",
+        "description": "Incumbent Mayor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "274799192",
+        "conid": 274799192
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:32.639060"
+    },
+    "506932452": {
+      "search_method": "name",
+      "search_term": "Andrew",
+      "candidate": "cuomo",
+      "contract_data": {
+        "conid": "506932452",
+        "companyHeader": "ANDREW YULE & COMPANY LTD (VALUE)",
+        "companyName": null,
+        "symbol": "ANDREWYU",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Andrew Cuomo",
+        "search_terms": [
+          "Cuomo",
+          "Andrew",
+          "MNYCG_Cuomo"
+        ],
+        "party": "Independent",
+        "description": "Former Governor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "506932452",
+        "conid": 506932452
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:33.124935"
+    },
+    "2400448": {
+      "search_method": "name",
+      "search_term": "Andrew",
+      "candidate": "cuomo",
+      "contract_data": {
+        "conid": "2400448",
+        "companyHeader": "ANDREWS SYKES GROUP PLC (LSE)",
+        "companyName": null,
+        "symbol": "ASY",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Andrew Cuomo",
+        "search_terms": [
+          "Cuomo",
+          "Andrew",
+          "MNYCG_Cuomo"
+        ],
+        "party": "Independent",
+        "description": "Former Governor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "2400448",
+        "conid": 2400448
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:33.795747"
+    },
+    "41515906": {
+      "search_method": "name",
+      "search_term": "Andrew",
+      "candidate": "cuomo",
+      "contract_data": {
+        "conid": "41515906",
+        "companyHeader": "ANDREW PELLER LTD -A (TSE)",
+        "companyName": null,
+        "symbol": "ADW.A",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Andrew Cuomo",
+        "search_terms": [
+          "Cuomo",
+          "Andrew",
+          "MNYCG_Cuomo"
+        ],
+        "party": "Independent",
+        "description": "Former Governor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "41515906",
+        "conid": 41515906
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:34.367523"
+    },
+    "41515911": {
+      "search_method": "name",
+      "search_term": "Andrew",
+      "candidate": "cuomo",
+      "contract_data": {
+        "conid": "41515911",
+        "companyHeader": "ANDREW PELLER LTD -B (TSE)",
+        "companyName": null,
+        "symbol": "ADW.B",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Andrew Cuomo",
+        "search_terms": [
+          "Cuomo",
+          "Andrew",
+          "MNYCG_Cuomo"
+        ],
+        "party": "Independent",
+        "description": "Former Governor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "41515911",
+        "conid": 41515911
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:34.981882"
+    },
+    "706314327": {
+      "search_method": "name",
+      "search_term": "Andrew",
+      "candidate": "cuomo",
+      "contract_data": {
+        "conid": "706314327",
+        "companyHeader": "ANDREW PELLER LTD -B (FWB2)",
+        "companyName": null,
+        "symbol": "ANJ0",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Andrew Cuomo",
+        "search_terms": [
+          "Cuomo",
+          "Andrew",
+          "MNYCG_Cuomo"
+        ],
+        "party": "Independent",
+        "description": "Former Governor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "706314327",
+        "conid": 706314327
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:35.596255"
+    },
+    "603509828": {
+      "search_method": "name",
+      "search_term": "Andrew",
+      "candidate": "cuomo",
+      "contract_data": {
+        "conid": "603509828",
+        "companyHeader": "ANDREW PELLER LTD -A (FWB2)",
+        "companyName": null,
+        "symbol": "ANJ",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Andrew Cuomo",
+        "search_terms": [
+          "Cuomo",
+          "Andrew",
+          "MNYCG_Cuomo"
+        ],
+        "party": "Independent",
+        "description": "Former Governor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "603509828",
+        "conid": 603509828
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:36.210978"
+    },
+    "402160300": {
+      "search_method": "name",
+      "search_term": "Andrew",
+      "candidate": "cuomo",
+      "contract_data": {
+        "conid": "402160300",
+        "companyHeader": "ANDREW PELLER LTD -A (PINK)",
+        "companyName": null,
+        "symbol": "ADWPF",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Andrew Cuomo",
+        "search_terms": [
+          "Cuomo",
+          "Andrew",
+          "MNYCG_Cuomo"
+        ],
+        "party": "Independent",
+        "description": "Former Governor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "402160300",
+        "conid": 402160300
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:36.825001"
+    },
+    "6236": {
+      "search_method": "name",
+      "search_term": "Curtis",
+      "candidate": "sliwa",
+      "contract_data": {
+        "conid": "6236",
+        "companyHeader": "CURTISS-WRIGHT CORP (NYSE)",
+        "companyName": null,
+        "symbol": "CW",
+        "description": null,
+        "restricted": "CFD,IOPT,WAR",
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Curtis Sliwa",
+        "search_terms": [
+          "Sliwa",
+          "Curtis",
+          "MNYCG_Sliwa"
+        ],
+        "party": "Republican",
+        "description": "Guardian Angels Founder"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "6236",
+        "conid": 6236
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:37.439629"
+    },
+    "193832290": {
+      "search_method": "name",
+      "search_term": "Curtis",
+      "candidate": "sliwa",
+      "contract_data": {
+        "conid": "193832290",
+        "companyHeader": "CURTIS BANKS GROUP PLC (VALUE)",
+        "companyName": null,
+        "symbol": "CBP",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Curtis Sliwa",
+        "search_terms": [
+          "Sliwa",
+          "Curtis",
+          "MNYCG_Sliwa"
+        ],
+        "party": "Republican",
+        "description": "Guardian Angels Founder"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "193832290",
+        "conid": 193832290
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:38.054228"
+    },
+    "80702092": {
+      "search_method": "name",
+      "search_term": "Curtis",
+      "candidate": "sliwa",
+      "contract_data": {
+        "conid": "80702092",
+        "companyHeader": "CURTISS-WRIGHT CORP (FWB2)",
+        "companyName": null,
+        "symbol": "CWT",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Curtis Sliwa",
+        "search_terms": [
+          "Sliwa",
+          "Curtis",
+          "MNYCG_Sliwa"
+        ],
+        "party": "Republican",
+        "description": "Guardian Angels Founder"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "80702092",
+        "conid": 80702092
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:38.579065"
+    },
+    "307198503": {
+      "search_method": "name",
+      "search_term": "Curtis",
+      "candidate": "sliwa",
+      "contract_data": {
+        "conid": "307198503",
+        "companyHeader": "CURTISS MOTORCYCLES CO INC (PINK)",
+        "companyName": null,
+        "symbol": "CMOT",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Curtis Sliwa",
+        "search_terms": [
+          "Sliwa",
+          "Curtis",
+          "MNYCG_Sliwa"
+        ],
+        "party": "Republican",
+        "description": "Guardian Angels Founder"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "307198503",
+        "conid": 307198503
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:39.024141"
+    },
+    "495246906": {
+      "search_method": "name",
+      "search_term": "Curtis",
+      "candidate": "sliwa",
+      "contract_data": {
+        "conid": "495246906",
+        "companyHeader": "CURTIS MATHES CORP (PINK)",
+        "companyName": null,
+        "symbol": "CMCZ",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Curtis Sliwa",
+        "search_terms": [
+          "Sliwa",
+          "Curtis",
+          "MNYCG_Sliwa"
+        ],
+        "party": "Republican",
+        "description": "Guardian Angels Founder"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "495246906",
+        "conid": 495246906
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:39.692920"
+    },
+    "656365660": {
+      "search_method": "name",
+      "search_term": "Curtis",
+      "candidate": "sliwa",
+      "contract_data": {
+        "conid": "656365660",
+        "companyHeader": "CURTIS BANKS GROUP PLC - CASH MERGER (CORPACT)",
+        "companyName": null,
+        "symbol": "CBP.CSH",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Curtis Sliwa",
+        "search_terms": [
+          "Sliwa",
+          "Curtis",
+          "MNYCG_Sliwa"
+        ],
+        "party": "Republican",
+        "description": "Guardian Angels Founder"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "656365660",
+        "conid": 656365660
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:40.205662"
+    },
+    "476061809": {
+      "search_method": "name",
+      "search_term": "Walden",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "476061809",
+        "companyHeader": "WALDENCAST ACQUISITION CORP (VALUE)",
+        "companyName": null,
+        "symbol": "WALDU",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "476061809",
+        "conid": 476061809
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:41.076179"
+    },
+    "576124824": {
+      "search_method": "name",
+      "search_term": "Walden",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "576124824",
+        "companyHeader": "WALDENCAST PLC-A (NASDAQ)",
+        "companyName": null,
+        "symbol": "WALD",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "576124824",
+        "conid": 576124824
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:41.944921"
+    },
+    "575407373": {
+      "search_method": "name",
+      "search_term": "Walden",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "575407373",
+        "companyHeader": "WALDENCAST ACQUISITION COR-A - TENDER (CORPACT)",
+        "companyName": null,
+        "symbol": "WALD.TEN",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "575407373",
+        "conid": 575407373
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:42.462814"
+    },
+    "748086793": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "748086793",
+        "companyHeader": "JARVIS SECURITIES PLC (LSE)",
+        "companyName": null,
+        "symbol": "JIM",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "748086793",
+        "conid": 748086793
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:42.983003"
+    },
+    "141165479": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "141165479",
+        "companyHeader": "INFLATION MANAGED BOND - A (J.P. Morgan Mutual Funds) (FUNDSERV)",
+        "companyName": null,
+        "symbol": "JIMAX",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "FUND"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "141165479",
+        "conid": 141165479
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:43.583435"
+    },
+    "141166462": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "141166462",
+        "companyHeader": "Short-Intermediate Muni Bond - I (J.P. Morgan Mutual Funds) (FUNDSERV)",
+        "companyName": null,
+        "symbol": "JIMIX",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "FUND"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "141166462",
+        "conid": 141166462
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:44.402484"
+    },
+    "141428573": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "141428573",
+        "companyHeader": "INFLATION MANAGED BOND FUND - C (J.P. Morgan Mutual Funds) (FUNDSERV)",
+        "companyName": null,
+        "symbol": "JIMCX",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "FUND"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "141428573",
+        "conid": 141428573
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:45.017024"
+    },
+    "448085944": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "448085944",
+        "companyHeader": "Johnson Institutional Core Bond - F (Johnson Mutual Funds Trust) (FUNDSERV)",
+        "companyName": null,
+        "symbol": "JIMFX",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "FUND"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "448085944",
+        "conid": 448085944
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:45.542122"
+    },
+    "448085952": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "448085952",
+        "companyHeader": "Johnson Inst Intermediate Bond - F (Johnson Mutual Funds Trust) (FUNDSERV)",
+        "companyName": null,
+        "symbol": "JIMEX",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "FUND"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "448085952",
+        "conid": 448085952
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:46.129105"
+    },
+    "448085962": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "448085962",
+        "companyHeader": "Johnson Inst Short Duration Bond - F (Johnson Mutual Funds Trust) (FUNDSERV)",
+        "companyName": null,
+        "symbol": "JIMDX",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "FUND"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "448085962",
+        "conid": 448085962
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:46.757845"
+    },
+    "14032255": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "14032255",
+        "companyHeader": "KING JIM CO LTD (TSEJ)",
+        "companyName": null,
+        "symbol": "7962",
+        "description": null,
+        "restricted": "STK",
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "14032255",
+        "conid": 14032255
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:47.408884"
+    },
+    "397513967": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "397513967",
+        "companyHeader": "JIMOTY INC (TSEJ)",
+        "companyName": null,
+        "symbol": "7082",
+        "description": null,
+        "restricted": "STK",
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "397513967",
+        "conid": 397513967
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:48.677298"
+    },
+    "114841991": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "114841991",
+        "companyHeader": "JIMOTO HOLDINGS INC (TSEJ)",
+        "companyName": null,
+        "symbol": "7161",
+        "description": null,
+        "restricted": "STK",
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "114841991",
+        "conid": 114841991
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:49.524874"
+    },
+    "624056225": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "624056225",
+        "companyHeader": "JIMU GROUP LTD (SEHK)",
+        "companyName": null,
+        "symbol": "8187",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "624056225",
+        "conid": 624056225
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:50.751239"
+    },
+    "287632090": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "287632090",
+        "companyHeader": "JIMMY CROW LTD (CORPACT)",
+        "companyName": null,
+        "symbol": "TAUXE.NEW",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "287632090",
+        "conid": 287632090
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:51.207261"
+    },
+    "650054767": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "650054767",
+        "companyHeader": "JIMU GROUP LTD RIGHTS SUBSCRIPTION (CORPACT)",
+        "companyName": null,
+        "symbol": "8591.SUB",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "650054767",
+        "conid": 650054767
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:52.085276"
+    },
+    "650054769": {
+      "search_method": "name",
+      "search_term": "Jim",
+      "candidate": "walden",
+      "contract_data": {
+        "conid": "650054769",
+        "companyHeader": "JIMU GROUP LTD RIGHTS OVERSUBSCRIPTION (CORPACT)",
+        "companyName": null,
+        "symbol": "8591.ESU",
+        "description": null,
+        "restricted": null,
+        "sections": [],
+        "secType": "STK"
+      },
+      "candidate_info": {
+        "full_name": "Jim Walden",
+        "search_terms": [
+          "Walden",
+          "Jim",
+          "MNYCG_Walden"
+        ],
+        "party": "Independent",
+        "description": "Former Federal Prosecutor"
+      },
+      "contract_details": {
+        "error": "HTTP 500"
+      },
+      "market_data": {
+        "conidEx": "650054769",
+        "conid": 650054769
+      },
+      "enrichment_timestamp": "2025-07-21T20:38:52.698556"
+    }
+  }
+}

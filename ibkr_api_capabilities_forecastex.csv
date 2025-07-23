@@ -1,0 +1,13 @@
+Feature,Web API v1.0 (Client Portal),TWS API,Current Status (July 2025),Limitations/Notes
+ForecastEx Contract Support,Yes - Limited,Yes - Full Support,Active,Requires account permissions
+Contract ID Lookup,Yes - via /iserver/secdef/*,Yes - Contract Details,Active,Contract must exist and be tradeable
+Real-time Market Data,Yes - via /iserver/marketdata/snapshot,Yes - reqMktData,Active,Requires market data subscriptions
+Historical Data,Yes - via /iserver/marketdata/history,Yes - reqHistoricalData,Active - while trading,Only available while contract trading
+Order Placement,Yes - standard order endpoints,Yes - placeOrder,Active,Standard order restrictions apply
+Account Information,Yes - portfolio endpoints,Yes - Account methods,Active,Requires authenticated session
+Political Contracts,Yes - where available,Yes,Active - US residents only,Geographic restrictions apply
+Economic Contracts,Yes,Yes,Active,Full range available
+Live Streaming Data,Yes - WebSocket,Yes - streaming,Active,Subscription required
+Contract Discovery,Yes - search endpoints,Yes - reqContractDetails,Active,Product-specific search required
+Market Data Snapshot,Yes,Yes,Active,Pacing limits apply (10 req/sec)
+WebSocket Support,Yes,Yes - via callbacks,Active,Real-time when authenticated

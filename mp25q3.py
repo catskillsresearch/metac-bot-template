@@ -2,11 +2,9 @@
 
 import matplotlib.pylab as plt
 from get_market_pulse_25q3_questions import get_market_pulse_25q3_questions
-import json, os
 from get_underlying_urls import get_underlying_urls
 from urls_to_ticker import urls_to_ticker
 from pprint import pprint
-import os, joblib
 from get_data_for import get_data_for
 from get_forward_period_start_and_end_date import get_forward_period_start_and_end_date
 from get_observable import get_observable
