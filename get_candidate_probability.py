@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+import numpy as np
 
 import warnings
 warnings.filterwarnings(
@@ -23,7 +24,8 @@ def get_candidate_probability(conid, period="1week"):
 
     timestamps = data.get("time", [])
     prices = data.get("avg", [])
-
+    volume = data.get("volume", [])
+    
     if not prices or not timestamps:
         return None
 
@@ -33,5 +35,8 @@ def get_candidate_probability(conid, period="1week"):
     return {
         "conid": conid,
         "probability_pct": latest_price * 100,
-        "timestamp": latest_time.isoformat() + "Z"
+        "timestamp": latest_time.isoformat() + "Z",
+        "timestamps": int(timestamp),
+        "prices": prices,
+        "volume": volume
     }
