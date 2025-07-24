@@ -36,7 +36,7 @@ def get_candidate_probability(conid, period="1week"):
         "conid": conid,
         "probability_pct": latest_price * 100,
         "timestamp": latest_time.isoformat() + "Z",
-        "timestamps": int(timestamp),
+        "timestamps": int(timestamps[-1]),
         "prices": prices,
         "volume": volume
     }

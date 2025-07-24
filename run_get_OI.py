@@ -10,7 +10,7 @@ https://www.perplexity.ai/search/how-do-i-do-this-request-in-py-LKWOZo0lRNegn9r7
 
 Must first run
 
-google-chrome   --remote-debugging-port=9222   --user-data-dir="$HOME/.chrome-debug-test"   https://forecasttrader.interactivebrokers.com/eventtrader/
+google-chrome --remote-debugging-port=9222 --user-data-dir="$HOME/.chrome-debug-test" https://forecasttrader.interactivebrokers.com/eventtrader/
 curl http://localhost:9222/json
 """
 
@@ -45,13 +45,12 @@ async def get_cookie_header_from_chrome_devtools():
 # --- Step 2: Get OI Mapping via WebSocket ---
 def get_OI_for_conids(conids, cookie_header):
     WS_URL = "wss://forecasttrader.interactivebrokers.com/portal.proxy/v1/etp/ws"
-    FIELDS = ["7638"]
+    FIELDS = ["7638"]  # Open Interest field code as string
     oi_results = {}
     received_conids = set()
     lock = threading.Lock()
     done_event = threading.Event()
 
-    # Prepare headers
     headers = [
         "Origin: https://forecasttrader.interactivebrokers.com",
         "Referer: https://forecasttrader.interactivebrokers.com/en/home.php",
@@ -60,6 +59,7 @@ def get_OI_for_conids(conids, cookie_header):
     ]
 
     def on_open(ws):
+        print(f"WebSocket opened, sending requests for {len(conids)} conids...")
         for conid in conids:
             msg = f'smd+{conid}+{json.dumps({"fields": FIELDS, "backout": True})}'
             ws.send(msg)
@@ -74,17 +74,23 @@ def get_OI_for_conids(conids, cookie_header):
                     if conid not in received_conids:
                         oi_results[conid] = oi
                         received_conids.add(conid)
+                        print(f"Received OI for conid {conid}: {oi}")
                     if len(received_conids) >= len(conids):
+                        print("Received all expected OI results, closing WebSocket.")
                         done_event.set()
                         ws.close()
-        except Exception:
-            pass
+            else:
+                # Could be a message we do not care about or informational
+                pass
+        except Exception as e:
+            print(f"Error decoding or processing message: {e}\nMessage: {message}")
 
     def on_error(ws, error):
-        print("❌ WebSocket error:", error)
+        print(f"❌ WebSocket error: {error}")
         done_event.set()
 
     def on_close(ws, code, msg):
+        print(f"WebSocket closed with code={code}, message={msg}")
         done_event.set()
 
     ws_app = websocket.WebSocketApp(
@@ -100,17 +106,34 @@ def get_OI_for_conids(conids, cookie_header):
     thread.daemon = True
     thread.start()
 
-    done_event.wait(timeout=20)
+    WAIT_TIMEOUT = 60  # seconds
+    done_event.wait(timeout=WAIT_TIMEOUT)
+
     if ws_app.keep_running:
+        print(f"Timeout reached ({WAIT_TIMEOUT}s). Closing WebSocket...")
         ws_app.close()
+
+    # After closing, check for missing conids
+    conid_set = set(str(c) for c in conids)
+    missing_conids = conid_set - received_conids
+    if missing_conids:
+        print(f"⚠️ Missing OI results for {len(missing_conids)} conids:")
+        print(sorted(missing_conids))
+    else:
+        print("✅ Received OI results for all conids.")
+
     return oi_results
 
-# --- Step 3: Async wrapper to run it all ---
+# --- Step 3: Async wrapper ---
 async def run_get_OI(conids):
     cookie_header = await get_cookie_header_from_chrome_devtools()
     result = get_OI_for_conids(conids, cookie_header)
     return result
 
-# --- Example usage ---
-# Run this in an async environment like Jupyter or an asyncio-compatible main
-#await run_get_OI(["796056520", "796056525"])
+# Example usage:
+# Run this in an async environment like Jupyter Notebook or asyncio-compatible main.
+# e.g.
+# import asyncio
+# conids = ["796056520", "796056525"]
+# results = asyncio.run(run_get_OI(conids))
+# print(results)
