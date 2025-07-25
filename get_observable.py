@@ -12,4 +12,6 @@ def get_observable(ifp):
         return 'quarter diluted eps'
     elif 'revenue' in title:
         return 'quarter total revenue'
+    elif 'added to' in title:
+        return 'index inclusion'
     raise Exception('NIY')

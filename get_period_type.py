@@ -8,5 +8,7 @@ def get_period_type(ifp):
         return 'any day in biweekly period'
     elif 'after' in title:
         return 'next SEC filing date'
+    elif 'before' in title:
+        return 'question end date'
     else:
         raise Exception('unknown period type: ' + title)
