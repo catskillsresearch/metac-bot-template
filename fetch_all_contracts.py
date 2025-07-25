@@ -10,4 +10,5 @@ def fetch_all_contracts(market_conid):
     r = requests.get(market_url, params=params)
     r.raise_for_status()
     contracts = r.json()["contracts"]
+    contracts = [x for x in contracts if 'strikeLabel' in x]
     return contracts

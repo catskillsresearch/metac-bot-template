@@ -1,0 +1,29 @@
+,category,underlyingName,longDescription,shortDescription,strikeLabel,yesNo,probability_pct,OI,lastTradeDate,conid
+0,Election,Florida Governor Democratic Primary,Will David Jolly win the Florida Democratic primary for governor in 2026?,GPFLD Aug18'26 Jolly YES @FORECASTX,Jolly,YES,63.0,339.0,20260903,791742927
+1,Election,Florida Governor Republican Primary,Will Byron Donalds win the Florida Republican primary for governor in 2026?,GPFLR Aug18'26 Donalds YES @FORECASTX,Donalds,YES,71.0,262.0,20260903,767285117
+2,Election,General Election for New York City Mayor,Will Zohran Mamdani win the New York City general election for mayor in 2025?,MNYCG Nov04'25 Mamdani YES @FORECASTX,Mamdani,YES,68.0,1190000.0,20251129,796056520
+3,Election,Kansas Governor Democratic Primary,Will Ethan Corson win the Kansas Democratic primary for governor in 2026?,GPKSD Aug04'26 Corson YES @FORECASTX,Corson,YES,36.0,250.0,20260911,767285268
+4,Election,Kansas Governor Democratic Primary,Will Julie Holscher win the Kansas Democratic primary for governor in 2026?,GPKSD Aug04'26 Holscher YES @FORECASTX,Holscher,YES,39.0,290.0,20260911,767285263
+5,Election,Mayoral Democratic Primary in Seattle,Will Bruce Harrell win the Seattle Democratic Primary election for Mayor in 2025?,MSEAD Aug05'25 Harrell YES @FORECASTX,Harrell,YES,62.0,1740.0,20250819,771327516
+6,Election,Mayoral General Election in Minneapolis,Will Omar Fateh win the Minneapolis general election for Mayor in 2025?,MMSPG Nov04'25 Fateh YES @FORECASTX,Fateh,YES,28.000000000000004,184.0,20251114,771327431
+7,Election,Mayoral General Election in Minneapolis,Will Jacob Frey win the Minneapolis general election for Mayor in 2025?,MMSPG Nov04'25 Frey YES @FORECASTX,Frey,YES,63.0,100.0,20251114,771327413
+8,Election,New Mexico Governor Democratic Primary,Will Deb Haaland win the New Mexico Democratic primary for governor in 2026?,GPNMD Jun02'26 Haaland YES @FORECASTX,Haaland,YES,71.0,405.0,20260630,767285535
+9,Election,New York Governor Democratic Primary,Will Kathy Hochul win the New York Democratic primary for governor in 2026?,GPNYD Jun23'26 Hochul YES @FORECASTX,Hochul,YES,71.0,124.0,20260730,767285565
+10,Election,Pennsylvania Governor Republican Primary,Will Stacy Garrity win the Pennsylvania Republican primary for governor in 2026?,GPPAR May19'26 Garrity YES @FORECASTX,Garrity,YES,62.0,215.0,20260626,767285685
+11,Election,Texas Republican US Senate Primary,Will John Cornyn win the Texas Republican US Senate Primary in 2025?,SRPTX Mar03'26 Cornyn YES @FORECASTX,Cornyn,YES,41.0,450.0,20260303,782090863
+12,Election,Texas Republican US Senate Primary,Will Ken Paxton win the Texas Republican US Senate Primary in 2025?,SRPTX Mar03'26 Paxton YES @FORECASTX,Paxton,YES,59.0,275.0,20260303,782090868
+13,Election,US House of Representatives Control,Will the Democratic Party win a majority in the United States House of Representatives in the 2026 general election?,HORC Nov'26 Democratic YES @FORECASTX,Democratic,YES,69.0,122000.0,20270102,762089343
+14,Election,US House of Representatives Control,Will the Republican Party win a majority in the United States House of Representatives in the 2026 general election?,HORC Nov'26 Republican YES @FORECASTX,Republican,YES,34.0,62000.0,20270102,773659700
+15,Election,US Presidential Candidate Democrat,Will Gavin Newsom win the Democratic Nomination for US President in 2028?,PCD Aug'28 Newsome YES @FORECASTX,Newsom,YES,26.0,4610.0,20280831,745924025
+16,Election,US Senate Majority,Will the Democratic Party win a US Senate Majority in the 2026 general election?,SENM Nov'26 Democratic YES @FORECASTX,Democratic,YES,27.0,4290.0,20270102,773659815
+17,Macro,Fed Decision,"Will the Fed lower the rate 25 bps at the September 17, 2025 meeting?",FFDEC Sep17'25 Lower25bps YES @FORECASTX,Lower 25bps,YES,42.0,300.0,20250917,791103682
+18,Macro,Fed Decision,"Will the Fed lower the rate 25 bps at the October 29, 2025 meeting?",FFDEC Oct29'25 Lower25bps YES @FORECASTX,Lower 25bps,YES,54.0,60.0,20251029,793089205
+19,Macro,Fed Decision,"Will the Fed leave the rate unchanged at the September 17, 2025 meeting?",FFDEC Sep17'25 Nochange YES @FORECASTX,No change,YES,46.0,461.0,20250917,791103688
+20,Macro,Fed Decision,"Will the Fed leave the rate unchanged at the October 29, 2025 meeting?",FFDEC Oct29'25 Nochange YES @FORECASTX,No change,YES,44.0,339.0,20251029,793089188
+21,Macro,US Tariffs Enacted via Executive Order,"Will the United States impose additional tariffs on Automobiles and Auto Parts by September 30, 2025?",USTRF Sep30'25 Automobiles YES @FORECASTX,Automobiles,YES,30.0,10.0,20251001,788715383
+22,Macro,US Tariffs Enacted via Executive Order,"Will the United States impose additional tariffs on China by December 31, 2025?",USTRF Dec31'25 China YES @FORECASTX,China,YES,52.0,20.0,20260101,788715429
+23,Macro,US Tariffs Enacted via Executive Order,"Will the United States impose additional tariffs on the European Union by September 30, 2025?",USTRF Sep30'25 EuropeanUnion YES @FORECASTX,EuropeanUnion,YES,31.0,10.0,20251001,788715389
+24,Macro,US Tariffs Enacted via Executive Order,"Will the United States impose additional tariffs on Russia by September 30, 2025?",USTRF Sep30'25 Russia YES @FORECASTX,Russia,YES,44.0,20.0,20251001,788715372
+25,Macro,US Tariffs Enacted via Executive Order,"Will the United States impose additional tariffs on Semiconductors by September 30, 2025?",USTRF Sep30'25 Semiconductors YES @FORECASTX,Semiconductors,YES,35.0,60.0,20251001,788715405
+26,Macro,US Tariffs Enacted via Executive Order,"Will the United States impose additional tariffs on Semiconductors by December 31, 2025?",USTRF Dec31'25 Semiconductors YES @FORECASTX,Semiconductors,YES,59.0,280.0,20260101,788715492
+27,Macro,US Tariffs Enacted via Executive Order,"Will the United States impose additional tariffs on Smartphones by September 30, 2025?",USTRF Sep30'25 Smartphones YES @FORECASTX,Smartphones,YES,36.0,20.0,20251001,788715420
