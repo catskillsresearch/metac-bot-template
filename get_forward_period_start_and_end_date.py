@@ -3,6 +3,7 @@ from humor_me import humor_me
 from datetime import datetime
 
 def get_forward_period_start_and_end_date(ifp):
+    print('hi')
     today = str(datetime.now())[0:10]
     if ifp['sources'] and ifp['sources'][0][0] == 'macrotrends':
         prompt = f"""
@@ -19,20 +20,17 @@ Please return the date as a Python string in format
 'YYYY-MM-DD'
 ```
 """
+        print(prompt)
+        answer = humor_me(prompt)
+        return eval(extract_python(answer).strip())
     else:
         try:
             period = ifp['title'].split('(')[1].split(')')[0]
-            prompt = f"""
-For this period: {period} please return, as python strings, in format YYYY-MM-DD, 
-the start date and end date of the period mentioned, in format
+            prompt = f"""Today is {today}.  Please return, as python strings, in format YYYY-MM-DD, 
+the start date and end date of the period "{period}", in format
 ```python
 [startDate,endDate]
-```
-
-These dates must be after {today}.
-
-Any symbol or name you see in the query refers to a US listed equity (company listed on a stock exchange).
-"""
+```"""
             print(prompt)
             answer = humor_me(prompt)
             return eval(extract_python(answer).strip())

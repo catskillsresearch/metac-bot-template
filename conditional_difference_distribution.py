@@ -1,5 +1,5 @@
 import numpy as np
-
+from smooth_percentiles import smooth_percentiles
 from rolling_total_return import rolling_total_return
 
 def conditional_difference_distribution(A1, A2, window=10, gap=10, epsilon=0.1):
@@ -50,7 +50,7 @@ def conditional_difference_distribution(A1, A2, window=10, gap=10, epsilon=0.1):
                 sample_diffs.append(gc_ret - es_ret)
     sample_diffs = np.array(sample_diffs)
     rng = np.arange(0, 100.5, 0.5)
-    quantiles = np.percentile(sample_diffs, rng)
+    quantiles = smooth_percentiles(np.percentile(sample_diffs, rng))
     # Percentile rank of zero (probability GC - ES ≤ 0)
     pct_of_zero = np.mean(sample_diffs <= 0) * 100
     return rng, quantiles, sample_diffs, pct_of_zero

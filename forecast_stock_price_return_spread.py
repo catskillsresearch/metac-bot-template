@@ -21,5 +21,5 @@ def forecast_stock_price_return_spread(ifp):
     plt.plot(rng, forecast);
     plt.ylabel(underlying)
     plt.xlabel('Percentile')
-    plt.title(f'Empirical CDF of {observable} {period_type} {underlying} in a 10-day period from today');
+    plt.title(f'forecast_stock_price_return_spread\nEmpirical CDF of {observable} {period_type} {underlying} in a 10-day period from today');
     return rng, forecast

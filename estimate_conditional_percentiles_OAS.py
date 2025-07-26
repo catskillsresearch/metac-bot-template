@@ -1,4 +1,5 @@
 import numpy as np
+from smooth_percentiles import smooth_percentiles
 
 def estimate_conditional_percentiles_OAS(A, window=10, gap=2, Y=None, epsilon=0.5):
     """
@@ -37,7 +38,7 @@ def estimate_conditional_percentiles_OAS(A, window=10, gap=2, Y=None, epsilon=0.
 
     sample_ends = np.array(sample_ends)
     rng = np.arange(0, 100.5, 0.5)
-    quantiles = np.percentile(sample_ends, rng)
+    quantiles = smooth_percentiles(np.percentile(sample_ends, rng))
 
     return rng, quantiles
 

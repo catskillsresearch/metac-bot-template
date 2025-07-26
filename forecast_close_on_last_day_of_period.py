@@ -19,5 +19,5 @@ def forecast_close_on_last_day_of_period(ifp):
     underlying = ifp['sources'][0][1]
     plt.ylabel(underlying)
     plt.xlabel('Percentile')
-    plt.title(f'Empirical CDF of {observable} {period_type} {underlying} in a 10-day period from today');
+    plt.title(f'forecast_close_on_last_day_of_period\nEmpirical CDF of {observable} {period_type} {underlying} in a 10-day period from today');
     return rng, forecast

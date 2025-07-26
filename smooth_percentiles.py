@@ -18,4 +18,4 @@ def smooth_percentiles(Y):
     interp_func = PchipInterpolator(p_key, v_key)
     v_smooth = interp_func(x_smooth)
 
-    return x_smooth, v_smooth
+    return v_smooth

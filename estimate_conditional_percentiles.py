@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.stats import scoreatpercentile
+from smooth_percentiles import smooth_percentiles
 
 def estimate_conditional_percentiles(A, window=10, gap=2, Y=None, epsilon=0.5):
     """
@@ -41,6 +42,6 @@ def estimate_conditional_percentiles(A, window=10, gap=2, Y=None, epsilon=0.5):
 
     # Generate percentile values at desired resolution
     rng = np.arange(0, 100.5, 0.5)  # 0 to 100 inclusive in 0.5 steps
-    quantiles = np.percentile(sample_maxs, rng)
+    quantiles = smooth_percentiles(np.percentile(sample_maxs, rng))
 
     return rng, quantiles

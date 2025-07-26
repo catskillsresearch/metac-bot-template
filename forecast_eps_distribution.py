@@ -1,4 +1,5 @@
 import numpy as np
+from smooth_percentiles import smooth_percentiles
 
 def forecast_eps_distribution(eps_values, percentiles=201, simulations=10000, random_seed=42):
     """
@@ -27,6 +28,6 @@ def forecast_eps_distribution(eps_values, percentiles=201, simulations=10000, ra
 
     # Calculate desired percentiles
     pct_values = np.linspace(0, 100, percentiles)
-    eps_distribution = np.percentile(simulated_eps, pct_values)
+    eps_distribution = smooth_percentiles(np.percentile(simulated_eps, pct_values))
 
     return pct_values, eps_distribution
