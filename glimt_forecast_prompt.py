@@ -68,5 +68,8 @@ For you to be marked Successful, you must output 3 things:
 """
     with open(fn, 'w') as f:
         json.dump((prompt, rejected), f)
+    fn1 = fn.replace('.json', '.txt')
+    with open(fn1, 'w') as f:
+        f.write(prompt)
 
     return prompt, rejected

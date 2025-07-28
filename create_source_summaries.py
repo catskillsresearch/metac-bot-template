@@ -6,7 +6,8 @@ def create_source_summaries(ifp_id, title_plus_criteria, wiki_articles, ifp_news
     
     fn = f'glimt/source_summaries/{ifp_id}.json' # source summaries
     fn1 = f'glimt/source_summaries/{ifp_id}.txt'  # source URLs
-  
+    fn2 = f'glimt/source_summaries/{ifp['id']}_combined.txt' # source summaries
+    
     if os.path.exists(fn) and os.path.exists(fn1):
         with open(fn, 'r') as f:
             source_summaries = json.load(f)
@@ -44,7 +45,7 @@ information that you would want to consider when deciding the question."""
     ifp_wiki_sources = [z.fullurl for x,y,z in wiki_articles]
     sources = ifp_news_sources + ifp_wiki_sources
 
-    with open(fn1, 'w') as f:
-        f.write('\n'.join(sources))
+    with open(fn2, 'w') as f:
+        f.write('\n'.join(source_summaries))
 
     return source_summaries, sources

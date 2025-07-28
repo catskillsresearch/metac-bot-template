@@ -12,7 +12,7 @@ def gather_news_for_ifps(ifps):
                 news[id] = f.read()
             continue
         prompt = f"""{title}\n{details}"""
-        news[id] = call_asknews(prompt, True)
+        news[id] = call_asknews(prompt)
         with open(fn, 'w') as f:
             f.write(news[id])
         print('saved', fn)
