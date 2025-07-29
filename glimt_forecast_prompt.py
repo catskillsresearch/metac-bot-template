@@ -12,7 +12,7 @@ def glimt_forecast_prompt(ifp, research):
     title = ifp['props']['title']
     bins = [x['props']['title'] for x in ifp['bins']]
     rejected = []
-    if 'When' or "By what date" in title:
+    if 'When' in title or "By what date" in title:
         periods = get_periods_of_whenwill_question(ifp)
         rejected, filtered = filter_periods_to_today(periods)
         original_bins = bins
