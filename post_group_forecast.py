@@ -87,12 +87,11 @@ def post_group_forecast(row):
     post_question_comment(post_id, comment)
     print("Posted forecast for", question_id)
     dfn = f'glimt/forecast'
-    ifp['question_type'] = 'binary'
+    dfn = f'glimt/forecast'
     os.makedirs(dfn, exist_ok=True)
-    fn = f"{dfn}/{ifp['id']}.json"
+    fn = f"{dfn}/{question_id}.json"
+    result = (row.percentiles, comment, '', '')
     with open(fn, 'w') as f:
-        result = (question_id, post_id, forecast_payload)
         json.dump(result, f)
-
 
 

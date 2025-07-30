@@ -69,3 +69,4 @@ def forecast_general_binary(ifp):
         'prediction': yes_probability,
         'forecast': rationale})
     post_forecast(brow)
+    
