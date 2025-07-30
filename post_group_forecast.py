@@ -90,7 +90,7 @@ def post_group_forecast(row):
     dfn = f'glimt/forecast'
     os.makedirs(dfn, exist_ok=True)
     fn = f"{dfn}/{question_id}.json"
-    result = (row.percentiles, comment, '', '')
+    result = (forecast, comment, '', '')
     with open(fn, 'w') as f:
         json.dump(result, f)
 
