@@ -19,7 +19,7 @@ def estimate_conditional_diff_percentiles(A1, A2, window=10, gap=2, epsilon=0.01
                     diff = R2[i + gap] - R1[i + gap]
                     sample_diffs.append(diff)
         except:
-            print("ERROR", i, R1_recent, epsilong)
+            print("ERROR", i, R1_recent, epsilon)
     # If not enough matches, take closest 50
     if len(sample_diffs) < 20:
         diffs_sum = np.abs(R1 - R1_recent) + np.abs(R2 - R2_recent)

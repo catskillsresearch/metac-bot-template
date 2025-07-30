@@ -6,7 +6,7 @@ def get_market_pulse_25q3_questions():
     params = {
         'tournaments': 'market-pulse-25q3',
         'statuses': 'open',
-        'with_cp': 'false',
+        'with_cp': 'true',
         'include_cp_history': 'true',
         'include_descriptions': 'true',
         'order_by': '-published_at'

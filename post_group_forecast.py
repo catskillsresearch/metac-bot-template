@@ -1,4 +1,4 @@
-import os, requests
+import os, requests, json
 from load_secrets import load_secrets
 load_secrets()
 
@@ -86,3 +86,13 @@ def post_group_forecast(row):
     post_question_prediction(question_id, forecast_payload)
     post_question_comment(post_id, comment)
     print("Posted forecast for", question_id)
+    dfn = f'glimt/forecast'
+    ifp['question_type'] = 'binary'
+    os.makedirs(dfn, exist_ok=True)
+    fn = f"{dfn}/{ifp['id']}.json"
+    with open(fn, 'w') as f:
+        result = (question_id, post_id, forecast_payload)
+        json.dump(result, f)
+
+
+

@@ -35,12 +35,12 @@ sudo docker run --rm --gpus all nvidia/cuda:12.4.0-base-ubuntu22.04 nvidia-smi
 ### Run server (first time)
 
 ```
-docker run -d --gpus all -v ollama:/root/.ollama -p 11434:11434 --name ollama catskillsresearch/ollama-docker-ollama:latest
+sudo docker run -d --gpus all -v ollama:/root/.ollama -p 11434:11434 --name ollama catskillsresearch/ollama-docker-ollama:latest
 ```
 ### Run server (next time)
 
 ```
-docker start ollama
+sudo docker start ollama
 ```
 
 ### NVITop

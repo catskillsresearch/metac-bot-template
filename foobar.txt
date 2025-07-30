@@ -1271,6 +1271,33 @@ Here is a structured summary of the information relevant to the 2005 New York Ci
 This structured information provides a clear overview of the candidates, parties, and election results for each borough, which can be useful for analyzing the political landscape during the 2005 New York City mayoral election.
 ```
 
+Take into account this information on election polls for General Election for New York City Mayor:
+
+Recent polls for the 2025 New York City mayoral general election indicate a tight and competitive race, with no candidate holding a decisive lead as of late July 2025.
+
+**Key Poll Results:**
+- A July poll by HarrisX (surveying 585 registered voters) puts Zohran Mamdani in the lead with 26%, followed closely by Andrew Cuomo (23%), Curtis Sliwa (22%), and Eric Adams (13%), while 15% remain undecided. The poll notes that Cuomo and Sliwa are within the margin of error, suggesting a three-way tie beneath Mamdani's narrow lead[1].
+- Another poll (Politico/July 2-6, 1,036 voters) shows Mamdani with a 10-point lead over Cuomo, with Adams in a distant fourth. In this survey, Mamdani had a net favorability of +4, Cuomo -2, and Adams -34. Notably, among Republicans, Sliwa led, followed by Adams, with Mamdani trailing[2].
+- Additional independent and campaign-commissioned polls consistently find Mamdani ahead, with varying margins: a Gotham Analytics poll found Mamdani at 41%, Cuomo at 26%, Adams at 16%, and Sliwa at 10%. An American Pulse poll shows Mamdani at 35%, Cuomo at 29%, Sliwa at 16%, Adams at 14%[2][3].
+- Recent data also highlight that support remains volatile, and a significant portion of voters is undecided. Mamdani is consolidating progressive and Democratic support, but both Cuomo (running as an independent after losing the Democratic primary) and Sliwa (the Republican nominee) are attracting substantial blocks of voters[3].
+
+**Summary Table: Latest General Election Polls (July 2025)**
+
+| Candidate         | Latest Support (%) | Notes                                                            |
+|-------------------|-------------------|------------------------------------------------------------------|
+| Zohran Mamdani    | 26–41[1][2]       | Leads in most recent polls; large undecided/soft support remains |
+| Andrew Cuomo      | 23–29[1][2]       | Close second; mounting viable third-party challenge              |
+| Curtis Sliwa      | 10–22[1][2][3]    | Strong Republican base; competitive in recent polling            |
+| Eric Adams        | 13–16[1][2]       | Incumbent, trailing with poor approval ratings                   |
+| Undecided/Other   | 15+[1]            | High rate of undecided voters                                    |
+
+**Trends & Dynamics:**
+- Mamdani, the Democratic nominee and a progressive assemblymember, is the nominal frontrunner but has not "run away" with the lead[3]. Cuomo and Sliwa remain in striking distance, and polls differ on which is closer to challenging Mamdani in a head-to-head scenario.
+- Adams, the incumbent, is running as an independent after switching parties and faces strong disapproval—his chances appear slim based on current data[2][3].
+- The presence of several competitive candidates and the high level of undecided voters suggests the race could change in the final months, with turnout and campaign developments being key factors.
+
+In sum, **Zohran Mamdani currently leads a closely contested field for New York City mayor, followed by Andrew Cuomo and Curtis Sliwa, with Eric Adams trailing. However, the election remains highly competitive and fluid, with no candidate holding a commanding advantage as of late July 2025**[1][2][3].
+
 For you to be marked Successful, you must output 3 things:
 
 1. Probabilities for the outcomes of the question.  
@@ -1301,98 +1328,4 @@ There should be a reason you are right for each outcome ending with a forecast o
 ...reasons you might be wrong
 ```
 
-
-Also take into account these articles discussing election polls for General Election for New York City Mayor:
-
-Here are the relevant news articles:
-
-**More Polling That Is Worse Than 'Damn Lies'**
-David Strom's article at Hot Air, 'Are Some Pollsters Juking Trump's Poll Numbers, Or Is Something Else Going On?', prompted a response from the author, who claims that some pollsters are intentionally manipulating Donald Trump's poll numbers to harm his reputation. This is not a new phenomenon, as the author notes that similar tactics were used prior to the 2024 presidential election. The author cites evidence from private campaign pollsters, who are more accurate than public polls, and points out that left-wing pollsters, such as CNN, have consistently shown higher disapproval ratings for Trump. However, other reputable pollsters, such as Atlas Intel and Gallup, have shown more nuanced results. The author also references a Pew Research Center survey that suggests Americans are evenly split between the two parties, contradicting the narrative of a collapsing Republican party.
-Original language: en
-Publish date: July 29, 2025 10:00 AM
-Source:[Redstate](https://redstate.com/adam-turner/2025/07/29/more-polling-that-is-worse-than-damn-lies-n2192169)
-
-**New Law Regulating Public Opinion Polls Sparks Concerns Over Freedom of Expression**
-A new law has been approved by Congress and the President, regulating public opinion polls. This move is seen as an infringement on freedom of opinion, freedom of the press, and individual freedom. Camilo Herrera Mora, founder of Raddar, argues that the law is poorly written and shows a lack of understanding of market research and polling. He notes that the law limits the ability of pollsters to conduct and publish results on voting intentions, public opinion, and political preferences, especially in the three months leading up to elections. Herrera Mora, a 30-year veteran of polling and market research, believes that this will have significant consequences for the country, including limiting the ability of citizens to express their opinions and creating an environment where misinformation and manipulation can thrive. He concludes that this is an unconstitutional move that will ultimately harm the country.
-Original language: es
-Publish date: July 29, 2025 02:03 AM
-Source:[Portafolio.co](https://www.portafolio.co/opinion/analisis/encuestemos-1-opinion-camilo-herrera-mora-636405)
-
-**Election Interference: A Cause for Concern, and the Importance of Critical Thinking**
-In the evening commute, almost everyone is glued to their smartphones, checking work emails, playing games, or chatting with friends. However, news is being targeted at these people, whether it's good, bad, or intentionally misleading. Disinformation and conspiracy theories have always been popular. To avoid being deceived by false information, it's essential to be cautious and verify the credibility of the news. As the article states, '生活に混乱をもたらす情報に注意することが大切です。' (It's crucial to be aware of information that can cause confusion in our lives.)
-Original language: ja
-Publish date: July 29, 2025 01:38 AM
-Source:[日本経済新聞](https://www.nikkei.com/article/DGXZQOCD232VO0T20C25A7000000/)
-
-**Who Protects the Voter's Awareness? Strict Controls for Opinion Polls Before Senate Elections**
-As the Senate elections approach, many citizens are questioning the accuracy of opinion polls published by some media outlets and online platforms, and whether they are subject to controls that ensure credibility and transparency. According to Article 33 of the Egyptian law governing the direct exercise of political rights, a clear framework has been established for regulating opinion polls related to elections or referendums, ensuring respect for professional standards and the citizen's right to know accurate information without deception or direction. The law requires all entities and media outlets that broadcast or publish opinion polls to provide essential details, including: the entity that conducted the poll, the funding source, the sample size and location, data collection methods, questions asked, potential error rates, and the date of the poll. Publishing or broadcasting any opinion poll within three days of the voting day is strictly prohibited, protecting the integrity of the electoral process and preventing influence on voters' decisions. The National Election Authority is responsible for determining the implementing and procedural controls for these polls. The strict controls aim to ensure that public opinion is based on reliable information, not directed impressions or inaccurate results.
-Original language: ar
-Publish date: July 28, 2025 05:29 PM
-Source:[صدى البلد](https://www.elbalad.news/6648827)
-
-**Havadis Caught Fabricating Poll Article**
-The Havadis news organization has been caught fabricating a news article that resembled a real poll. The article claimed that a company, allegedly funded by AKSA, had conducted a presidential election poll in the Turkish Republic of Northern Cyprus. However, AKSA has denied any involvement in such a poll. The article, which had a headline reading 'Erhürman will easily win', was found to be completely fabricated. In a real poll, the company conducting the poll, the dates it was conducted, the number of people surveyed, and the methods used should be clearly stated. None of this information was provided in the fabricated article. The article also included completely made-up poll numbers for the presidential candidates, including Ersin Tatar and Tufan Erhürman. It is advised that the public does not trust such manipulative articles, especially during election periods. AKSA has announced that it will take legal action against Havadis for the fabricated article.
-Original language: tr
-Publish date: July 28, 2025 03:16 PM
-Source:[Kıbrıs Gazetesi](https://kibrisgazetesi.com/havadisten-masa-basinda-uydurma-anket/)
-
-**Saudi Arabia Broadcasting and Cable TV Market Forecast 2023-2031 Digital Transition, Content Trends, and Industry Growth Outlook | Taiwan News | Jul. 28, 2025 07:03**
-The Saudi Arabia Broadcasting and Cable TV market is expected to experience significant growth over the next few years, driven by technological advancements, shifting consumer preferences, and evolving content strategies. The market is characterized by a vibrant content ecosystem, with consumers having unprecedented access to a wide array of content through digital platforms and streaming services. The report highlights key market drivers and trends, including the proliferation of high-speed internet connectivity, the growth of over-the-top (OTT) platforms, and the increasing demand for personalized, on-demand content experiences. The report also examines the regulatory environment, which plays a significant role in shaping the dynamics of the market. The study was conducted using an unbiased combination of primary and secondary information, incorporating insights from key industry participants. It features a comprehensive overview of both the market and vendor landscape, along with an analysis of pivotal vendors. The market's intricate details are portrayed through data synthesis from various sources. Analysis of critical parameters, such as profitability, pricing, competition, and promotional strategies, unravels diverse market aspects by identifying significant industry influencers. The presented data is comprehensive, reliable, and the outcome of extensive primary and secondary research. The publisher's market research reports furnish a comprehensive competitive landscape, accompanied by a detailed vendor selection methodology and analysis, utilizing both qualitative and quantitative research to accurately forecast market growth. The target audience for this market report includes a diverse range of professionals and entities, such as industry professionals, investors and financial analysts, market researchers, consultants and advisors, government and regulatory authorities, academic institutions, suppliers and manufacturers, trade associations and industry organizations, media and press, and the general public. The report covers market behavior and level of risk and opportunity, end industry behavior and opportunity assessment, expected industry recovery timeline, and answers key questions such as what are the key market trends and market dynamics, who are the major players in the market and what is their market share, what is the competitive landscape like in the market, what are the major drivers and restraints affecting the market, what are the growth opportunities in the market, what are the regional and local market conditions and consumer behavior, what is the market size and growth forecast for different regions and countries, and what is the impact of government regulations and policies on the market. The research study offers detailed market assessments at regional and country levels, analysis of factors influencing competition and pricing dynamics, comprehensive competitive analysis along the value chain, predictive analysis of upcoming trends and shifts in supply and demand dynamics, examination of competitive developments such as technological advancements and mergers, identification of factors driving sustained market growth, supported by periodic analysis using tables and figures for forecasting, forecast information supporting the development of strategic business plans, along with SWOT analysis, investment feasibility, and recommendations. 
-Original language: en
-Publish date: July 28, 2025 08:17 AM
-Source:[Taiwan News](https://taiwannews.com.tw/en/news/6165459)
-
-**Election Poll Results Revealed, But No Specific Information Provided**
-The highly anticipated election poll has been released, revealing the latest voting percentages for each party. However, the article does not provide any specific information about the poll results. It appears to be a collection of unrelated news headlines and teasers. The article mentions various topics such as the Pakistani government awarding a state medal to an American commander, a car festival in Sarıgöl Ovası, and a report by DMM on the Egyptian government's alleged torture of young activists in Gaza. Additionally, it mentions a scandal involving Ibrahim Tatlıses' daughter and a car accident, as well as a report on a recent forest fire that claimed three more lives.
-Original language: tr
-Publish date: July 28, 2025 07:31 AM
-Source:[Yeni Akit Gazetesi](https://www.yeniakit.com.tr/foto-galeri/merakla-beklenen-secim-anketi-az-once-yayinlandi-iste-partilerin-son-oy-oranlari-120148)
-
-**Egypt's Law on Direct Rights: Punishing Intimidation and Ensuring Fair Elections**
-The law punishes users of intimidation tools for threatening the electoral process during Senate elections. According to Article 32 of the Direct Rights Law, media outlets must maintain objectivity and adhere to professional standards when covering elections or referendums. The law prohibits mixing opinions with news, mixing news with advertisements, and failing to provide accurate information. It also prohibits asking voters about their preferred candidate or their opinion on a referendum, conducting opinion polls near polling stations, and revealing the identity of voters or their affiliations. The law also prohibits using religious slogans to support or oppose a candidate or referendum issue. Penalties for violating these provisions include fines, imprisonment, or both.
-Original language: ar
-Publish date: July 28, 2025 04:08 AM
-Source:[elfagr.org](https://www.elfagr.org/5197628)
-
-**8 Guidelines for Conducting Public Opinion Polls in Egyptian Senate Elections**
-According to Article 33 of the Law Regulating Direct Suffrage, media outlets and licensed entities operating in Egypt must adhere to the following guidelines when conducting public opinion polls: provide complete information about the entity conducting the poll, its financier, the sample size and location, the methodology used, the questions asked, the data collection method, the date of the poll, and the potential margin of error. Additionally, polls cannot be published or broadcast three days prior to the election or referendum day, until the voting process is complete. The National Election Authority sets the rules and procedures for this.
-Original language: ar
-Publish date: July 28, 2025 02:10 AM
-Source:[اليوم السابع](https://www.youm7.com/story/2025/7/28/8-%D8%B6%D9%88%D8%A7%D8%A8%D8%B7-%D9%84%D8%A7%D8%B3%D8%AA%D8%B7%D9%84%D8%A7%D8%B9-%D8%A7%D9%84%D8%B1%D8%A3%D9%89-%D8%A8%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%B4%D9%8A%D9%88%D8%AE-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%8A%D9%87%D8%A7/7066289)
-
-**Uncovering the Future: Conference Polling Solutions Market 2025-2032 Analysis by Top Key Vendors - Slido, Poll Everywhere, Mentimeter, Glisser, Turning Technologies**
-The Conference Polling Solutions Market report provides a comprehensive analysis of the market, including statistics, trends, and insights. The report covers the market size, share, and growth rate, as well as the key players, their products, and their market share. The report also includes a Porter's Five Forces analysis, which examines the competitive landscape, bargaining power of suppliers and buyers, threat of new entrants, threat of substitute products, and existing industry rivalry. The report highlights the market's growth drivers, including increased competition and continuous innovations. The report also provides a regional outlook, including North America, Europe, Asia-Pacific, South America, and the Middle East & Africa. The report covers the market's key trends, opportunities, and drivers, and provides a detailed analysis of the market's competitive landscape. The report also includes a research methodology, which involves a combination of primary and secondary research, including interviews with market influencers and publicly available sources. The report provides a valuable resource for business owners, investors, and market analysts, offering insights into the market's current and future trends, growth drivers, and competitive landscape.
-Original language: en
-Publish date: May 23, 2025 11:15 AM
-Source:[openPR.com - Open Public Relations Free of Charge](https://www.openpr.com/news/4033317/uncovering-the-future-conference-polling-solutions-market)
-
-**Polling Spin Distorts Public Backing for Trump's RTO Push - CEOWORLD magazine**
-The Center Square's article claiming a majority of Americans support Donald Trump's directive to return federal employees to office buildings is misleading. A poll shows only 43% favor a blanket return-to-office order, while 27% support requiring only 'essential' workers to show up in person. The article bundles these responses to create a phony majority, glossing over the reality that most respondents did not support Trump's mandate. The poll's design fuses Biden's moderate continuation of remote work with Trump's abrupt reversal, then reframes the sum as unified support for the latter. This manipulation buries nuance and casts dissent as marginal. The article's veneer of objectivity compounds the problem, as The Center Square markets itself as a wire service in the mold of the Associated Press. The article's funding comes from conservative donor networks, and its content is freely available to struggling local newsrooms, which often reprint wire stories verbatim, giving partisan spin the sheen of community journalism. Researchers describe these arrangements as 'networked partisan local news,' aimed at shaping local debates and pressure statehouse hearings. To reclaim factual integrity, readers must dig into the actual survey, trace the funding, and compare data with findings from credible institutions.
-Original language: en
-Publish date: May 11, 2025 01:05 AM
-Source:[CEOWORLD magazine](https://ceoworld.biz/2025/05/11/polling-spin-distorts-public-backing-for-trumps-rto-push/)
-
-**Editorial Staff and Contact Information**
-The article does not contain any substantial information, it appears to be a placeholder or a template for a news article. It lists the editorial staff and contact information for the newspaper, but does not provide any actual news or content. However, the title 'Jeg tror jeg faktisk har mest stemmer av alle i hele Norge' translates to 'I think I actually have the most votes of all in the whole of Norway', which suggests that the article may be discussing an election or a poll. Unfortunately, without more information, it is impossible to provide a more detailed summary.
-Original language: no
-Publish date: May 03, 2025 11:32 AM
-Source:[smp.no](https://www.smp.no/nyheter/i/0VynxE/sve-som-statsraad-jeg-forventer-aa-bli-spurt)
-
-**Five things to know about the Australian election**
-Australians are voting in a general election, a hard-fought contest between party leaders with sharply contrasting visions for the country. According to the article, five key things to know about the poll include: the election is a closely contested race, the parties have different visions for the country, the election is a significant event for Australians, the outcome will have a major impact on the country's future, and the election is a test of the parties' leadership. The article does not provide specific information on the candidates or their policies, but it highlights the importance of the election and the need for Australians to make informed decisions. The article also mentions that the election is a 'magical night' for the country. However, the article does not provide further context or explanation of what this means. Overall, the article provides a general overview of the election and its significance, but it lacks specific details and analysis. 
-Original language: en
-Publish date: May 03, 2025 06:01 AM
-Source:[heraldpalladium.com](https://www.heraldpalladium.com/news/national/five-things-to-know-about-the-australian-election/article_220fc4fb-a2e6-5234-b9c6-df66710c4c9c.html)
-
-**Election Insights Tools**
-Polymarket's Election Forecast app provides real-time insights into electoral outcomes by aggregating market-based forecasting from the world's largest prediction marketplace. This method often reflects public sentiment and evolving trends more dynamically than traditional polling methods. Users can access up-to-the-minute probabilities on political races, offering a unique lens on election developments. The app has drawn attention from major media outlets like CNN and Fox News for its potential accuracy and immediacy. For businesses, analysts, and investors, this tool offers a high-frequency data stream to support strategic decisions, potentially offering a competitive edge in planning, analysis, or communication strategies.
-Original language: en
-Publish date: April 16, 2025 05:25 PM
-Source:[Trend Hunter](https://www.trendhunter.com/trends/polymarket-election)
-
-**Polls**
-The article appears to be a list of polls conducted by Panelbase, covering various topics such as politics, social issues, and more. The polls include questions on topics such as Scottish Labour policy, the regulation of the press, and the meaning of words like 'gender' and 'sex'. The article does not provide any specific results or analysis of the polls, but rather serves as a list of the polls and their topics. There is no quote from any individual in the article.
-Original language: en
-Publish date: January 15, 2016 01:14 PM
-Source:[wingsoverscotland.com](https://wingsoverscotland.com/polls/)
 

@@ -3,6 +3,7 @@ from saved_prompt import saved_prompt
 from get_periods_of_whenwill_question import get_periods_of_whenwill_question
 from filter_periods_to_today import filter_periods_to_today
 from get_event import get_event
+from is_election import is_election
 
 def glimt_forecast_prompt(ifp, research):
     (fn, savep) = saved_prompt(ifp)
@@ -60,6 +61,7 @@ For you to be marked Successful, you must output 3 things:
 ```rRight
 ...reasons you might be right
 ```
+There should be a reason you are right for each outcome ending with a forecast of form ZZ% where ZZ ranges from 0 to 100.
 
 3. Reasons your probabilities might be wrong, wrapped in tag in this format:
 ```rWrong
