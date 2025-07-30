@@ -1,9 +1,0 @@
-#!/bin/bash -x
-while true
-do
-  echo "start"
-  date
-  python forecast_open_questions.py 
-  echo "done"
-  date
-done
