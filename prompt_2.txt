@@ -1,0 +1,16 @@
+
+Based on the research and wiki data given before, extract the latest polling percentages or voter support
+for each candidate:
+
+Will Curtis Sliwa win the New York City general election for mayor in 2025?, Will Andrew Cuomo win the New York City general election for mayor in 2025?, Will Zohran Mamdani win the New York City general election for mayor in 2025?, Will Eric Adams win the New York City general election for mayor in 2025?
+
+If multiple polls exist, summarize their range or average.
+
+Do NOT use priors or historical incumbent advantages—only the recent explicit data.
+
+Format the output as a bullet list, eg:
+
+- Howdy Doody: 8-10%
+- Joe Blow: 6-7%
+- Doggy Woggy: 50-55%
+- Pig Tong: 7-11%

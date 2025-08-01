@@ -31,7 +31,7 @@ information that you would want to consider when deciding this question: "{title
 If the text mentions a person, always refer to that person by full name, and function if available.
 For example if it is Lars Ericson and Lars Ericson is a Janitor, say "the Janitor named Lars Ericson".
 """
-        print(prompt)
+    
         summary = humor_me(prompt)
         source_summaries.append(summary)
     
