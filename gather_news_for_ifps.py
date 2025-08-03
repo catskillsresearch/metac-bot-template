@@ -16,5 +16,5 @@ def gather_news_for_ifp(ifp):
 
 def gather_news_for_ifps(ifps):
     os.makedirs('glimt/news', exist_ok=True)
-    news = {ifp['id']: gather_news_for_ifp(ifp)}
+    news = {ifp['id']: gather_news_for_ifp(ifp) for ifp in ifps}
     return news

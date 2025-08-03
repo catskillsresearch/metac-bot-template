@@ -18,11 +18,13 @@ What are the financial underlyings referred to here:
 {group_resolution_criteria}
 {group_fine_print}
 ```
-Output the URLs of the data sources, wrapped in a Python list, so like this
+Output the URLs of the data sources, wrapped in a Python list.  Suppose there are 3 URLs http://a.com, http://b.com and http://c.com.  The correct format of the output is
 
 ```python
-[URL1, URL2]
-```."""
+["http://a.com", "http://b.com", "http://c.com"]
+```
+You must wrap the output in ```python ending with ``` and the URLs must be in double quotes.  You don't have to have exactly 3 URLs. You can have, 0, 1 or more URLs.
+"""
     answer = eval(extract_python(humor_me(prompt)))
     results[ifp['post_id']] = (group_title, answer)
     

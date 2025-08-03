@@ -17,12 +17,11 @@ from gather_news_for_ifps import gather_news_for_ifps
 import os, json
 from types import SimpleNamespace
 from format_rationale import format_rationale
+from forecast_fn import forecast_fn
 
 def forecast_general_binary(ifp):
-    dfn = f'glimt/forecast'
+    fn = forecast_fn(ifp)
     ifp['question_type'] = 'binary'
-    os.makedirs(dfn, exist_ok=True)
-    fn = f"{dfn}/{ifp['id']}.json"
     if os.path.exists(fn):
         print('already forecast:', ifp['id'], ifp['title'])
         with open(fn, 'r') as f:
